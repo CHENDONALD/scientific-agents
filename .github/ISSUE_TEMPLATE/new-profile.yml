@@ -1,0 +1,59 @@
+name: "New expert profile request"
+description: "Request an AGENTS.md profile for a scientific or engineering profession not yet in the catalog."
+title: "[Profile] <profession>"
+labels: ["new-profile"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a profession! The more field-specific detail you
+        give, the better the resulting profile. Check
+        [`catalog.json`](../blob/main/catalog.json) first to confirm it isn't
+        already covered (or covered under a different name).
+  - type: input
+    id: profession
+    attributes:
+      label: Profession
+      description: The field, as specifically as you can name it.
+      placeholder: "e.g. Cryo-EM structural biologist"
+    validations:
+      required: true
+  - type: input
+    id: subspecialty
+    attributes:
+      label: Sub-specialty / work mode
+      description: Narrow it if it matters (wet-lab vs computational, clinical vs research, a specific technique).
+      placeholder: "e.g. single-particle analysis, cryo-ET; mostly computational"
+    validations:
+      required: false
+  - type: textarea
+    id: specifics
+    attributes:
+      label: Field-specific specifics a good profile must include
+      description: |
+        The heart of a strong profile. List real tools, databases, instruments,
+        units, standards, controls, and — especially — named failure modes.
+        A few concrete pointers here meaningfully improve the result.
+      placeholder: |
+        - Tools/software: RELION, cryoSPARC, ChimeraX, Coot
+        - Databases: EMDB, PDB, EMPIAR
+        - Standards: FSC 0.143 gold-standard resolution, map-vs-model validation
+        - Failure modes: preferred orientation, Einstein-from-noise overfitting,
+          per-particle CTF/beam-tilt errors, mistaking a resolution number for map quality
+    validations:
+      required: false
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (optional)
+      description: Reviews, method papers, standards docs, or authoritative sites that ground the specifics.
+      placeholder: "Links or citations"
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked catalog.json and this profession isn't already covered.
+          required: true

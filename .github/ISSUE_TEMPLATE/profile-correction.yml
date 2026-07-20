@@ -1,0 +1,58 @@
+name: "Profile correction / improvement"
+description: "Report a wrong, outdated, or missing specific in an existing profile."
+title: "[Fix] <slug>: <short description>"
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Corrections are high-value: in these profiles a **wrong specific is
+        worse than an honest gap**, because it teaches the agent something false.
+        Please be as concrete as you can.
+  - type: input
+    id: profile
+    attributes:
+      label: Profile
+      description: The profession slug (directory name under scientific-agents/).
+      placeholder: "e.g. radio-astronomer"
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: File and, if you can, the line or section heading.
+      placeholder: "e.g. scientific-agents/radio-astronomer/AGENTS.md, 'Troubleshooting' section"
+    validations:
+      required: false
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of problem
+      options:
+        - Wrong specific (tool name, threshold, unit, standard)
+        - Outdated (tool/standard superseded)
+        - Missing specific (an important tool / control / failure mode absent)
+        - Reads as generic (fails the generic-swap test)
+        - Registry inconsistency (catalog / README / plugin out of sync)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong, and what it should say
+      description: Quote the current text and give the correct version.
+      placeholder: |
+        Current: "..."
+        Should be: "..."
+        Why: ...
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source (optional)
+      description: A citation or link that supports the correction.
+    validations:
+      required: false
