@@ -1,0 +1,8 @@
+{
+  "name": "computer-science-data-and-ai",
+  "description": "Computer Science, Data & AI — 30 expert profiles, dispatched via the computer-science-data-and-ai-expert-council skill (waza pattern).",
+  "version": "1.0.0",
+  "skills": [
+    "./skills/computer-science-data-and-ai-expert-council"
+  ]
+}

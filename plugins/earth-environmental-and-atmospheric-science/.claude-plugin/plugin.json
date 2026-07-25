@@ -1,0 +1,8 @@
+{
+  "name": "earth-environmental-and-atmospheric-science",
+  "description": "Earth, Environmental & Atmospheric Science — 58 expert profiles, dispatched via the earth-environmental-and-atmospheric-science-expert-council skill (waza pattern).",
+  "version": "1.0.0",
+  "skills": [
+    "./skills/earth-environmental-and-atmospheric-science-expert-council"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "engineering",
+  "description": "Engineering — 90 expert profiles, dispatched via the engineering-expert-council skill (waza pattern).",
+  "version": "1.0.0",
+  "skills": [
+    "./skills/engineering-expert-council"
+  ]
+}
