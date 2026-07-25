@@ -1,7 +1,7 @@
 ---
 name: materials-nanoscience-and-energy-expert-council
-description: "Activates the right Materials, Nanoscience & Energy expert persona(s) for a task in this domain. Loads senior-practitioner reasoning profiles on demand so the agent reasons like a domain expert — including the failure modes that practitioner treats as first-class. Use when a task in Materials, Nanoscience & Energy needs rigorous domain methodology, not generic assistance."
-when_to_use: "materials, nanoscience & energy, expert, research, analysis, methodology, senior practitioner, reason like a"
+description: "Activate for materials/nanoscience/energy tasks: crystal structure, biomaterials, ceramics, composites, corrosion, battery/energy storage, photovoltaics, superconductivity, thin films, nanomaterials, metallurgy, tribology, semiconductors. Involves materials-property reasoning. Not for pure chemistry synthesis (use chemistry) or device engineering (use engineering)."
+when_to_use: "materials, crystal structure, biomaterials, ceramics, composites, corrosion, battery, energy storage, photovoltaics, solar cell, superconductivity, thin film, nanomaterials, metallurgy, tribology, semiconductor materials, doping, stress-strain, fatigue"
 dispatch_intent: "Adopt the reasoning, tooling, and failure-mode awareness of a senior materials, nanoscience & energy practitioner matched to the task."
 ---
 

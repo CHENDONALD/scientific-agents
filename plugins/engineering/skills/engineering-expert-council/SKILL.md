@@ -1,7 +1,7 @@
 ---
 name: engineering-expert-council
-description: "Activates the right Engineering expert persona(s) for a task in this domain. Loads senior-practitioner reasoning profiles on demand so the agent reasons like a domain expert — including the failure modes that practitioner treats as first-class. Use when a task in Engineering needs rigorous domain methodology, not generic assistance."
-when_to_use: "engineering, expert, research, analysis, methodology, senior practitioner, reason like a"
+description: "Activate for engineering tasks: mechanical/electrical/civil/chemical/aerospace/control/structural engineering, manufacturing, robotics, signal processing, communications, hardware. Involves design/build/control of systems under constraints (safety, cost, performance). Not for scientific inquiry (use the matching science domain) or pure software (use CS-AI)."
+when_to_use: "engineering, mechanical, electrical engineering, civil, chemical engineering, aerospace, control systems, structural engineering, manufacturing, robotics, signal processing, communications, CAD, thermodynamics, fluid machinery, supply chain, motor, circuit"
 dispatch_intent: "Adopt the reasoning, tooling, and failure-mode awareness of a senior engineering practitioner matched to the task."
 ---
 

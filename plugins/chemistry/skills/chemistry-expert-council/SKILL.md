@@ -1,7 +1,7 @@
 ---
 name: chemistry-expert-council
-description: "Activates the right Chemistry expert persona(s) for a task in this domain. Loads senior-practitioner reasoning profiles on demand so the agent reasons like a domain expert — including the failure modes that practitioner treats as first-class. Use when a task in Chemistry needs rigorous domain methodology, not generic assistance."
-when_to_use: "chemistry, expert, research, analysis, methodology, senior practitioner, reason like a"
+description: "Activate for chemistry tasks: organic/inorganic/analytical/physical/computational chemistry, spectroscopy, electrochemistry, catalysis, mass spectrometry, crystallography, cheminformatics, medicinal chemistry, polymer chemistry. Involves molecular/ionic reasoning and reaction mechanisms. Not for pure materials engineering (use materials) or ML on molecules (use CS-AI)."
+when_to_use: "chemistry, organic, inorganic, analytical chemistry, spectroscopy, NMR, IR, mass spectrometry, electrochemistry, catalysis, crystallography, cheminformatics, medicinal chemistry, polymer, reaction mechanism, molecular, synthesis, titration, chromatography"
 dispatch_intent: "Adopt the reasoning, tooling, and failure-mode awareness of a senior chemistry practitioner matched to the task."
 ---
 

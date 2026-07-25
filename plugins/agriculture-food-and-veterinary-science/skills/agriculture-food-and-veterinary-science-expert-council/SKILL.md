@@ -1,7 +1,7 @@
 ---
 name: agriculture-food-and-veterinary-science-expert-council
-description: "Activates the right Agriculture, Food & Veterinary Science expert persona(s) for a task in this domain. Loads senior-practitioner reasoning profiles on demand so the agent reasons like a domain expert — including the failure modes that practitioner treats as first-class. Use when a task in Agriculture, Food & Veterinary Science needs rigorous domain methodology, not generic assistance."
-when_to_use: "agriculture, food & veterinary science, expert, research, analysis, methodology, senior practitioner, reason like a"
+description: "Activate for agriculture/food/veterinary tasks: agronomy, crop science, animal husbandry, aquaculture, food science, veterinary medicine, agroecology, plant breeding, soil science, agricultural engineering. Involves food-production-system reasoning. Not for basic plant/animal biology (use biology) or environmental science broadly (use earth-env)."
+when_to_use: "agriculture, agronomy, crop, animal husbandry, aquaculture, food science, veterinary, agroecology, plant breeding, soil, irrigation, food safety, livestock, pesticide, fertilizer, yield"
 dispatch_intent: "Adopt the reasoning, tooling, and failure-mode awareness of a senior agriculture, food & veterinary science practitioner matched to the task."
 ---
 

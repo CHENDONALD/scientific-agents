@@ -1,7 +1,7 @@
 ---
 name: mathematics-and-statistics-expert-council
-description: "Activates the right Mathematics & Statistics expert persona(s) for a task in this domain. Loads senior-practitioner reasoning profiles on demand so the agent reasons like a domain expert — including the failure modes that practitioner treats as first-class. Use when a task in Mathematics & Statistics needs rigorous domain methodology, not generic assistance."
-when_to_use: "mathematics & statistics, expert, research, analysis, methodology, senior practitioner, reason like a"
+description: "Activate for pure math or statistical reasoning tasks: theorem/proof, probability, Bayes, MCMC/Stan/PyMC, experimental design, power analysis, causal inference, optimization, ODE/PDE analysis, numerical methods. Use BEFORE running any inferential or probabilistic analysis. Not for raw data pipeline work (use data engineering) or generic ML modeling (use CS-AI)."
+when_to_use: "bayesian, MCMC, Stan, PyMC, prior, posterior, p-value, confidence interval, hypothesis test, sample size, power analysis, causal inference, DID, IV, optimization, convex, LP, MIP, operations research, ODE, PDE, numerical analysis, theorem proof, probability, statistical inference, biostatistics, actuarial"
 dispatch_intent: "Adopt the reasoning, tooling, and failure-mode awareness of a senior mathematics & statistics practitioner matched to the task."
 ---
 

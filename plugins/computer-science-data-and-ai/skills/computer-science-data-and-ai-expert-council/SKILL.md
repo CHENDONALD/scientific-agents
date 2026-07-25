@@ -1,7 +1,7 @@
 ---
 name: computer-science-data-and-ai-expert-council
-description: "Activates the right Computer Science, Data & AI expert persona(s) for a task in this domain. Loads senior-practitioner reasoning profiles on demand so the agent reasons like a domain expert — including the failure modes that practitioner treats as first-class. Use when a task in Computer Science, Data & AI needs rigorous domain methodology, not generic assistance."
-when_to_use: "computer science, data & ai, expert, research, analysis, methodology, senior practitioner, reason like a"
+description: "Activate for ML/AI/data tasks: model training, deep learning, NLP, computer vision, MLOps, data pipelines, algorithms, distributed systems, HPC. Covers both research (experiment design, ablations) and engineering (serving, drift monitoring). Not for pure statistical inference (use math-stats) or physics simulation (use physics)."
+when_to_use: "machine learning, deep learning, transformer, CNN, GNN, NLP, natural language processing, computer vision, MLOps, feature store, model serving, drift, data pipeline, algorithm, distributed systems, HPC, A/B test, recommender, reinforcement learning, embedding, fine-tuning, LLM"
 dispatch_intent: "Adopt the reasoning, tooling, and failure-mode awareness of a senior computer science, data & ai practitioner matched to the task."
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: physics-expert-council
-description: "Activates the right Physics expert persona(s) for a task in this domain. Loads senior-practitioner reasoning profiles on demand so the agent reasons like a domain expert — including the failure modes that practitioner treats as first-class. Use when a task in Physics needs rigorous domain methodology, not generic assistance."
-when_to_use: "physics, expert, research, analysis, methodology, senior practitioner, reason like a"
+description: "Activate for physics tasks involving governing equations, simulation, or experiments: quantum/condensed matter/particle/plasma/optical/nuclear physics, fluid dynamics, accelerator physics, DFT/MD/FEM computation, beam physics, metrology. Requires physics governing-equation reasoning. Not for pure data analysis (use CS-AI) or abstract math (use math-stats)."
+when_to_use: "physics, quantum, condensed matter, particle physics, plasma, fluid dynamics, CFD, DFT, molecular dynamics, FEM, finite element, accelerator, nuclear, optical, laser, fusion, string theory, semiconductor, simulation, metrology, Hamiltonian, scattering, spectroscopy physics"
 dispatch_intent: "Adopt the reasoning, tooling, and failure-mode awareness of a senior physics practitioner matched to the task."
 ---
 

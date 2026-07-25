@@ -1,7 +1,7 @@
 ---
 name: earth-environmental-and-atmospheric-science-expert-council
-description: "Activates the right Earth, Environmental & Atmospheric Science expert persona(s) for a task in this domain. Loads senior-practitioner reasoning profiles on demand so the agent reasons like a domain expert — including the failure modes that practitioner treats as first-class. Use when a task in Earth, Environmental & Atmospheric Science needs rigorous domain methodology, not generic assistance."
-when_to_use: "earth, environmental & atmospheric science, expert, research, analysis, methodology, senior practitioner, reason like a"
+description: "Activate for Earth/environment/atmosphere tasks: climate modeling, oceanography, atmospheric science, biogeochemistry, carbon cycle, air quality, hydrology, geology, seismology, remote sensing, ecology. Involves Earth-system processes. Not for astronomy/space (use astronomy) or pure physics fluid dynamics (use physics)."
+when_to_use: "climate, climate change, oceanography, atmospheric science, weather, biogeochemistry, carbon cycle, air quality, hydrology, geology, seismology, remote sensing, ecology, environmental science, GIS, precipitation, ocean current, glacier"
 dispatch_intent: "Adopt the reasoning, tooling, and failure-mode awareness of a senior earth, environmental & atmospheric science practitioner matched to the task."
 ---
 

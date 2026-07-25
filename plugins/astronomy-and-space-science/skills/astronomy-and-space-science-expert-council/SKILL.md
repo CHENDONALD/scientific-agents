@@ -1,7 +1,7 @@
 ---
 name: astronomy-and-space-science-expert-council
-description: "Activates the right Astronomy & Space Science expert persona(s) for a task in this domain. Loads senior-practitioner reasoning profiles on demand so the agent reasons like a domain expert — including the failure modes that practitioner treats as first-class. Use when a task in Astronomy & Space Science needs rigorous domain methodology, not generic assistance."
-when_to_use: "astronomy & space science, expert, research, analysis, methodology, senior practitioner, reason like a"
+description: "Activate for astronomy/astrophysics/space science: observational astronomy, cosmology, exoplanets, stellar/galactic evolution, heliophysics, space weather, gravitational waves, astrobiology, planetary science, radio/X-ray astronomy. Not for Earth-based atmospheric science (use earth-env) or pure physics theory (use physics)."
+when_to_use: "astronomy, astrophysics, cosmology, exoplanet, stellar, galactic, black hole, gravitational wave, heliophysics, space weather, planetary, astrobiology, radio astronomy, telescope, redshift, light curve, photometry, spectroscopy astronomy"
 dispatch_intent: "Adopt the reasoning, tooling, and failure-mode awareness of a senior astronomy & space science practitioner matched to the task."
 ---
 

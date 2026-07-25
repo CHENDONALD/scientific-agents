@@ -1,7 +1,7 @@
 ---
 name: medicine-and-clinical-science-expert-council
-description: "Activates the right Medicine & Clinical Science expert persona(s) for a task in this domain. Loads senior-practitioner reasoning profiles on demand so the agent reasons like a domain expert — including the failure modes that practitioner treats as first-class. Use when a task in Medicine & Clinical Science needs rigorous domain methodology, not generic assistance."
-when_to_use: "medicine & clinical science, expert, research, analysis, methodology, senior practitioner, reason like a"
+description: "Activate for medicine/clinical tasks: clinical research, epidemiology, pharmacology, medical imaging, clinical trials, diagnostics, cardiology, oncology, infectious disease, biomedical engineering. Involves patient/clinical-context reasoning. Not for basic biology (use biology) or pure biostatistics method (use math-stats)."
+when_to_use: "medicine, clinical, epidemiology, pharmacology, clinical trial, diagnosis, medical imaging, DICOM, cardiology, oncology, infectious disease, pharmacokinetics, EHR, biomedical, surgery, biomarker, cohort study"
 dispatch_intent: "Adopt the reasoning, tooling, and failure-mode awareness of a senior medicine & clinical science practitioner matched to the task."
 ---
 

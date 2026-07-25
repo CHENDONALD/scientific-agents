@@ -1,7 +1,7 @@
 ---
 name: biology-and-life-sciences-expert-council
-description: "Activates the right Biology & Life Sciences expert persona(s) for a task in this domain. Loads senior-practitioner reasoning profiles on demand so the agent reasons like a domain expert — including the failure modes that practitioner treats as first-class. Use when a task in Biology & Life Sciences needs rigorous domain methodology, not generic assistance."
-when_to_use: "biology & life sciences, expert, research, analysis, methodology, senior practitioner, reason like a"
+description: "Activate for biology/life science tasks: genomics, proteomics, cell biology, ecology, evolution, neuroscience, bioinformatics, microbiology, genetics, developmental biology, anatomy, physiology. Involves living-systems reasoning. Not for clinical/medical practice (use medicine) or chemistry of biomolecules (use chemistry)."
+when_to_use: "biology, genomics, proteomics, cell biology, ecology, evolution, neuroscience, bioinformatics, microbiology, genetics, DNA, RNA, sequencing, transcriptomics, anatomy, physiology, phylogenetics, single-cell, CRISPR"
 dispatch_intent: "Adopt the reasoning, tooling, and failure-mode awareness of a senior biology & life sciences practitioner matched to the task."
 ---
 
