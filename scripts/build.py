@@ -8,8 +8,10 @@ Usage (from anywhere):
 Sources of truth: `scientific-agents/<slug>/AGENTS.md` and `catalog.json`.
 Generated from them:
   scientific-agents/<slug>/CLAUDE.md                 byte-identical copy of AGENTS.md
-  scientific-agents/<slug>/agents/<slug>.md          subagent: frontmatter + AGENTS.md
-  scientific-agents/<slug>/.claude-plugin/plugin.json
+  scientific-agents/<slug>/plugin.json               Agent Plugins manifest (agent-plugins.org)
+  scientific-agents/<slug>/skills/<slug>/SKILL.md    Agent Skill: frontmatter + AGENTS.md
+  scientific-agents/<slug>/agents/<slug>.md          Claude Code subagent: frontmatter + AGENTS.md
+  scientific-agents/<slug>/.claude-plugin/plugin.json  Claude Code plugin manifest
   .claude-plugin/marketplace.json                    plugin list; top-level fields kept
   README.md                                          Agents tables, total, and badge
 `catalog.json` itself is re-sorted by slug with its fields in a fixed order, and
@@ -57,6 +59,11 @@ CATALOG_FIELDS = [
 
 AUTHOR = {"name": "K-Dense-AI", "url": "https://github.com/K-Dense-AI"}
 HOMEPAGE = "https://github.com/K-Dense-AI/scientific-agents"
+LICENSE = "MIT"
+
+# Agent Plugins 1.0.0 is the published spec; 1.1.0 is still a working draft.
+AGENT_PLUGINS_SCHEMA = "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+AGENT_PLUGINS_AUTHOR = {"name": "K-Dense", "url": "https://www.k-dense.ai"}
 
 
 class BuildError(Exception):
@@ -98,6 +105,42 @@ def plugin_manifest(entry):
         "homepage": HOMEPAGE,
         "keywords": ["science", "agents-md", "expert-profile", entry["slug"]],
     }
+
+
+def agent_plugin_manifest(entry):
+    return {
+        "$schema": AGENT_PLUGINS_SCHEMA,
+        "name": entry["slug"],
+        "version": entry["version"],
+        "description": entry["summary"],
+        "author": AGENT_PLUGINS_AUTHOR,
+        "homepage": HOMEPAGE,
+        "repository": HOMEPAGE,
+        "license": LICENSE,
+        "keywords": ["science", "agents-md", "expert-profile", entry["slug"]],
+    }
+
+
+def skill_description(entry):
+    """Agent Skills descriptions say what the skill does and when to use it."""
+    profession = entry["profession"]
+    return f"Think and work like an expert {profession}. Use when a task calls for {profession} judgment. {entry['summary']}"
+
+
+def skill_md(entry, body):
+    front = "\n".join(
+        [
+            "---",
+            f"name: {entry['slug']}",
+            f"description: {json.dumps(skill_description(entry), ensure_ascii=False)}",
+            f"license: {LICENSE}",
+            "metadata:",
+            f"  author: {AGENT_PLUGINS_AUTHOR['name']}",
+            f"  version: {json.dumps(entry['version'])}",
+            "---",
+        ]
+    )
+    return f"{front}\n\n{body}"
 
 
 def marketplace_entry(entry):
@@ -154,6 +197,8 @@ def render():
         body = agents_md.read_text()
         front = f"---\nname: {slug}\ndescription: {json.dumps(entry['summary'], ensure_ascii=False)}\n---\n\n"
         outputs[folder / "CLAUDE.md"] = body
+        outputs[folder / "plugin.json"] = to_json(agent_plugin_manifest(entry))
+        outputs[folder / "skills" / slug / "SKILL.md"] = skill_md(entry, body)
         outputs[folder / "agents" / f"{slug}.md"] = front + body
         outputs[folder / ".claude-plugin" / "plugin.json"] = to_json(plugin_manifest(entry))
 

@@ -5,8 +5,9 @@ Usage (from anywhere):  python3 scripts/validate.py
 
 Checks catalog.json fields, each `scientific-agents/<slug>/AGENTS.md` (title,
 standard headings, size, near-duplicate content), that every file
-scripts/build.py generates is up to date, and that the two local copies of the
-create-scientific-agent skill match. Exits 1 if any error is found; warnings
+scripts/build.py generates is up to date, that each profile folder is a
+conforming Agent Plugin (agent-plugins.org manifest + Agent Skills SKILL.md), and
+that the two local copies of the create-scientific-agent skill match. Exits 1 if any error is found; warnings
 are printed but do not fail the run. Standard library only, so it runs in CI.
 """
 
@@ -55,6 +56,26 @@ CATALOG_TYPES = {
     "updated": str,
     "source_count": int,
 }
+
+# Agent Plugins 1.0.0 manifest: a closed schema (agent-plugins.org/specification §5).
+PLUGIN_FIELDS = {
+    "$schema": str,
+    "name": str,
+    "version": str,
+    "description": str,
+    "author": dict,
+    "homepage": str,
+    "repository": str,
+    "license": str,
+    "keywords": list,
+    "extensions": dict,
+}
+PLUGIN_NAME = re.compile(r"(?!.*(?:--|\.\.))[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?")
+
+# Agent Skills SKILL.md frontmatter (agentskills.io/specification).
+SKILL_FIELDS = {"name", "description", "license", "compatibility", "metadata", "allowed-tools"}
+SKILL_NAME = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
+MAX_SKILL_DESCRIPTION = 1024
 
 SKILL_COPIES = [
     ROOT / ".agents/skills/create-scientific-agent",
@@ -131,6 +152,74 @@ def check_profile(slug, entry, body):
             error(where, f"heading '## {heading}' should be '## {canonical}'")
 
 
+def check_agent_plugin(slug):
+    """The profile folder must load in any Agent Plugins 1.0.0 client."""
+    where = f"scientific-agents/{slug}/plugin.json"
+    try:
+        manifest = json.loads((PROFILES / slug / "plugin.json").read_text())
+    except (OSError, json.JSONDecodeError) as exc:
+        error(where, f"cannot load JSON ({exc})")
+        return
+    if not isinstance(manifest, dict):
+        error(where, "manifest is not a JSON object")
+        return
+    for field in sorted(set(manifest) - set(PLUGIN_FIELDS)):
+        error(where, f"'{field}' is not an Agent Plugins manifest field")
+    for field, kind in PLUGIN_FIELDS.items():
+        if field in manifest and not isinstance(manifest[field], kind):
+            error(where, f"'{field}' must be a {kind.__name__}")
+    if manifest.get("$schema") != build.AGENT_PLUGINS_SCHEMA:
+        error(where, f"'$schema' must be {build.AGENT_PLUGINS_SCHEMA}")
+    name = manifest.get("name", "")
+    if not (isinstance(name, str) and 1 <= len(name) <= 64 and PLUGIN_NAME.fullmatch(name)):
+        error(where, f"name '{name}' breaks the Agent Plugins naming rules")
+    author = manifest.get("author", {})
+    if isinstance(author, dict) and (set(author) - {"name", "email", "url"} or not all(isinstance(v, str) for v in author.values())):
+        error(where, "author may hold only string 'name', 'email', and 'url' fields")
+    if isinstance(manifest.get("keywords"), list) and not all(isinstance(k, str) for k in manifest["keywords"]):
+        error(where, "keywords must all be strings")
+    if isinstance(manifest.get("extensions"), dict) and not all(isinstance(v, dict) for v in manifest["extensions"].values()):
+        error(where, "each extensions value must be an object")
+
+
+def skill_frontmatter(text):
+    """Top-level `key: value` pairs from a SKILL.md frontmatter block, or None."""
+    match = re.match(r"---\n(.*?)\n---\n", text, re.S)
+    if not match:
+        return None
+    fields = {}
+    for line in match.group(1).splitlines():
+        if line[:1] in (" ", "\t") or ":" not in line:
+            continue
+        key, value = line.split(":", 1)
+        value = value.strip()
+        fields[key] = json.loads(value) if value.startswith('"') else value
+    return fields
+
+
+def check_skill(slug):
+    """skills/<slug>/SKILL.md must satisfy the Agent Skills specification."""
+    where = f"scientific-agents/{slug}/skills/{slug}/SKILL.md"
+    path = PROFILES / slug / "skills" / slug / "SKILL.md"
+    if not path.is_file():
+        error(where, "missing; run python3 scripts/build.py")
+        return
+    fields = skill_frontmatter(path.read_text())
+    if fields is None:
+        error(where, "no YAML frontmatter block")
+        return
+    for field in sorted(set(fields) - SKILL_FIELDS):
+        error(where, f"'{field}' is not an Agent Skills frontmatter field")
+    name = fields.get("name", "")
+    if not (1 <= len(name) <= 64 and SKILL_NAME.fullmatch(name)):
+        error(where, f"name '{name}' breaks the Agent Skills naming rules")
+    if name != slug:
+        error(where, f"name '{name}' must match its directory '{slug}'")
+    description = fields.get("description", "")
+    if not 1 <= len(description) <= MAX_SKILL_DESCRIPTION:
+        error(where, f"description is {len(description)} characters; Agent Skills allows 1-{MAX_SKILL_DESCRIPTION}")
+
+
 def check_generated():
     """Every file build.py owns must match what it would write now."""
     try:
@@ -200,6 +289,8 @@ def main():
             continue
         bodies[slug] = agents_md.read_text()
         check_profile(slug, catalog[slug], bodies[slug])
+        check_agent_plugin(slug)
+        check_skill(slug)
 
     if any(msg.startswith("catalog.json") for msg in errors):
         warn("build", "generated-file check skipped until catalog.json errors are fixed")

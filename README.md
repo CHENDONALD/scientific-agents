@@ -6,6 +6,7 @@
 [![YouTube](https://img.shields.io/badge/YouTube-K--Dense_Inc.-FF0000?logo=youtube)](https://www.youtube.com/@K-Dense-Inc)
 [![Reddit](https://img.shields.io/badge/Reddit-u%2F--k--dense---FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/user/-k-dense-/)
 [![Expert Profiles](https://img.shields.io/badge/Expert_Profiles-503-7C3AED)](#agents)
+[![Agent Plugins](https://img.shields.io/badge/Agent_Plugins-1.0.0-0F766E)](https://agent-plugins.org/)
 
 # Scientific Agents
 
@@ -25,6 +26,7 @@ tools and data it reaches for, how it stress-tests claims, and how it reports fi
 - [How these profiles are built](#how-these-profiles-are-built)
 - [How to use a profile (three steps)](#how-to-use-a-profile-three-steps)
 - [Using profiles in your AI tool](#using-profiles-in-your-ai-tool)
+  - [Agent Plugins (Copilot, VS Code, and other compatible tools)](#agent-plugins-copilot-vs-code-and-other-compatible-tools)
   - [Cursor](#cursor)
   - [Claude Code](#claude-code)
   - [Google Antigravity](#google-antigravity)
@@ -102,6 +104,42 @@ include (see each tool below).
 
 ## Using profiles in your AI tool
 
+### Agent Plugins (Copilot, VS Code, and other compatible tools)
+
+Every profile folder is an official [Agent Plugin](https://agent-plugins.org/) — the
+open, vendor-neutral plugin standard supported by GitHub Copilot, VS Code, Cursor,
+Codex, and Kiro. Each `scientific-agents/<slug>/` folder carries a spec-conforming
+`plugin.json` (Agent Plugins 1.0.0) and packages the profile as an
+[Agent Skill](https://agentskills.io/) at `skills/<slug>/SKILL.md`, so a compatible
+tool loads the expert profile on demand whenever a task calls for that expertise.
+
+```
+scientific-agents/astronomer/
+├── plugin.json                  # Agent Plugins manifest
+└── skills/astronomer/SKILL.md   # the profile as an Agent Skill
+```
+
+**GitHub Copilot CLI** — add this repo as a marketplace once, then install profiles
+by slug:
+
+```
+copilot plugin marketplace add K-Dense-AI/scientific-agents
+copilot plugin install astronomer@scientific-agents
+```
+
+Or install one folder directly without the marketplace:
+`copilot plugin install K-Dense-AI/scientific-agents:scientific-agents/astronomer`.
+
+**VS Code** — add the repo to the `chat.plugins.marketplaces` setting, then search
+`@agentPlugins` in the Extensions view and install the profiles you want:
+
+```json
+"chat.plugins.marketplaces": ["K-Dense-AI/scientific-agents"]
+```
+
+**Any other Agent Plugins client** — point its plugin installer at a
+`scientific-agents/<slug>/` folder in this repo or a local clone.
+
 ### Cursor
 
 Cursor reads `AGENTS.md` from your project automatically and applies it as standing
@@ -157,7 +195,9 @@ in a single profession as a reusable **subagent** without copying files by hand.
 
 3. Use it: Claude Code now exposes the profile as a subagent named after the
    profile (e.g. `astronomer`). Ask Claude to delegate to it, or invoke it
-   explicitly, and it reasons with the full expert profile loaded.
+   explicitly, and it reasons with the full expert profile loaded. The same
+   plugin also ships the profile as an `astronomer` skill, which Claude can load
+   into your main conversation when a task calls for that expertise.
 
 Every profile in the [Agents](#agents) table is published as its own plugin, so
 you can install exactly the experts you need and update them with

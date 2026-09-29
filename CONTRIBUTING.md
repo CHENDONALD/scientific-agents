@@ -99,13 +99,16 @@ Existing profiles run ~10–31 KB, and the hard cap is **32 KiB** (Codex's defau
 Each profession is a directory under `scientific-agents/<slug>/`, where `<slug>`
 is the profession as a **kebab-case** slug (e.g. `tissue-engineer`,
 `clinical-epidemiologist`). You write **one** file there; the build script
-generates the other three:
+generates the rest, which make the folder both an
+[Agent Plugin](https://agent-plugins.org/) and a Claude Code plugin:
 
 ```
 scientific-agents/<slug>/
 ├── AGENTS.md                     # the profile — you write this
 ├── CLAUDE.md                     # generated: byte-identical copy of AGENTS.md
-├── .claude-plugin/plugin.json    # generated: plugin manifest
+├── plugin.json                   # generated: Agent Plugins 1.0.0 manifest
+├── skills/<slug>/SKILL.md        # generated: Agent Skill (frontmatter + body)
+├── .claude-plugin/plugin.json    # generated: Claude Code plugin manifest
 └── agents/<slug>.md              # generated: Claude Code subagent (frontmatter + body)
 ```
 
@@ -143,7 +146,8 @@ entry under `agents` (or update the existing one in place when regenerating):
   Biology & Life Sciences · Medicine & Clinical Science · Agriculture, Food &
   Veterinary Science · Engineering.
 - `summary` is the house-style sentence. It is reused as the README row, the
-  plugin description, and the subagent description, so it must not contain `|`.
+  plugin descriptions, the subagent description, and (after a one-line lead-in)
+  the skill description, so it must not contain `|`.
 - `version` starts at `1.0.0`. When you change an existing profile, bump the
   minor version (`1.0.0` → `1.1.0`) and refresh `updated` and `source_count`, so
   that installed plugin copies update.
@@ -158,14 +162,16 @@ python3 scripts/build.py      # regenerate everything derived from AGENTS.md + c
 python3 scripts/validate.py   # check the result
 ```
 
-`build.py` writes the three generated files in each profile folder,
+`build.py` writes the generated files in each profile folder,
 [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json), and the
 [`README.md`](README.md) Agents tables, section counts, total, and badge. Never
 edit those by hand; your changes will be overwritten or fail CI. Rerun the build
 instead.
 
 `validate.py` checks catalog fields, the title line, the standard headings, the
-32 KiB cap, and that every generated file is current. It also flags any profile
+32 KiB cap, that every generated file is current, and that each profile folder
+conforms to the Agent Plugins manifest schema and the Agent Skills `SKILL.md`
+rules. It also flags any profile
 that shares more than 25% of its lines verbatim with another. CI runs it on every
 pull request. Fix every `error:` line; `warning:` lines are advisory. Both
 scripts use only the Python standard library.

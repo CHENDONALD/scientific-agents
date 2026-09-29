@@ -21,3 +21,15 @@ jobs:
       # two profiles share too much verbatim text. Standard library only.
       - name: Validate profiles and registries
         run: python3 scripts/validate.py
+
+      # Cross-check every profile folder with the official Agent Plugins
+      # manifest schema and the Agent Skills reference validator.
+      - name: Check Agent Plugins conformance
+        run: |
+          pipx run check-jsonschema==0.38.2 \
+            --schemafile https://agent-plugins.org/schemas/1.0.0/plugin.schema.json \
+            scientific-agents/*/plugin.json
+          pipx install skills-ref==0.1.1
+          for skill in scientific-agents/*/skills/*/; do
+            skills-ref validate "$skill" > /dev/null
+          done

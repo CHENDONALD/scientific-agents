@@ -27,7 +27,7 @@ tick what's relevant and delete the rest. -->
 - [ ] Specifics are **real** (named tools, databases, thresholds, standards); no invented facts.
 - [ ] Second person, scannable (headers + bullets), length earned by content.
 - [ ] `catalog.json` entry added or updated (`domain`, `summary`, and a minor `version` bump if changing an existing profile).
-- [ ] Ran `python3 scripts/build.py` and committed the generated files (never hand-edit `CLAUDE.md`, `agents/`, `plugin.json`, `marketplace.json`, or the README tables).
+- [ ] Ran `python3 scripts/build.py` and committed the generated files (never hand-edit `CLAUDE.md`, `skills/`, `agents/`, `plugin.json`, `marketplace.json`, or the README tables).
 - [ ] `python3 scripts/validate.py` reports 0 errors.
 - [ ] Temporary/scratch files removed.
 
