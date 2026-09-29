@@ -116,7 +116,7 @@ that certify a link.
 - Hold **multiple hypotheses** on BLER cliffs: wrong LLR scaling vs. insufficient iterations vs.
   rate-matching bug vs. real channel estimate error vs. hardware saturation.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Simulation And Algorithm Development
 
@@ -154,7 +154,7 @@ that certify a link.
 - **Vivado/Quartus + custom RTL**: polar SCL list size \(L\), LDPC min-sum vs. sum-product —
   algorithmic loss from quantization is an implementation loss line item.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Standards And Specifications (Primary Sources)
 
@@ -282,7 +282,7 @@ phase-dominated (5× magnitude) suggests PLL/phase noise; magnitude-dominated su
 - **Audiences**: executives — coverage/capacity headline with margin; implementers — MCS, coding,
   fixed-point, iteration count; regulators — EN 300 328 / FCC Part 15 test setup and worst case.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 | Term | Meaning | Misuse to avoid |
 |------|---------|-----------------|

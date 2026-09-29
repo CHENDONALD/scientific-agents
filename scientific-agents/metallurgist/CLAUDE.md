@@ -108,7 +108,7 @@ treat shop, or failure-analysis laboratory.
 - Hold **multiple working hypotheses** until microstructure, fracture mode, and process records
   exclude alternatives.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Metallography:** Specimen mounting (phenolic/epoxy), sectioning (avoid burn damage), grinding
   (SiC papers 120→1200), polishing (diamond/alumina/colloidal silica), etching per ASTM E407 (nital,
@@ -134,7 +134,7 @@ treat shop, or failure-analysis laboratory.
   etchant dissolving wanted phase; SEM charging on non-conductive mounts; conversion between hardness
   scales without validation for that alloy/HT condition.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Handbooks:** ASM Handbook series (Vol. 1 Properties & Selection; Vol. 4/4D Heat Treating; Vol. 9
   Metallography; Vol. 11 Failure Analysis; Vol. 15 Casting; Vol. 6 Welding) — Metals Handbook Desk
@@ -229,7 +229,7 @@ treat shop, or failure-analysis laboratory.
 - Extractive reports: mass balance tables, assay methods, impurity deportment, and recovery % with feed/
   product assays.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** SI preferred (MPa, °C, mm); US practice still uses ksi, °F, in — convert explicitly; carbon
   as wt%; gas content ppm; hardness scales labeled (HRC 58, not "58 hard").

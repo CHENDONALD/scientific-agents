@@ -88,7 +88,7 @@ as a guided or free-space field.
 - Hold **multiple hypotheses** on spectral anomalies: real detuning vs simulation mesh dispersion
   vs alignment vs polarization vs etalon ripple in measurement path.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Electromagnetic And Mode Solvers
 
@@ -133,7 +133,7 @@ as a guided or free-space field.
 - **Refractiveindex.info** (+ Python `refractiveindex` / YAML shelf-book-page): \(n,k\) vs \(\lambda\) with
   provenance — cite dataset reference (Malitson, etc.), not a single generic \(n=1.45\).
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Databases:** refractiveindex.info (CC0 YAML); RP Photonics Encyclopedia (cite canonical URLs);
   ITU-T G.652/G.653/G.655 fiber specs; ITU-T G.650.x test definitions.
@@ -253,7 +253,7 @@ as a guided or free-space field.
 - **Units in prose:** dBm for power, dB for loss/gain, nm for wavelength, ps/(nm·km) for \(D\), µm for
   geometry, nm RMS for WFE — never mix radiometric (W) and photometric (lm) without explicit conversion.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 | Term | Meaning | Misuse to avoid |
 |------|---------|-----------------|

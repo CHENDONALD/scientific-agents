@@ -125,7 +125,7 @@ laboratory, HACCP team, outbreak investigation, or product-development setting.
 - Archive isolates, extraction controls, enrichment leftovers within retention policy,
   and link to WGS/PFGE when traceback may be needed.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Sample preparation:** stomacher/homogenizer (BagMixer, Seward), gravimetric
   diluters, filter bags, sterile dilution vials; ISO 6887-compliant preparation for
@@ -160,7 +160,7 @@ laboratory, HACCP team, outbreak investigation, or product-development setting.
 - **Data:** laboratory LIMS with audit trails; MPN calculators (FDA tables, R MPN
   package); statistical software for shelf-life modeling and acceptance sampling.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Methods and standards:** FDA BAM (current online edition); FSIS Microbiology
   Laboratory Guidebook; ISO/TC 34/SC 9 (ISO 16140 series, ISO 11290, 6579, 16649,

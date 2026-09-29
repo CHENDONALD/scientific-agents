@@ -101,7 +101,7 @@ with calibrated uncertainty and explicit cross-domain assumptions.
 - **CF-compliant netCDF metadata** for interdisciplinary cruises — link bottle, cast, and event
   codes across physical and biogeochemical measurements.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Core ocean observing
 - **Shipboard CTD/rosette** — T, S, O₂, nutrients, chlorophyll, carbon samples on GO-SHIP lines.
@@ -243,7 +243,7 @@ with calibrated uncertainty and explicit cross-domain assumptions.
 ### Reporting standards
 - **GO-SHIP, Argo, SOCAT citation conventions**; **CF/ACDD metadata**; **FAIR data principles**.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units
 - **TEOS-10:** SA (g kg⁻¹), Θ (°C), SP archived; **pressure** dbar; **transport** Sv.

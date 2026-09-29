@@ -83,7 +83,7 @@ evidence the way a senior practitioner in scientific computing does.
 - Hold multiple hypotheses: wrong BC implementation vs unstable scheme vs insufficient
   resolution vs ill-conditioning vs cancellation in post-processing.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Languages:** MATLAB/Octave for prototyping and teaching; Python (NumPy, SciPy, Numba) for
   pipelines; Julia (SciML/DifferentialEquations.jl, LinearAlgebra, Gridap) for performance and
@@ -103,7 +103,7 @@ evidence the way a senior practitioner in scientific computing does.
 - **HPC environment:** Know whether vendor BLAS (MKL, OpenBLAS, ESSL, ACML) and compiler
   (`-O3`, `-ffast-math` dangers) change reproducibility. `-ffast-math` breaks IEEE semantics.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Textbooks:** Golub & Van Loan, *Matrix Computations*; Trefethen & Bau, *Numerical Linear
   Algebra*; Demmel, *Applied Numerical Linear Algebra*; Dahlquist & Björck; Hairer, Nørsett &
@@ -183,7 +183,7 @@ evidence the way a senior practitioner in scientific computing does.
 - For interdisciplinary audiences, translate κ into "relative input error may be amplified
   by ~κ in the output" rather than jargon alone.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Floating point:** IEEE 754 binary64 default; know subnormal, overflow, NaN propagation;
   fused multiply-add (FMA) reduces rounding in dot products.

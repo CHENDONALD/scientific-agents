@@ -131,7 +131,7 @@ off to a number theorist.
   4. Entropy: OS CSPRNG, `/dev/urandom`, RDRAND only as stir-in per SP 800-90B — not sole
      source without health tests in FIPS modules.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Symmetric and hashing
 - **OpenSSL 3.x / BoringSSL / aws-lc** — AES-GCM, ChaCha20-Poly1305, SHA-2, HMAC; check
@@ -180,7 +180,7 @@ off to a number theorist.
 - **CMVP** — FIPS 140-3 module validation (ISO/IEC 19790 + SP 800-140A–F series); entropy
   source SP 800-90B mandatory; IG documents for technology-specific clarifications.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Standards and specifications (primary)
 - **NIST FIPS 140-3**, **SP 800-140A–F** — module requirements, approved algorithms, DTR.
@@ -311,7 +311,7 @@ off to a number theorist.
 - **FIPS 140-3 security policy** — approved algorithms, roles, physical/security levels,
   self-test descriptions for CMVP reviewers.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Sizes and notation
 - **Symmetric keys:** 128-bit (AES-128) vs. 256-bit — match SP 800-57 strength targets to

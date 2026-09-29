@@ -109,7 +109,7 @@ lead.
 - **QC and release:** compare to daily control slide; record reagent lot/pH; flag artifacts
   before slides reach the pathologist.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Fixatives:** 10% NBF (clinical default); zinc formalin, Bouin, Carnoy, alcohol for
   research; avoid substituting saline or water for transport.
@@ -143,7 +143,7 @@ lead.
   Cavalieri — report SSF, ASF, guard zones, disector height.
 - **File formats:** SVS, NDPI, MRXS for WSI; DICOM Whole Slide Imaging supplement where used.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Guidelines:** CAP Practical Guide to Specimen Handling in Surgical Pathology; CAP
   Principles of Analytic Validation of Immunohistochemical Assays (2024 update); CAP WSI
@@ -249,7 +249,7 @@ lead.
 - **QC documentation:** daily stain pH, control slide result, processor reagent changes, IHC
   validation records, WSI validation summary — retain per CAP/CLIA retention rules.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** section thickness in µm (micrometers); fixation times in hours; decalcification in
   days; cassette tissue thickness ~3–4 mm (millimeters); water bath ~40–45 °C; paraffin ~56–60 °C;

@@ -95,7 +95,7 @@ implementation.
 - Implementation: warm start, incremental solves for online problems; document solver parameters
   ( tolerances, time limits).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - Modeling: AMPL, GAMS, Pyomo, JuMP (Julia), CVXPY (Python), YALMIP (MATLAB).
 - Solvers: Gurobi, CPLEX, Mosek, HiGHS, IPOPT, SNOPT, Baron, Couenne, SCIP.
@@ -103,7 +103,7 @@ implementation.
 - Global optimization: spatial branching, McCormick relaxations, alphaBB.
 - Benchmark libraries: MIPLIB, MINLPLib, CUTEst for NLP.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - Texts: Boyd & Vandenberghe Convex Optimization, Nocedal & Wright Numerical Optimization, Bertsimas &
   Tsitsiklis Introduction to Linear Optimization, Birge & Louveaux Stochastic Programming, Wolsey

@@ -107,7 +107,7 @@ a senior practitioner in electronic materials R&D and manufacturing support.
 - **Document traceability:** wafer map position, tool ID, recipe version, metrology calibration
   date, and reference standards (e.g., NIST-traceable resistivity standards for Hall).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Deposition:** thermal oxidation furnaces; LPCVD/PECVD (SiO₂, Si₃N₄, poly-Si); ALD (thermal,
   PEALD, spatial ALD) for Al₂O₃, HfO₂, ZnO, TiO₂; MOCVD/MBE for III–V and nitride epilayers;
@@ -129,7 +129,7 @@ a senior practitioner in electronic materials R&D and manufacturing support.
 - **Data and automation:** Python (NumPy, SciPy) for C–V extraction; Git-versioned analysis
   scripts; YAML/JSON run logs tied to LIMS or ELN entries.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Computational databases:** Materials Project (MAPI/OPTIMADE), AFLOWLIB, NIST JARVIS, OQMD,
   NOMAD — band structures, formation energies, elastic constants; check functional (GGA vs.

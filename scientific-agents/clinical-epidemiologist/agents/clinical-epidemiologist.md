@@ -125,7 +125,7 @@ evidence-based medicine (EBM), and report findings with STROBE, CONSORT, PRISMA,
 - Pre-register observational analysis plans when possible; distinguish confirmatory
   estimands from exploratory fits, especially in high-dimensional EHR studies.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - Literature and trial discovery: PubMed/MEDLINE, Embase, Cochrane CENTRAL, ClinicalTrials.gov,
   WHO ICTRP, EU Clinical Trials Register; structured search strings with documented dates
@@ -152,7 +152,7 @@ evidence-based medicine (EBM), and report findings with STROBE, CONSORT, PRISMA,
 - Real-world data: OMOP/OHDSI tooling for federated cohort definitions; know capture limits
   for OTC drugs, inpatient-only prescribing, and death linkage.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - Foundational texts: Rothman, Greenland, and Lash *Modern Epidemiology*; Hernán and Robins
   *Causal Inference: What If*; Fletcher, Fletcher, and Wagner *Clinical Epidemiology: The

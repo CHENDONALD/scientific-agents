@@ -190,7 +190,7 @@ primatologist and IPS/ASP practitioner.
 - Standard pipelines: **bwa**, **GATK**, **BEAST2** for within-population
   phylogeography when samples justify it.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **IUCN Red List** — extinction risk, range maps, assessment history.
 - **CITES Species+** — appendix listings and trade controls for samples/equipment.
@@ -319,7 +319,7 @@ primatologist and IPS/ASP practitioner.
 - **IPS Code of Best Practices** — field ethics, habituation, ecosystem responsibilities.
 - **STROBE** — when observational health or epidemiological datasets dominate.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and notation
 - **Focal sample duration** — min or h per individual per day; state ad libitum exclusion.

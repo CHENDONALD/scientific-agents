@@ -118,7 +118,7 @@ expected of a senior RF/EM practitioner.
   (dB); add fade, polarization loss, and atmospheric absorption at mmWave; separate conducted chain test
   from OTA when possible.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Full-wave and multiphysics EM
 - **Ansys HFSS** — FEM frequency-domain; signoff antennas, filters, cavities, packages; adaptive \(\Delta S\)
@@ -156,7 +156,7 @@ expected of a senior RF/EM practitioner.
 - **PyAEDT / EDB** — scripted HFSS/SIwave builds, parametric sweeps, DOE.
 - **Version sensitivity:** solver releases change mesh defaults; archive project + solver build in reports.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Standards and regulatory
 - **FCC 47 CFR Part 15** — unintentional radiators (subpart B); intentional radiators; **§15.35** specifies
@@ -264,7 +264,7 @@ expected of a senior RF/EM practitioner.
 - "Estimated SAR 0.4 W/kg at 5 mm separation per KDB 447498 exclusion; full IEC/IEEE 62209-1528 if host < separation" —
   not "SAR safe."
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Frequency:** Hz (GHz for microwave); **wavelength** in mm/cm; **electrical length** in degrees or λ.

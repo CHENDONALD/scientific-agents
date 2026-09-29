@@ -125,7 +125,7 @@ conservatism expected of a senior experimentalist, theorist, or nuclear-data eva
 - For **polarization observables** (analyzing powers, spin correlation coefficients), track
   beam and target polarization uncertainties separately — they enter products and ratios nonlinearly.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Accelerators & beams:** electrostatic tandems (ATLAS), cyclotrons and linacs (FRIB),
   recirculating SRF linacs (CEBAF), heavy-ion colliders (RHIC); polarized electron and ion
@@ -148,7 +148,7 @@ conservatism expected of a senior experimentalist, theorist, or nuclear-data eva
   list (QGSP_BERT_HP vs FTFP_BERT), ROOT release vs compiled analysis macros, CRDS/pipeline
   builds at CEBAF, CASA-style reruns are not nuclear but analogously record software builds.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Reaction data:** EXFOR (experimental), ENDF/B-VIII.1 (evaluated, ENDF-6 and GNDS/XML),
   JEFF-3.3, JENDL-5, CENDL-3.2; thermal scattering law (MF=7) for moderators.
@@ -246,7 +246,7 @@ conservatism expected of a senior experimentalist, theorist, or nuclear-data eva
   EPJ A letters for concise structure discoveries; application papers include MCNP/SCALE benchmark
   when claiming library impact.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** energies in MeV or keV (per nucleon E/A when comparing heavy ions); masses in u or
   MeV/c² (931.494 MeV/c² per u); cross sections in barn, mb, μb; lifetimes in s or eV (Γ = ℏ/τ);

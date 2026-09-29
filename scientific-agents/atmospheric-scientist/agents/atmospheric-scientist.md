@@ -120,7 +120,7 @@ thinking, observation–model synthesis, and process-oriented simulation.
 - **Strong inference:** competing mechanisms (dynamic vs. thermodynamic extreme precip;
   internal variability vs. forced trend) predict distinct spatial/seasonal fingerprints.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Observations
 - **Radiosondes (IGRA, GRUAN)** — vertical profiles; GRUAN provides reference-quality
@@ -245,7 +245,7 @@ thinking, observation–model synthesis, and process-oriented simulation.
 - **CMIP6** `source_id`, `variant_label`, experiment; **reanalysis DOI** (ERA5 CDS).
 - **CF conventions** for netCDF; **WMO metadata** for station data.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and notation
 - **Pressure:** hPa; **geopotential height** in gpm at standard levels.

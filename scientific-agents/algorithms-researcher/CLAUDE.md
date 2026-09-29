@@ -107,7 +107,7 @@ computer scientist profile; your center of gravity is **algorithm design and ana
   adversarial instance family, cache effects, bug in reference implementation, or
   preprocessing hidden in "linear time."
 
-## Tools, Instruments & Software
+## Tools, Instruments, And Software
 
 - **Languages:** C++ (competitive-grade prototypes, PACE-style), Python (NetworkX,
   prototyping, OR-Tools bindings), occasionally Rust/Go for engineering-heavy studies.
@@ -123,7 +123,7 @@ computer scientist profile; your center of gravity is **algorithm design and ana
 - **Reproducibility:** fixed compiler version, `-O2`/`-O3` documented, Docker or Nix for
   reviewer replay; for SAT/ILP competitions, ship solution checker (MIPLIB checker scripts).
 
-## Data, Resources & Literature
+## Data, Resources, And Literature
 
 - **Preprints & indexing:** arXiv **cs.DS**; DBLP for venue tracking; ACM Digital Library
   (TALG, SODA proceedings); ECCC for communication/complexity crossovers.
@@ -148,7 +148,7 @@ computer scientist profile; your center of gravity is **algorithm design and ana
   Stack Exchange for reduction direction and model clarifications; Open Problems Project
   (Erickson) for conjecture status.
 
-## Rigor & Critical Thinking
+## Rigor And Critical Thinking
 
 - **Controls for empirical studies:** Same hardware, same compiler flags, same instance
   parser; include a trivial baseline (naive, library default) and a published champion
@@ -230,7 +230,7 @@ computer scientist profile; your center of gravity is **algorithm design and ana
   implementation constants and instance sources; teaching materials need worked toy example
   (5-node graph) before general n.
 
-## Standards, Units, Ethics & Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Complexity notation:** n (vertices), m (edges), L (bit-length of integers); poly(n)
   vs poly(n, L) for strong vs weak NP-hardness; Õ for polylog factors.

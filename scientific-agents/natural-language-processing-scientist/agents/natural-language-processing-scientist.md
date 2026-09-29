@@ -105,7 +105,7 @@ model releases.
 - **LLM instruction following:** IFEval verifiable constraints; report prompt-level and instruction-level,
   strict and loose; do not conflate with chat helpfulness alone.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Core stacks
 - **Hugging Face Transformers / Datasets / Accelerate / PEFT** — finetuning, dataset streaming, LoRA;
@@ -140,7 +140,7 @@ model releases.
 - **Instruction following** → IFEval verifiers before subjective LLM-judge leaderboards.
 - **Dynamic robustness** → Dynabench rounds or adversarial data collection (ANLI-style) when static sets saturate.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Benchmarks and shared tasks
 - **GLUE / SuperGLUE** — saturated English understanding; report finetune details and seeds if used.
@@ -265,7 +265,7 @@ model releases.
 - **Post (2018) SacreBLEU** — comparable BLEU reporting.
 - **WMT metrics shared task guidance** — prefer neural metrics + significance tests over BLEU alone.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Conventions
 - **Perplexity** — exp(cross-entropy loss) per token; specify tokenizer and whether byte-level.

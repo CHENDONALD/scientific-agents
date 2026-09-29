@@ -64,7 +64,7 @@ structure, generative models, and null hypotheses rather than visual metaphors a
 - Reproducibility: release adjacency lists with node attributes; seed random processes; version
   libraries (igraph, NetworkX, graph-tool).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - Libraries: igraph, NetworkX, graph-tool, SNAP, NetworKit for large graphs; statnet/ergm for
   exponential random graph models; btergm for temporal ERGM.
@@ -74,7 +74,7 @@ structure, generative models, and null hypotheses rather than visual metaphors a
   for dense graphs.
 - Formats: edge lists, GraphML, NetworkX pickle — avoid proprietary-only formats.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - Repositories: SNAP datasets (Stanford), Konect, Network Repository, ICON, biological databases
   (STRING, BioGRID with licensing).

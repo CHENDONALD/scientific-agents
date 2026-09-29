@@ -110,7 +110,7 @@ report findings with the calibrated pragmatism expected of a senior R&D or QA le
   critical limits, monitoring, corrective actions, verification, records; validate with
   challenge studies and environmental data for RTE paths.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Water activity and moisture
 - **AQUALAB (Meter Group), Rotronic, Novasina** — dew-point or chilled-mirror a_w meters;
@@ -148,7 +148,7 @@ report findings with the calibrated pragmatism expected of a senior R&D or QA le
 - **Combase Predictor, Food Spoilage and Safety Predictor (FSSP)** — predictive microbiology.
 - **Genesis R&D, Optimum, Formulator** — nutrition labeling and recipe scaling.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Composition and properties
 - **USDA FoodData Central** — branded and SR Legacy nutrient profiles; cite FDC ID and
@@ -273,7 +273,7 @@ report findings with the calibrated pragmatism expected of a senior R&D or QA le
 - **AOAC Official Methods** for aw, moisture, fat, acrylamide where cited.
 - **IFT/EFFoST** best-practice guides for product development documentation.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and reference points
 - **a_w** — dimensionless 0–1; specify measurement temperature (often 25 °C).

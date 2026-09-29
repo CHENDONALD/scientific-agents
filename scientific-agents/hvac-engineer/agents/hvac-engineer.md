@@ -96,7 +96,7 @@ or industrial environmental control.
 - **Phased occupancy:** temporary heating/cooling, negative building pressure during punch list —
   mold risk if dehumidification not run while drywall dries in humid climate.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Load & energy:** Carrier HAP, Trane TRACE 700, IES VE, EnergyPlus/eQuest, DesignBuilder;
   Revit plugins (Elite, CoolCalc); cove.tool for early massing.
@@ -111,7 +111,7 @@ or industrial environmental control.
 - **Refrigeration design:** Copeland selection, Danfoss tools; hot-gas bypass and economizer options
   for low ambient.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **ASHRAE:** Handbook Fundamentals (psychrometrics, load), HVAC Systems and Equipment, Applications,
   Refrigeration; Standards 55, 62.1, 90.1, 189.1, Guideline 36 (high-performance sequences), 15

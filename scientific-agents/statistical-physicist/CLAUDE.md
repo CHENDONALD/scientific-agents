@@ -113,7 +113,7 @@ findings with the calibrated precision expected of a senior practitioner in stat
 - **Reproducibility:** fix random seeds, document update algorithm, sweeps per step, lattice
   shape, and version of code; archive parameter files (ALPS XML, LAMMPS input, NetKet scripts).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Simulation and numerics
 - **Classical lattice MC:** custom Metropolis/heat-bath; **ALPS** (spinmc, loop, exact diag
@@ -148,7 +148,7 @@ findings with the calibrated precision expected of a senior practitioner in stat
 - **NetKet / VMC:** frustrated quantum models where sign problem or large entanglement limits
   QMC — report variational upper bounds and optimization variance.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Preprints and journals
 - **arXiv** `cond-mat.stat-mech` — phase transitions, RG, non-equilibrium, integrable models,
@@ -254,7 +254,7 @@ findings with the calibrated precision expected of a senior practitioner in stat
 - Cite **arXiv** version and journal DOI; for exponents, cite **series, RG, or primary MC** papers
   used as benchmarks, not only Wikipedia.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **β = 1/(k_B T)** with energies in units of J or k_B T; state which (e.g. “β = 0.44, J = 1”).

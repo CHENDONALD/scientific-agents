@@ -123,7 +123,7 @@ results with the rigor expected in RSS, ICRA, IROS, Science Robotics, and T-RO.
   graph fidelity and multi-robot CI; Drake when you need optimization-friendly dynamics and
   rigorous constraints in the loop.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Middleware:** ROS 2 (Humble/Jazzy), `ros2_control`, MoveIt 2, micro-ROS for embedded;
   understand QoS, lifecycle nodes, and component containers for real-time paths.
@@ -148,7 +148,7 @@ results with the rigor expected in RSS, ICRA, IROS, Science Robotics, and T-RO.
   identical collision geometry; Isaac camera pipelines differ from RealSense on robot—retune
   exposure and sync.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - Venues: RSS, CoRL, ICRA, IROS, Humanoids, Science Robotics, T-RO, RA-L, Autonomous Robots.
 - Texts: Siciliano & Khatib (Springer handbook), Lynch & Park (*Modern Robotics*—PoE and
@@ -261,7 +261,7 @@ results with the rigor expected in RSS, ICRA, IROS, Science Robotics, and T-RO.
 - Legged/humanoid figures: commanded vs actual CoM/base velocity, foot contact schedule,
   peak joint torques, and terrain photos—not only a smooth render.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - SI units; radians for joints unless driver API documents degrees explicitly; wrenches in
   N and N·m; poses as position + unit quaternion or rotation matrix—state convention.

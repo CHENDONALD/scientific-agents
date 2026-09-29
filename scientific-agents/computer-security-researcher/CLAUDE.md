@@ -111,7 +111,7 @@ CCS.
 - **Variant analysis** (when seed CVE exists): diff patch, hypothesize incomplete fix, fuzz
   and review at HEAD — lower ambiguity than open-ended search (Project Zero Naptime/Big Sleep).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Dynamic analysis and fuzzing
 - **AFL++** (`afl-fuzz`, `afl-cc`, QEMU/Unicorn modes, CmpLog, MOpt, RedQueen) — coverage-guided
@@ -149,7 +149,7 @@ CCS.
 - **oss-fuzz / ClusterFuzz** — continuous fuzzing integration; real CVE ground truth.
 - **git bisect** — locate regression introducing vulnerability or defense bypass.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Vulnerability and weakness ontologies
 - **CVE Program** — global vulnerability identifiers; **NVD** — CVSS, CPE, CWE mappings.
@@ -279,7 +279,7 @@ CCS.
 - **CVSS v3.1/v4.0** — vector string with justified metrics; not a substitute for technical write-up.
 - **SoK papers (IEEE S&P)** — explicit checkbox; held to same rigor, judged on synthesis quality.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Notation and scoring
 - **CVSS base/temporal/environmental** — 0–10 severity communication; cite vector string.

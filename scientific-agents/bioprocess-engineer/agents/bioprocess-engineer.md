@@ -120,7 +120,7 @@ and report with the calibrated conservatism expected in regulated biomanufacturi
   trending of CPPs/CQAs). Justify PPQ batch number via tolerance intervals or PpK targets — document
   rationale.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Upstream
 - **Bioreactors** — Eppendorf BioFlo®/DASGIP, Sartorius Biostat®, Cytiva Xcellerex™ XDR/XDUO,
@@ -152,7 +152,7 @@ and report with the calibrated conservatism expected in regulated biomanufacturi
 - **SuperPro Designer, BioSolve Process, Aspen Plus (biologics modules)** — mass balances, facility fit,
   COGS, debottlenecking, single-use vs stainless NPV.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Standards and regulatory
 - **ICH Q5A(R2), Q5B, Q5D, Q6B** — viral safety, analysis, cell substrates, specifications.
@@ -269,7 +269,7 @@ and report with the calibrated conservatism expected in regulated biomanufacturi
 - **ISPE GPG Technology Transfer** — TT protocols and knowledge management.
 - **PDA TR 57 / TR 60** — tech transfer and viral clearance study design.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **VCD** — cells/mL (×10⁶); **titer** — g/L or mg/L; **qp** — pg/cell/day; **Yp/x** — product per cell.

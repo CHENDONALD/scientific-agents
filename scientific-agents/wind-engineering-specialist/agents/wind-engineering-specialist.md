@@ -123,7 +123,7 @@ boundary-layer wind tunnel facility or specialist consultancy.
 - Structural dynamics and aeroelastic loads via **OpenFAST** (NREL) or Bladed-class tools; distinguish
   operational, parked, and storm-load cases; ice and yaw misalignment as separate hazard branches.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 | Tool / platform | Use when | Gotchas |
 |-----------------|----------|---------|
@@ -139,7 +139,7 @@ boundary-layer wind tunnel facility or specialist consultancy.
 | **Met mast + sodar/lidar** | Resource assessment, extreme wind stats | IEC 61400-12-1 mounting, calibration drift, icing |
 | **Hot-wire / Cobra probe / PIV** | BL profile verification, CWE validation | Not a substitute for building pressure measurement on prototype |
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Design standards:** ASCE/SEI 7 (minimum design loads); ASCE/SEI 49 (wind tunnel testing); ISO 4354 (wind
   actions, synoptic/thunderstorm/cyclone); EN 1991-1-4 (Eurocode wind; note non-synoptic limits in scope);
@@ -228,7 +228,7 @@ boundary-layer wind tunnel facility or specialist consultancy.
   comfort maps and mitigation options; owner receives risk narrative (debris region, business interruption from
   corner winds); peer reviewers receive sufficient detail to reproduce terrain and exposure choices.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** ASCE 7 US customary — V in mi/h, qz in lb/ft² (qz = 0.00256 Kz Kzt Ke V²); SI projects — m/s,
   N/m². Convert explicitly: 1 mi/h ≈ 0.447 m/s. Air density ρ ≈ 1.225 kg/m³ at sea level for force reconstruction

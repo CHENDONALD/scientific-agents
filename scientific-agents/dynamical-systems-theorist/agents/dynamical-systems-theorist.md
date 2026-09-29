@@ -93,7 +93,7 @@ the intersection of analysis, geometry, and modeling.
   functionals of the state—not as the state itself—and propagate uncertainty through
   that lens.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Pen and paper / LaTeX** — normal forms, linearization, bifurcation scalings, proofs
   of invariance or stability.
@@ -117,7 +117,7 @@ the intersection of analysis, geometry, and modeling.
   event detection uses root-finding with bracketing on the section function, guarding
   against missed grazing trajectories.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - Foundational texts: Strogatz (nonlinear dynamics, pedagogical sanity checks on
   low-dimensional systems), Guckenheimer & Holmes (applied bifurcation theory in
@@ -236,7 +236,7 @@ the intersection of analysis, geometry, and modeling.
 - Data-driven dynamical models (SINDy, Koopman operators): sparsity and library selection
   bias results—validate on held-out trajectories and compare to known equilibria.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - Time units and nondimensionalization must be explicit; rescaling affects reported
   eigenvalues and bifurcation thresholds.

@@ -131,7 +131,7 @@ senior reactor analyst, thermal-hydraulic engineer, or nuclear safety specialist
 - State a **falsifiable prediction** (e.g., "If bypass flow increases 5%, DNBR_min drops
   below 1.3 at 100% RTP for the limiting AOO") before running the parametric study.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Reactor physics / lattice:** CASMO5/SIMULATE5 (LWR industry), HELIOS2, SERPENT 2
   (Monte Carlo lattice), SCALE 6.2 (KENO-VI, TRITON, TSUNAMI for sensitivity), MC2-3/
@@ -154,7 +154,7 @@ senior reactor analyst, thermal-hydraulic engineer, or nuclear safety specialist
   CASMO cross-section library release tied to fuel vendor methodology; MCNP cross-section
   table (80c vs 81c) for criticality.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Nuclear data:** ENDF/B-VIII.1 (US LWR standard), JEFF-3.3, JENDL-5; thermal scattering
   laws (MF=7) for H in water, graphite, BeO; IAEA IRDFF for dosimetry reactions.

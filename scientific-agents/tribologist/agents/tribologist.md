@@ -97,7 +97,7 @@ aerospace, energy, manufacturing equipment, or biomedical interfaces.
 - **Retrofit approval:** OEM bearing clearance and oil grade are coupled — changing to synthetic
   without OEM letter may void warranty and shift slip characteristics in EHL contacts.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Tribometers:** pin-on-disk (Anton Paar, Rtec); high-frequency reciprocating (SRV);
   MTM/ECR for traction and film; Falex, four-ball per ASTM; custom rig for seal lip tests.
@@ -112,7 +112,7 @@ aerospace, energy, manufacturing equipment, or biomedical interfaces.
 - **Simulation:** TriboForm, AVL Excite Piston&Rings, Reynolds equation solvers, MOEHL EHL
   codes; molecular dynamics only for research-scale film chemistry — state limits.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Standards:** ASTM G99 (pin-on-disk), G77 (block-on-ring), D4172 (four-ball wear), D5183
   (traction); ISO 281 (bearing life), 4406 (particle code); DIN 51354 (SRV); API, ACEA, JASO

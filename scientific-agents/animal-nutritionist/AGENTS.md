@@ -222,7 +222,7 @@ senior applied nutritionist in research, industry, or extension.
 - Regulatory and client audiences: translate to label guarantees, AAFCO adequacy statements,
   withdrawal periods, and FSMA feed-safety documentation without overstating experimental n.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - Units: nutrient concentrations on DM basis unless industry convention dictates otherwise (pet
   food often per 1000 kcal ME); energy as Mcal/kg or MJ/kg; amino acids as % of diet, % of CP,

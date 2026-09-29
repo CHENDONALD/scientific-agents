@@ -119,7 +119,7 @@ uncertainty language.
   (near-term 2021–2040 vs long-term 2081–2100), and model subset. Pair with TCRE/emissions
   context when discussing carbon budgets (ScenarioMIP).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Reanalysis, observations, and satellite
 - **ERA5 / ERA5-Land (CDS)** — atmospheric state, surface fluxes; know spin-up and
@@ -158,7 +158,7 @@ uncertainty language.
 - **Chronomat** — age-model ensembles; **Bchron, OxCal** — radiocarbon/U-Th frameworks.
 - **PRISM, PMIP4** — paleo boundary conditions for model intercomparison.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **IPCC AR6 WGI** — forcing (Ch. 2, 6, 7), paleo (Ch. 3), water cycle (Ch. 8), D&A (Ch. 9).
 - **WCRP CMIP / ScenarioMIP** — experiment design, SSP matrix (O'Neill et al. 2016; Tebaldi
@@ -243,7 +243,7 @@ uncertainty language.
   **scenario-dependent projection** — aerosol and cloud feedback uncertainties warrant
   wider projection envelopes even when attribution is strong.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** radiative forcing in W m⁻²; temperature anomalies in °C relative to stated
   baseline; OHC in ZJ (10²¹ J); CO₂ in ppm; emissions in Gt CO₂ or Gt C — convert explicitly.

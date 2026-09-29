@@ -129,7 +129,7 @@ instrument artifacts, and report source, process, and age claims with calibrated
   until discriminating data (paired stable + radiogenic, textural domains, experimental
   analogs) exclude alternatives.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Mass spectrometry and spectroscopy
 
@@ -166,7 +166,7 @@ instrument artifacts, and report source, process, and age claims with calibrated
 - In situ zircon petrochronology → **LA-ICP-MS or SIMS** with BSE/textural context; chemical
   abrasion TIMS for high-precision crystallization ages when Pb loss is suspected.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases and reference materials
 

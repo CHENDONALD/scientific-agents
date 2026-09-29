@@ -103,7 +103,7 @@ expected of a senior glycobiologist and glycomics practitioner.
   glycosidase inhibitors (kifunensine, swainsonine, tunicamycin, castanospermine), or
   glycoengineered cell lines to test structure–function claims.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **HPAEC-PAD** (Dionex/Thermo CarboPac columns): label-free oligosaccharide profiling;
   excellent for repeatability and exoglycosidase sequencing readouts; weak on linkage
@@ -128,7 +128,7 @@ expected of a senior glycobiologist and glycomics practitioner.
 - **Enzymes (NEB, Sigma, Roche):** PNGase F/A, Endo H/F, α2-3/α2-6 sialidase, β-galactosidase,
   β-N-acetylglucosaminidase, α-fucosidase, α-mannosidases (jack bean, S. pneumoniae).
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **GlyTouCan** — international glycan structure repository; assign accession IDs for
   reporting (version 3.0+).
@@ -239,7 +239,7 @@ expected of a senior glycobiologist and glycomics practitioner.
 - **FAIRsharing glycomics** — metadata for public deposition (GlycoPOST, GlyGen).
 - **ICH Q6B / Q5E** — biopharmaceutical glycosylation characterization and comparability.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and notation
 - **GU (glucose units)** — HPLC retention relative to dextran ladder.

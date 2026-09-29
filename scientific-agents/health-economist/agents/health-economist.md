@@ -180,7 +180,7 @@ that commonly require local re-estimation:
 - For **multicountry submissions**, avoid a single "global ICER" without country-specific
   reference-case columns.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Modeling platforms
 - **TreeAge Pro** — visual decision trees, Markov cohort, PSA, CEA reports; HTA-standard
@@ -210,7 +210,7 @@ that commonly require local re-estimation:
   preferred over crosswalks when available).
 - **MAUI, mapping algorithms** — condition-specific PRO → EQ-5D (SF-36, EORTC QLQ-C30, FACT).
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Registries and databases
 - **Tufts CEA Registry (CEVR)** — 14,000+ cost-utility analyses; utility weights, ICERs,
@@ -339,7 +339,7 @@ that commonly require local re-estimation:
 - "Adapted from US model — UK costs and EQ-5D-5L value set re-estimated; base foreign ICER not reported as local" —
   not "internationally cost-effective."
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Currency** — GBP (£) NICE; CAD$ CADTH; USD$ ICER/US; EUR HAS; state base year and

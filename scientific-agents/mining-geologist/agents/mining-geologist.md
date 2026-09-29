@@ -188,7 +188,7 @@ Qualified Person in public markets.
   when F-factors deviate from tolerance bands; use **Chain of Mining** simulations to test
   recoverable reserves before conversion.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Drilling, logging, and field
 - **Diamond core** (HQ/NQ/BQ), **RC**, **RAB/aircore** — match method to depth, sample
@@ -221,7 +221,7 @@ Qualified Person in public markets.
 - **Seequent Central / Evo** — model versioning and audit trails.
 - **QGIS/ArcGIS** — surface geology, geochem, and plan maps for technical reports.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Standards and codes
 - **JORC Code 2012** — Australasian public reporting; Competent Person (≥5 years relevant
@@ -353,7 +353,7 @@ Qualified Person in public markets.
 - **SAMREC Code** / **SAMVAL** where South African reporting applies.
 - **CRIRSCO IRT** for cross-jurisdiction harmonization.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Tonnes (t)** and **metric units** in CRIRSCO/CIM/JORC contexts; **short tons** only when

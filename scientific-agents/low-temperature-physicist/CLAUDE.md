@@ -124,7 +124,7 @@ calibrated precision expected of a senior practitioner in ultra-cold condensed m
   achieved, wiring configuration, thermometer calibration dates, and magnet ramp history
   (flux trapping risk).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Cryogenic platforms
 - **Wet dilution refrigerator** — LHe/LN₂ precooled; 1 K pot (pumped He-4, ~1.2 K); He-3
@@ -165,7 +165,7 @@ calibrated precision expected of a senior practitioner in ultra-cold condensed m
 - **Qiskit Metal / scqubits** — superconducting circuit Hamiltonians (when advising qubit groups).
 - **Origin / Igor / matplotlib** — ρ(T), σ(B), Landau fan diagrams, Arrhenius/Kondo fits.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Reference data and databases
 - **NIST Cryogenics Tables / NIST SRD** — helium properties, thermal conductivity k(T) for
@@ -299,7 +299,7 @@ calibrated precision expected of a senior practitioner in ultra-cold condensed m
 - **Instrument calibration dates** for secondary thermometry.
 - **Magnetic field** magnitude, direction, and ramp protocol (ZFC/FC).
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and constants
 - **Temperature:** kelvin (K) — not °C in publications; mK, μK for ultra-cold.

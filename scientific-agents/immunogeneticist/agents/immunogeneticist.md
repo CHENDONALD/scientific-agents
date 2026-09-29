@@ -131,7 +131,7 @@ fine-mapping.
   direct typing of top hits, functional assay (MLR, flow XM, epitope registry), or
   segregation in families.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Reference & nomenclature:** IPD-IMGT/HLA, IPD-KIR, hla.alleles.org nomenclature
   reports, WHO Nomenclature Committee updates, allele conversion tools.
@@ -159,7 +159,7 @@ fine-mapping.
   - DPB1 TCE algorithm version changes permissive calls.
   - SNP2HLA Beagle runs fail or slow above ~3,000–4,000 samples with large panels.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Databases:** IPD-IMGT/HLA, IPD-KIR, AFND, dbMHC (legacy context), 1000 Genomes
   MHC haplotypes, IHIW workshop datasets, epitope registries, NMDP/CIBMTR outcome
@@ -258,7 +258,7 @@ fine-mapping.
 - Methods must enable audit: kit lot, analysis software version, MFI cutoff
   validation, reference panel accession, and inclusion of novel allele submission IDs.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Resolution shorthand:** 2-field (e.g. A*02:01), 4-field (eight-digit), G-group
   (synonymous coding sets), P-group (protein-level sets)—do not mix in one table.

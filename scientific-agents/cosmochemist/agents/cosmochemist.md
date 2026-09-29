@@ -96,7 +96,7 @@ sample contamination, and cosmic-ray exposure artifacts as first-class failure m
 - CRE: cosmogenic/trapped decomposition; production rate models (Leya & Masarik) with shielding
   estimates.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Instrumentation:** EPMA (JEOL/Cameca), SEM-EDS, SIMS (Cameca ims-1280), NanoSIMS 50L,
   MC-ICP-MS (Neptune), TIMS, noble gas MS (Helix), micro-CT for non-destructive texture.
@@ -104,7 +104,7 @@ sample contamination, and cosmic-ray exposure artifacts as first-class failure m
   microtome, clean benches, ultrapure acids (distilled in lab).
 - **Software:** Isoplot, Iolite for SIMS data, Excel/R for isochrons, ImageJ for grain sizing.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Databases:** Meteoritical Bulletin (meteoritical.org), NASA Antarctic Meteorite catalog,
   MetBase, Open Database of Interstellar and Pre-solar Grains (where available), SIMBAD for
@@ -153,7 +153,7 @@ sample contamination, and cosmic-ray exposure artifacts as first-class failure m
 - **Standards:** MetSoc nomenclature; mass balance for destructive work; archive allocation
   compliance.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** δ in ‰ vs. SMOW or LSW; Δ17O in ‰; ε notation for mass-independent Cr, Ti (ppm
   scale); ages in Ma with 2σ; CRE in Ma separate label.

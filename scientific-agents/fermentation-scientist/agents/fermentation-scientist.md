@@ -119,7 +119,7 @@ calibrated precision expected in process development, academic research, and pro
   for flux bounds; constrain with 13C-MFA on central metabolism when claiming pathway redistribution;
   report loopless FVA where thermodynamic cycles inflate flux ranges.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Small-scale cultivation and scale-down
 - **Shake flasks, baffled Erlenmeyer, orbital shakers** — screening; document N, throw, fill volume,
@@ -152,7 +152,7 @@ calibrated precision expected in process development, academic research, and pro
 - **MATLAB/Python (SciPy ODE solvers)** — custom unstructured models (Monod + Luedeking–Piret).
 - **SuperPro Designer, BioSolve** — material balances and early economic scoping when needed.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Culture collections and strain metadata
 - **ATCC, DSMZ, NCYC, CBS, BacDive** — type strains, optimal growth conditions, catalog numbers for
@@ -271,7 +271,7 @@ calibrated precision expected in process development, academic research, and pro
 - **FAIR data** — deposit strain modifications, medium recipes, and time-series in supplementary data
   or repository when publishing.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **μ, D** — h⁻¹; **qs, qp, ms** — g/g/h or mol/g/h (define basis: g DCW vs g cell).

@@ -135,7 +135,7 @@ CMC lead.
 - **Change control:** comparability protocol before implementing new bioreactor, media lot,
   cryoprotectant, or fill site — potency and extended characterization anchor the package.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Manufacturing platforms
 - **G-Rex / Wilson Wolf** — static expansion, closed fluid paths, CAR-T/NK/Treg; linear scale
@@ -158,7 +158,7 @@ CMC lead.
 - **Kaluza, FlowJo** — gating templates with FMO controls; MIFlowCyt reporting.
 - **eBMR / Veeva / MasterControl** — batch records, deviation/CAPA, electronic QP review (EU).
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Regulatory and standards
 - **FDA CBER OTP** — Potency Assurance for CGT (draft Dec 2023); Potency Tests (2011, to be
@@ -247,7 +247,7 @@ CMC lead.
 - **Reporting standards:** CONSORT for trials; **ISCT flow cytometry (MIFlowCyt)**; material
   characterization per ISO 10993 biological evaluation report structure.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and notation
 - Cell dose: **cells/kg** or **total cells** per infusion bag; CAR-T often **×10⁶ cells/kg**.

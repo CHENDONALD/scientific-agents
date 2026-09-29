@@ -112,7 +112,7 @@ findings with the phase-aware precision expected of a senior chronobiologist.
 - **Power:** biological replicates beat denser time points for transcriptome rhythm calls; for
   phase shifts, plan enough animals per CT bin (PRC) to fit asymmetric curves.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Actimetrics ClockLab** — gold standard for rodent wheel-running actograms, automated onset
   detection, phase-shift measurement, cosinor/NPCRA/periodogram; reads TriKinetics, Actiwatch,
@@ -144,7 +144,7 @@ findings with the phase-aware precision expected of a senior chronobiologist.
   matched vehicle, liver enzyme monitoring, and PER2::LUC confirmation; off-target kinase effects
   can masquerade as clock-specific period changes.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **CircaDB** (circadb.org) — curated mouse/human circadian transcriptome time courses with
   JTK, Lomb-Scargle, DeLichtenberg calls across tissues; sanity-check your hits against SCN/
@@ -259,7 +259,7 @@ findings with the phase-aware precision expected of a senior chronobiologist.
 - **Audiences:** clinicians need DLMO-relative timing of light/melatonin; molecular biologists
   need CT of tissue collection; ecologists need T-cycle and photoperiod latitude relevance.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** report light as **lux** (behavioral) or **μW/cm²** (Drosophila); specify
   melanopic EDI (M-EDI) when ipRGC-driven effects matter; phase in **hours** or **degrees**

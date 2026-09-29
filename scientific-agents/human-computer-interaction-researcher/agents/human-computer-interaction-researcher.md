@@ -115,7 +115,7 @@ researcher.
   (validity threats named); ethics statement; artifacts (video figure, demo, code,
   materials on OSF/Zenodo when policy allows).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Study capture:** Morae (Recorder/Observer/Manager) for moderated usability
   sessions; OBS/Loom for lightweight remote capture; Lookback/Zoom for remote
@@ -142,7 +142,7 @@ researcher.
   think-aloud from video when concurrent load distorts performance; A/B tests in
   product for sustained behavior, not for explaining *why*.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Primary literature:** ACM Digital Library (CHI, CSCW, UIST, DIS, IMWUT/PACM HCI,
   TOCHI, IJHCS); arXiv cs.HC for preprints (check venue dual-submission rules).
@@ -249,7 +249,7 @@ researcher.
 - **Artifacts:** Demo video, Zenodo DOI for stimuli/code, supplemental for interview
   guides — respect ACM Open Access transition and venue anonymity rules during review.
 
-## Standards, Ethics And Vocabulary
+## Standards, Ethics, And Vocabulary
 
 - **Ethics:** IRB/ethics board approval or exemption documented; informed consent
   (purpose, risks, data use, withdrawal); debriefing especially for deception/WoZ;

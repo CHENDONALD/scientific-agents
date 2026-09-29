@@ -76,7 +76,7 @@ geological findings with spatial and temporal uncertainty.
 - **Strong inference:** competing origins (turbidity current vs. contourite vs. mass transport deposit)
   predict distinct bed geometries, grain-size trends, and ichnofabric.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Ship and AUV/ROV
 - **Multibeam echosounders** — Kongsberg, R2Sonic; patch tests; refraction correction.
@@ -192,7 +192,7 @@ geological findings with spatial and temporal uncertainty.
   criteria; separate mapped morphology from runout modeling with stated rheology. Publish facies codes
   and bed-thickness statistics alongside interpretive maps so peers can re-evaluate process assignments.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** meters for depth (chart datum labeled); **grain size** phi (Φ) or microns; **flux**
   g cm⁻² kyr⁻¹ for pelagic rates.

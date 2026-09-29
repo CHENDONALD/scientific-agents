@@ -106,7 +106,7 @@ findings with the calibrated precision expected of a senior practitioner in AMO 
 - **Error budget before discovery claims:** Separate statistical (QPN, shot noise) from systematic
   (calibration, model, environment); for clocks, table shift and uncertainty in fractional units.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Experimental platforms
 - **MOT / Zeeman slower / 2D-MOT:** detuning Δ, beam balance, repumper coupling, density-limited
@@ -140,7 +140,7 @@ findings with the calibrated precision expected of a senior practitioner in AMO 
 - **Molecular structure:** Molpro, Gaussian, ORCA, or OpenMolcas for potentials and transition
   moments when semi-empirical curves are insufficient.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases and reference data
 - **NIST Atomic Spectra Database (ASD):** energy levels, lines, transition probabilities — default
@@ -266,7 +266,7 @@ findings with the calibrated precision expected of a senior practitioner in AMO 
 - Quantum simulation claims: distinguish **preparation fidelity** from **many-body fidelity** and
   state-readout infidelity.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Frequency:** Hz for stability; angular Ω in rad/s; spectroscopy often MHz or GHz (state 2π

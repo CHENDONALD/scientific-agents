@@ -109,7 +109,7 @@ findings with calibrated uncertainty.
   and phreatomagmatic vs. magmatic triggers as rivals until gas ratios, textures, and
   geodetic patterns discriminate.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Field and monitoring
 - **Broadband / short-period seismometers** — VT (brittle failure), LP/LF (fluid–crack
@@ -154,7 +154,7 @@ findings with calibrated uncertainty.
 - **Stereonet, QGIS, GMT** — structure and hazard overlays.
 - **WOVOdat, GVMID, VHub** — standardized unrest time series and monitoring metadata.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Smithsonian GVP** — eruption histories, weekly activity reports (preliminary;
   detailed narratives in Bulletin of the Global Volcanism Network), rock chemistry.

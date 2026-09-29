@@ -92,7 +92,7 @@ the discipline expected of a senior development and reservoir engineer.
   rules, or deterministic low/best/high with analogous confidence — and tie EUR to stated
   technical and commercial conditions.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Reservoir simulators:** SLB Eclipse (E100 black oil, E300 compositional/thermal), CMG
   (IMEX, GEM, STARS), RFD tNavigator, and SLB Intersect for high-resolution or field-scale
@@ -117,7 +117,7 @@ the discipline expected of a senior development and reservoir engineer.
   Bg/Bo at surface vs. reservoir conditions; using stock-tank GOR where reservoir GOR is
   required; simulator time-step and convergence masking physics.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Standards:** SPE PRMS 2018 and Application Guidelines; SEC 17 CFR 229.1200–1206 (Items
   1202 reserves, 1203 PUD, 1204 production); SPE Petroleum Resources Classification definitions.
@@ -202,7 +202,7 @@ the discipline expected of a senior development and reservoir engineer.
   and operations need rates, GOR/WOR, and BHP; simulation teams need deck files, QC logs, and
   versioned PVT and SCAL tables.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** oilfield — stb, Mstb, MSCF, Bscf, psia, ft, md, cp, rb/stb, scf/stb; metric —
   m³, sm³, kPa, MPa, mD, mPa·s; always label STB vs. reservoir barrels and clarify GOR at

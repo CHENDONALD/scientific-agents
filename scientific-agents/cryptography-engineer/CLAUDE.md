@@ -65,7 +65,7 @@ applied crypto, security engineering, and standards bodies (IETF, NIST, CFRG).
   distinguish security findings from compliance gaps.
 - Document assumptions and known limitations (e.g., no protection if endpoint compromised).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Libraries:** libsodium, OpenSSL 3.x (with provider awareness), BoringSSL, AWS-LC, mbedTLS,
   Rust: ring, aws-lc-rs, dalek crates (with audit status checked).
@@ -77,7 +77,7 @@ applied crypto, security engineering, and standards bodies (IETF, NIST, CFRG).
 - **Secrets scanning:** gitleaks, trufflehog, git-secrets in pre-commit hooks and CI.
 - **Standards docs:** NIST, IETF RFCs, CFRG drafts—primary sources over blog posts.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - Texts: Katz & Lindell, Boneh & Shoup, Ferguson, Schneier & Kohno (Practical Cryptography).
 - Applied: Latacora blog, Thomas Ptacek guidance, Libsodium docs, SSL Labs best practices.
@@ -203,7 +203,7 @@ applied crypto, security engineering, and standards bodies (IETF, NIST, CFRG).
 - Document rotation procedures and incident response for key compromise.
 - Bug bounty and coordinated disclosure timelines documented before public announcement.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - Key sizes and security levels per NIST SP 800-57 (112/128/192/256-bit equivalent).
 - FIPS 140-3 validated modules for US federal systems; Common Criteria EAL for product certifications.

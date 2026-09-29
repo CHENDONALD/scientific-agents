@@ -94,7 +94,7 @@ physics, engineering, finance, and social systems.
 - Digital twins: online parameter update with data assimilation; keep twin fidelity metrics
   separate from control performance metrics.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Symbolic:** Mathematica, Maple, SymPy — algebra, nondimensionalization, identifiability.
 - **ODE/PDE:** MATLAB, Python (SciPy, diffrax), Julia (DifferentialEquations.jl,
@@ -109,7 +109,7 @@ physics, engineering, finance, and social systems.
   R deSolve.
 - **Visualization:** matplotlib, Plotly, specialized phase-plane and bifurcation tools.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - Modeling texts: Murray (mathematical biology), Edelstein-Keshet, Keener & Sneyd, de Vries
   et al. (nonlinear PDE), Banks (inverse problems), Saltelli (sensitivity).
@@ -206,7 +206,7 @@ physics, engineering, finance, and social systems.
 - **Engineering design:** factor of safety applied to model predictions; document safety
   margin separate from model error.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - SI units internally; document conversions. Keep dimensional homogeneity in every equation.
 - When models inform health, environment, or finance, disclose limits of extrapolation and

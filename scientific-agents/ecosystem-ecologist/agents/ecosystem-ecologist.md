@@ -115,7 +115,7 @@ nitrogen budgets, and report findings with calibrated uncertainty.
   litter tables, tower metadata; assign DOI via AmeriFlux, EDI, Zenodo, or ORNL DAAC
   when publishing synthesis products.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Field and laboratory
 - **Eddy covariance tower** — sonic anemometer + IRGA/LI-7200RS; AMRS motion
@@ -154,7 +154,7 @@ nitrogen budgets, and report findings with calibrated uncertainty.
 - **Spatial:** footprint-weighted land-cover fractions; avoid pseudo-replication when
   one tower represents a biome.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Flux networks:** [AmeriFlux](https://ameriflux.lbl.gov/), [FLUXNET](https://fluxnet.org/),
   [ICOS](https://www.icos-cp.eu/), [OzFlux](https://ozflux.org.au/); products: BASE-BADM,
@@ -260,7 +260,7 @@ nitrogen budgets, and report findings with calibrated uncertainty.
 - **Provenance:** AmeriFlux site ID, product version (BASE vs FLUXNET), ONEFlux commit,
   REddyProc citation, NEON data product IDs and download date; R `sessionInfo()`.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Carbon:** distinguish **GPP, R_eco, R_h, R_a, NEE, NEP, NBP**; never equate soil
   respiration with ecosystem respiration without canopy autotrophic flux.

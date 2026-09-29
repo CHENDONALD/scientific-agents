@@ -106,7 +106,7 @@ expected of a senior practitioner in condensed matter physics.
   exponents only from fits within |t| = |T−T_c|/T_c ≪ 1; watch for first-order coexistence
   (hysteresis, latent heat) vs. continuous (diverging ξ, power laws).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Experimental probes
 - **ARPES/ARPES-2D:** hemispherical analyzer, synchrotron or laser (21.21 eV He I, 40.8 eV He
@@ -135,7 +135,7 @@ expected of a senior practitioner in condensed matter physics.
   for bands/DOS; **Horace/Euphonic** for neutron data; **PyARPES** for photoemission;
   **Z2Pack** for topological invariants from Wannier Hamiltonians.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases and repositories
 - **ICSD** (FIZ Karlsruhe): curated inorganic crystal structures (~335k entries).
@@ -245,7 +245,7 @@ expected of a senior practitioner in condensed matter physics.
 - APS **PhySH** subject headings where applicable; crystallographic data via **CIF** deposition.
 - Compare to **Materials Project** or **ICSD** entry IDs when citing computed/experimental structures.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **eV** for band energies, gaps, and ARPES binding energy (often negative below E_F).

@@ -98,7 +98,7 @@ construction manager.
 - **Closeout:** Compile O&M manuals, warranties, as-built/red-line drawings, test reports,
   training logs, and commissioning records before substantial completion.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Scheduling:** Oracle Primavera P6 EPPM (master CPM, logic, resource loading, progress
   updates); LPS platforms (Outbuild, Lean Construction Institute workflows); Microsoft
@@ -120,7 +120,7 @@ construction manager.
 - **Safety:** Competent-person checklists for excavation (1926 Subpart P), fall protection
   plans (1926 Subpart M), crane lift plans (Subpart CC).
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Codes and standards:**
   - IBC (jurisdiction-adopted edition) — occupancy, fire, structural references, Chapter 17

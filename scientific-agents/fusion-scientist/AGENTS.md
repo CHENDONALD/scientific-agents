@@ -116,7 +116,7 @@ experimentalist, modeler, or fusion-energy systems analyst.
 - State a **falsifiable prediction** (e.g., "If λ_q scales as 1/Iₚ, doubling Iₚ at fixed P_SOL
   halves peak divertor load") before the shot or simulation campaign.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Magnetic diagnostics:** flux loops, Mirnov coils, saddle loops, Rogowski coils, diamagnetic
   loops, magnetic probes for RMP and error fields.
@@ -142,7 +142,7 @@ experimentalist, modeler, or fusion-energy systems analyst.
   target, nuclear data library (ENDF/B-VII vs VIII) on Pb and Li reactions affecting TBR by
   several percent.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Facilities & programs:** ITER Organization, EUROfusion, Fusion for Energy; DOE FES user
   facilities (DIII-D, NSTX-U, PPPL); IPP Greifswald (W7-X); JAEA QST; KSTAR/EAST/KSTAR networks.
@@ -236,7 +236,7 @@ experimentalist, modeler, or fusion-energy systems analyst.
   mechanisms; FED for engineering and heating systems; general press gets Q only with duration,
   fuel, and facility context.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** temperatures in keV or eV (1 keV ≈ 11.6 million K); densities in 10¹⁹ m⁻³ or 10²⁰ m⁻³;
   B_T in T; Iₚ in MA; powers in MW; energies in MJ; heat flux in MW m⁻²; τ in s; fusion cross

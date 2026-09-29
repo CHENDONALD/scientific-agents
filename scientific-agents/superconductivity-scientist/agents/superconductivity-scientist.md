@@ -137,7 +137,7 @@ calibrated precision expected of a senior practitioner in superconductivity rese
   medium (Ne vs He in DAC), contact material (In, Au, Ag paint), and thermal cycle history —
   superconductivity reproducibility is sample-history dominated.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Thermodynamic and magnetic characterization
 - **Four-probe resistivity R(T,H):** separate contact resistance; use current levels below
@@ -198,7 +198,7 @@ calibrated precision expected of a senior practitioner in superconductivity rese
 - **DFT for superconductors (SCDFT),** **Gutzwiller/DMFT** extensions for correlated SC trends.
 - **Landau–Ginzburg / UELMA / H-formulation FEM:** vortex lattices, Jc anisotropy, magnet design.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **SuperCon / MDR SuperCon** (NIMS MatNavi): experimental Tc and composition records; cite DOI
   version used.
@@ -298,7 +298,7 @@ calibrated precision expected of a senior practitioner in superconductivity rese
   and what was computed vs assumed; applied engineers want Ic(B,T,θ), stability margins, and standards
   compliance — do not mix discovery claims with wire specs without qualification.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** SI throughout; Φ₀ = 2.067833848 × 10⁻¹⁵ Wb; k_B in eV/K (8.617333262 × 10⁻⁵ eV/K) for
   gap–temperature ratios; 2e/h for conductance quantum in Josephson relations.

@@ -94,7 +94,7 @@ report results with the rigor expected of a senior ASCE/EWRI practitioner.
     index σ = (p − pv)/(½ρV²) along chute; compare to physical model if available.
 - **Document sensitivity:** n ±20%, tailwater stage, blocked culvert scenarios.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **1D/2D open channel:** HEC-RAS (USACE), SWMM (urban drainage), MIKE 11/21, SOBEK,
   SRH-2D.
@@ -107,7 +107,7 @@ report results with the rigor expected of a senior ASCE/EWRI practitioner.
 - **Standards:** USACE EM series, HDS (Hydraulic Design Series), USBR design monographs;
   FEMA NFIP guidelines; ANSI/ASCE/EWRI 66-17 (sediment erosion control).
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Software docs:** HEC-RAS Hydraulic Reference Manual v6.x; USACE HEC publications.
 - **Textbooks:** Chow *Open-Channel Hydraulics*; Henderson; French; Julien *Erosion and
@@ -163,7 +163,7 @@ report results with the rigor expected of a senior ASCE/EWRI practitioner.
 - **Reporting:** cite USACE/FEMA methodology; list HEC-RAS version; include QA log (mass
   balance, calibration statistics).
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** SI in research (m³/s, m); US customary in many USACE projects (cfs, ft) — never
   mix without explicit conversion; g = 9.81 m/s².

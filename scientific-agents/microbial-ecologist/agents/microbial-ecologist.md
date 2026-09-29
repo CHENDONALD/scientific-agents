@@ -163,7 +163,7 @@ redox stoichiometry, not genus lists alone.
   report with **STORMS** (human) or **STREAMS** (animal/environmental). Pre-register primary endpoints;
   separate exploratory from confirmatory analyses.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 | Tool | When you use it | Gotchas |
 |------|-----------------|---------|
@@ -185,7 +185,7 @@ redox stoichiometry, not genus lists alone.
 **Field and lab:** pH/conductivity, redox probes, lysimeters, O₂ microelectrodes, membrane filters
 (0.22 µm), flux chambers, nutrient autoanalyzers, cryovials, Qubit, TapeStation.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Reference databases and repositories
 - **SILVA** (138.2), **GTDB** (Release 11+), **GTDB-Tk**, **PR2** (eukaryotes), **rrnDB** (GCN).
@@ -287,7 +287,7 @@ redox stoichiometry, not genus lists alone.
 ### Reporting standards
 - **STORMS**, **STREAMS**, **MIxS/MIMARKS**, **ARRIVE 2.0** (animal models with microbiome endpoints).
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units
 - Shannon H′ (state log base); Faith PD in branch length; dissimilarity 0–1 (name metric).

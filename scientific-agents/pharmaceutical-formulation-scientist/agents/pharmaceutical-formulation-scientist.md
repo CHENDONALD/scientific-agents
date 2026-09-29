@@ -107,7 +107,7 @@ choices in Module 3.2.P.
   excipient choice, manufacturing process development, container closure, microbiological
   attributes, and control strategy linking to 3.2.P.3–3.2.P.5.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Thermal/solid-state:** DSC and MDSC for melting, glass transition, compatibility
   exotherms; TGA for volatiles and degradation onset; hot-stage microscopy (HSM) and PLM
@@ -133,7 +133,7 @@ choices in Module 3.2.P.
   (MedicinesComplete Pharmaceutical Excipients); electronic QbD tools for design-space
   documentation.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Excipients & compatibility:** Pharmaceutical Excipients (MedicinesComplete /
   Handbook of Pharmaceutical Excipients 9th ed. baseline); FDA IID for prior-use levels;
@@ -230,7 +230,7 @@ choices in Module 3.2.P.
 - Audience: CMC reviewers want linked logic to specifications; clinicians care about dose
   form usability; manufacturing wants set points and acceptable ranges, not anecdotes.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** mg or % w/w in composition; dissolution as % label claim released vs. time
   (minutes); hardness in N or kp; friability in % loss; moisture as % w/w (KF) or LOD;

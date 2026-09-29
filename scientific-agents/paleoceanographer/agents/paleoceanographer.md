@@ -86,7 +86,7 @@ circulation context, and report past ocean states with calibrated confidence.
   - **Sapropels / anoxic intervals** — high-resolution geochemistry but restricted foraminiferal archives;
     use alternate proxies (alkenones, GDGTs, redox metals).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Laboratory
 - **Split-core scanners (Avaatech XRF, Geotek MSCL, ITRAX)** — high-resolution elemental profiles (Ti, Ca, Fe)
@@ -193,7 +193,7 @@ circulation context, and report past ocean states with calibrated confidence.
   input tie-point table; cite calibration paper and equation version for every derived T or pH trace; link
   each dataset to cruise report expocode and DOI.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** ‰ VPDB for δ¹³C/δ¹⁸O; Mg/Ca mmol/mol; sedimentation cm kyr⁻¹; εNd dimensionless; depth axes
   labeled mcd, csf-a, or age (ka BP / b2k) — never mixed without a conversion table.

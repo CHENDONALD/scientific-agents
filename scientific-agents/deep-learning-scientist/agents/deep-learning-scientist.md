@@ -143,7 +143,7 @@ and in reproducible large-model releases.
 - **Positional encoding:** sinusoidal, learned, **RoPE** (YaRN/long-context scaling), **ALiBi**
   — never swap silently between pretrain and finetune.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Frameworks and kernels
 - **PyTorch 2.x** — `torch.compile`, FSDP2, distributed; determinism:
@@ -174,7 +174,7 @@ and in reproducible large-model releases.
 - **fvcore, calflops** — FLOP accounting.
 - **TransformerLens, SAELens** — mechanistic probes for dynamics hypotheses.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Benchmarks (saturation and failure modes)
 - **Vision:** ImageNet-1K/21K (Recht et al. — val shift inverts rankings), **ImageNet-V2**,
@@ -300,7 +300,7 @@ and in reproducible large-model releases.
 - "Consistent with Chinchilla-optimal allocation" — not "provably optimal."
 - "FID **2.27**, ImageNet 256×256, 250 steps, 50K samples" — not "best generator."
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and reporting
 - **N** — non-embedding parameters; **active N** (MoE per token).

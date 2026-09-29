@@ -88,7 +88,7 @@ with the rigor expected of a senior neuroimaging methodologist.
   — not run, volume, or vertex as independent n.
 - Share preprocessing configs as versioned YAML alongside containers — not screenshots of GUI settings.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### MRI acquisition (typical)
 - **Siemens Prisma/Skyra, GE MR750, Philips Achieva**; head coils; multiband EPI (CMRR sequences);
@@ -111,7 +111,7 @@ with the rigor expected of a senior neuroimaging methodologist.
 - **FSL melodic**, **ICA-FIX**, **AROMA** (deprecated paths — know your pipeline).
 - **PennLINC** **xcp_d** post-fMRIPrep denoising; **C-PAC**; **Brain Connectivity Toolbox**.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases and sharing
 - **OpenNeuro** (BIDS datasets), **ADNI**, **UK Biobank**, **HCP**, **ABIDE**, **PNC**; AD trial
@@ -235,7 +235,7 @@ with the rigor expected of a senior neuroimaging methodologist.
 - Cite COBIDAS checklist table in supplement, mapping each item to manuscript section and page.
 - Publish preprocessing notebooks as Binder/Jupyter examples on subsampled HCP/OpenNeuro subjects.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **BOLD**: % signal change or arbitrary units; **MNI coordinates** (x,y,z) in mm; **voxel size** mm³.

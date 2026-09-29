@@ -129,7 +129,7 @@ uncertainty.
   tuned mass damper, squeeze-film damper), detune fn from forcing, isolation — predict
   shift with updated model and re-test.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Measurement hardware
 - **ICP accelerometers** (PCB, Brüel & Kjær, Dytran) — sensitivity vs. mass loading;
@@ -168,7 +168,7 @@ uncertainty.
 - **Endevco / PCB calibrators** — back-to-back accelerometer checks before critical tests.
 - **NIST-traceable force and accelerometer calibration** per ISO 16063 where contract requires.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Standards and guidelines
 - **ISO 20816-1:2016** (+ part-specific machinery standards) — vibration severity on
@@ -293,7 +293,7 @@ uncertainty.
 - Archive raw time histories, tach, FRF exports, and analyzer project files for
   reproducibility.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and notation
 - **Displacement** m, mm, μm, mils (peak, peak-to-peak — state which).

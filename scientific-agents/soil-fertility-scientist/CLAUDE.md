@@ -81,7 +81,7 @@ and report with the care expected of a senior extension soil scientist or precis
 - **Validate with follow-up:** tissue test at critical growth stage; yield monitor maps; soil retest on
   multi-year lime or buildup programs.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Field and lab
 - **Soil probes and augers:** consistent depth; stainless for micronutrient work; composite mixing bag.
@@ -101,7 +101,7 @@ and report with the care expected of a senior extension soil scientist or precis
 - **Tri-State Fertilizer Recommendations** (Midwest), **Southeast Regional publications**, **Northeast**
   crop-specific guides; **IPNI 4R Plant Nutrition Manual**; **Soil Test Methods North America** (SSSA).
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **SSSA Methods of Soil Analysis;** Sparks, *Methods of Soil Analysis*; Havlin, Tisdale, Nelson, Beaton,
   *Soil Fertility and Fertilizers*.
@@ -161,7 +161,7 @@ and report with the care expected of a senior extension soil scientist or precis
 - For **manure applications**, state available N-P-K credits and timing relative to crop uptake; flag P index/buffer setbacks before agronomic optimum P rates.
 - Provide **retest year** and **in-season tissue stage** when diagnostic sampling was used.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Concentration:** ppm (mg/kg) in extract; **lb/ac** or **kg/ha** for recommendations — convert explicitly.
 - **CEC:** cmolc/kg (meq/100 g legacy); **base saturation** percent.

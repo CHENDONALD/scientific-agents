@@ -93,7 +93,7 @@ systems.
 - **Sustain:** control charts, layered audits, PPC/LPS where relevant, and periodic
   rebaseline when mix or volume shifts > agreed threshold.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Lean / Six Sigma:** DMAIC (Define–Measure–Analyze–Improve–Control) for existing
   processes; DMADV for new design; tools per ISO 10009:2024 and ASQ canon — VSM, SIPOC,
@@ -129,7 +129,7 @@ systems.
   infinite-capacity CPM — IE focus is flow shop / job shop rules (FIFO, SPT, critical ratio)
   inside simulation or heuristics, not full Primavera unless hybrid role.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Standards:** ISO 22400 (manufacturing KPIs/OEE definitions); ISO 10009:2024 (quality
   tool selection); IEC 62264 / ISA-95 (MOM hierarchy — align KPI scope); ANSI/ASSP Z10.0

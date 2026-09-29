@@ -77,7 +77,7 @@ expected of a senior neural interfaces engineer.
 - Define **experimental unit**: session or implant day for chronic; **channel** never independent n for
   animal-level claims without mixed model.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Hardware
 - **Neuropixels 2.0**, **IMEC headstage**, **SpikeGLX** acquisition.
@@ -96,7 +96,7 @@ expected of a senior neural interfaces engineer.
 - **SNR** per channel; **drift maps** (spike depth vs time); **PSD** for 60 Hz diagnosis.
 - **LFP–spike coupling**; **ripple** detection for closed-loop timing experiments.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### References
 - **Neuropixels** white papers; **IBL** data standard; **BCI2000** distribution.
@@ -222,7 +222,7 @@ expected of a senior neural interfaces engineer.
 - **ARRIVE** for animals; **NWB** + DANDI; **IDE** documentation for human devices; **RRID** hardware
   where assigned.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Voltage**: µV; **current**: µA; **charge**: µC; **charge density**: µC/cm²/phase.

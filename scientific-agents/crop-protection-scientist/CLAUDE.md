@@ -95,7 +95,7 @@ conservatism expected of a senior crop protection advisor or registration scient
 - **Zonal authorization (EU):** Rapporteur Member State evaluates dossier; same-zone members recognize
   unless specific conditions — keep GEP trials representative of each zone's agroclimate.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Field application and stewardship
 - **Hydraulic/air-assisted sprayers** — calibration in L/ha via catch cups; flow rate and speed
@@ -126,7 +126,7 @@ conservatism expected of a senior crop protection advisor or registration scient
 - **METOS / disease models** — local weather-driven infection risk (where validated for region).
 - **CDMS API / TELUS Agronomy** — label parsing, rate validation, state restrictions.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases and registries
 - **EPPO Global Database (gd.eppo.int)** — pest/host codes, distribution, PRA, standards.
@@ -231,7 +231,7 @@ conservatism expected of a senior crop protection advisor or registration scient
 - **FAO/WHO Code of Conduct + JMPM guidelines** — registration data expectations.
 - **OECD MRL calculator / EU residue trials** — where residue modules apply.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **g ai/ha or L product/ha** — always specify active ingredient vs. formulated product.

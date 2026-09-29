@@ -97,7 +97,7 @@ data as first-class failure modes.
 - Panel screening (ISO 8586-1); reference standards; replicate servings; balanced designs
   (Williams Latin square); analyze with Thurstone or mixed models on binomial discrimination.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Analytical:** HPLC (UV, RI, FLD), UHPLC, GC-FID/MS, LC-MS/MS, ICP-MS, DSC, texture
   analyzers, aw meters (Aqualab), Kjeldahl, Soxhlet.
@@ -105,7 +105,7 @@ data as first-class failure modes.
 - **Software:** ChemStation/MassHunter, Xcalibur, Chromeleon; sensory (Compusense, FIZZ);
   kinetic modeling in R or Excel with documented equations.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Databases:** USDA FoodData Central (fdc.nal.usda.gov), FNDDS, EuroFIR, FooDB, PubChem for
   standards.
@@ -154,7 +154,7 @@ data as first-class failure modes.
 - **Standards:** AOAC performance criteria; ISO 8589 sensory general guidance; nutrition label
   rounding rules documented.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** mg/kg, µg/kg, g/100 g, kcal/100 g; aw dimensionless 0–1; aw at °C stated; PV
   meq O₂/kg fat; TBARS mg MDA/kg.

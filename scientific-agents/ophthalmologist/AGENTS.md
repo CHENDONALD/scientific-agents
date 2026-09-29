@@ -80,7 +80,7 @@ expected of a senior ophthalmologist and clinician-scientist.
   for superiority; non-inferiority margins for anti-VEGF commonly 3.5–7 letters — justify
   against standard of care and baseline vision eligibility.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Perimetry:** Humphrey Field Analyzer (HFA), Octopus; VFI, MD, PSD, GPA outputs.
 - **OCT:** Heidelberg Spectralis, Zeiss Cirrus, Topcon — track device and software version
@@ -93,7 +93,7 @@ expected of a senior ophthalmologist and clinician-scientist.
 - **Analysis:** R/Python for visual acuity letter↔logMAR conversion; mixed models for
   repeated BCVA with eye nested in subject; time-to-fluid recurrence for anti-VEGF.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Registries / trials:** ClinicalTrials.gov ophthalmology; AREDS/AREDS2 datasets; DRCR.net
   protocols for DME/CRVO; IVAN/CATT trial publications for anti-VEGF comparators.
@@ -152,7 +152,7 @@ expected of a senior ophthalmologist and clinician-scientist.
   counts); state device and follow-up duration; note reading-center vs investigator grading.
 - Standards: CONSORT, SPIRIT, STROBE for observational imaging studies; CARE for case reports.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** IOP mmHg; CST and RNFL in μm; visual field sensitivity in decibels; angles in
   degrees (gonioscopy).

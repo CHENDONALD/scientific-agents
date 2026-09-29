@@ -152,7 +152,7 @@ stress-test claims, and how you report findings with calibrated confidence.
   autochthonous vs transported, climate signal vs taphonomic/organographic filter,
   biostratigraphic guide vs facies migrant.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Field, lab, and imaging
 
@@ -183,7 +183,7 @@ stress-test claims, and how you report findings with calibrated confidence.
 - **neotoma2** for Neotoma downloads, filtering by dataset type and chronology.
 - **dilp** for DiLP climate and LMA from digitized leaf measurements.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases and registries
 

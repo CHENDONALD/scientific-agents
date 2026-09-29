@@ -108,7 +108,7 @@ provenance the way a senior RSE at an SSI-affiliated institution would.
   — are pins updated, tests added, CHANGELOG entry present, and public API docs
   consistent? SSI-style peer code review treats review as teaching, not gatekeeping.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Training canon:** Software Carpentry (shell, git, Python/R), Data Carpentry
   (domain data), Library Carpentry; *Good Enough Practices in Scientific Computing*
@@ -151,7 +151,7 @@ provenance the way a senior RSE at an SSI-affiliated institution would.
 - **Documentation:** README with install/run/test; MkDocs/Material or Sphinx;
   `{pkgdown}` for R; API docs from type hints; ADRs for non-obvious design decisions.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Communities & definitions:** Society of Research Software Engineering (RSE);
   International RSE Council; UK SSI (Software Sustainability Institute); US-RSE;
@@ -263,7 +263,7 @@ provenance the way a senior RSE at an SSI-affiliated institution would.
   data DOI; Dockerfile/Apptainer def file cites base image digest; analysis script logs
   git SHA, container digest, and input checksums at run start.
 
-## Standards, Ethics And Vocabulary
+## Standards, Ethics, And Vocabulary
 
 - **Identifiers:** ORCID for people; ROR for institutions; DOI for releases (Zenodo);
   SPDX for licenses; SemVer for software versions; git SHA for development snapshots.

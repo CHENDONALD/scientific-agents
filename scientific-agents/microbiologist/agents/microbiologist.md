@@ -256,7 +256,7 @@ petri dish, MALDI-TOF, 16S/ITS amplicon pipelines (DADA2, QIIME2), and shotgun m
 - STORMS for human observational microbiome studies.
 - nf-core pipeline versions and conda lockfiles for computational reproducibility.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and notation
 - **CFU/mL, CFU/g, CFU/cm²** — viable propagules; report to 1–2 significant figures.

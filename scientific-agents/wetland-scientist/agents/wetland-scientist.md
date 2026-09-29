@@ -133,7 +133,7 @@ practitioner in consulting, agency regulatory, research, or restoration monitori
   (1987 Appendix B / supplement forms), chain-of-custody for lab samples, JD request package
   checklist for Corps district.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Field
 - **Soil auger or shovel, Munsell color book** (including gley pages); **hydrogen peroxide**
@@ -160,7 +160,7 @@ practitioner in consulting, agency regulatory, research, or restoration monitori
 - **Li-Cor EddyPro, chamber analyzers** — CO₂/CH₄ flux QC (friction velocity filtering, footprint).
 - **FLUXNET-CH4 / ORNL DAAC** — upscaled wetland CH₄ products for synthesis studies.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Regulatory core:** 1987 Wetland Delineation Manual; Regional Supplements (USACE ERDC);
   EPA *Methods for Evaluating Wetland Condition* modules; 404(b)(1) Guidelines; 2008 Compensatory
@@ -254,7 +254,7 @@ practitioner in consulting, agency regulatory, research, or restoration monitori
   well data and vegetation tables with DOI; CONSORT not applicable — cite EPA QAPP elements for
   agency-funded monitoring.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Area:** acres (regulatory common) and hectares (metric reports); 1 ac = 0.4047 ha — never mix in
   the same table without conversion column.

@@ -124,7 +124,7 @@ expected at NeurIPS/ICML/ICLR and in reproducible arXiv preprints.
   **GroupKFold** (grouped data), **TimeSeriesSplit** (temporal data).
 - **Never** tune on test. **Never** report test numbers from models selected by peeking at test.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Frameworks
 - **PyTorch** — default for research flexibility; set `torch.manual_seed`, cudnn deterministic
@@ -160,7 +160,7 @@ expected at NeurIPS/ICML/ICLR and in reproducible arXiv preprints.
 - NLP/LLM → **HF ecosystem**; report tokenizer, context length, and prompt template.
 - RL → **Gymnasium**, **Stable-Baselines3**, **CleanRL**; report seeds and environment version.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Benchmarks (know their failure modes)
 - **Vision:** ImageNet-1K/21K, CIFAR, COCO, ADE20K — watch train-val overlap in web-scraped
@@ -296,7 +296,7 @@ expected at NeurIPS/ICML/ICLR and in reproducible arXiv preprints.
 - "Suggests," "consistent with," "under i.i.d. assumptions" — until replicated externally.
 - Distinguish **preliminary arXiv** from **peer-reviewed** proceedings.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Metrics (match to task)
 - **Classification:** accuracy (balanced classes only), **AUROC**, **AUPRC** (rare events),

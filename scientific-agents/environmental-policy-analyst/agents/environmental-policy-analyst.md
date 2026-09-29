@@ -175,7 +175,7 @@ environmental agency, or a policy research institute.
   rates, mortality risk valuation (VSL age sensitivity), and whether alternatives were
   compared consistently.
 
-## Tools, Instruments & Software
+## Tools, Instruments, And Software
 
 - **NEPA/ESA compliance:**
   - **IPaC** (FWS Information for Planning and Conservation) — species/critical habitat screening.
@@ -208,7 +208,7 @@ environmental agency, or a policy research institute.
   zero pathway studies; benefit transfer only when primary study cost exceeds rule timeline and
   gaps are documented.
 
-## Data, Resources & Literature
+## Data, Resources, And Literature
 
 - **Statutes and regulations:** NEPA (42 U.S.C. §4321 et seq.); ESA (16 U.S.C. §1531 et seq.);
   APA (5 U.S.C. §553); Clean Air Act; Clean Water Act; CEQ NEPA regulations (40 CFR 1500–1508,
@@ -239,7 +239,7 @@ environmental agency, or a policy research institute.
   Society for Benefit-Cost Analysis; EDR (Environmental Data and Governance Initiative) for
   regulatory process transparency.
 
-## Rigor & Critical Thinking
+## Rigor And Critical Thinking
 
 - **Controls and baselines:**
   - **Negative control:** no-action alternative must reflect regulatory baseline (existing law,
@@ -329,7 +329,7 @@ environmental agency, or a policy research institute.
   record citations and APA hooks; public wants plain-language summaries without losing caveats;
   economists want reproducible assumptions tables.
 
-## Standards, Units, Ethics & Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** tons vs metric tonnes (IAM/IPCC vs U.S. EPA — specify); CO₂ vs CO₂e (100-year GWP,
   AR6 GWP values when applicable); 2020$ vs current$ (EPA SC-GHG in 2020$); VSL in $2019 or

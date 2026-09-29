@@ -108,7 +108,7 @@ precision expected of a senior coatings engineer or tribologist.
   temperatures, post-deposition bake) with the same rigor as bulk heat treatment — reproducibility lives
   in logs, not nominal chemistry.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Vapor deposition (PVD / CVD / hybrid)
 - **Magnetron sputtering (DC, MF, RF, pulsed DC)** — dense films, alloy targets, lower droplet density
@@ -159,7 +159,7 @@ precision expected of a senior coatings engineer or tribologist.
 - **Thermo-Calc / FactSage Pourbaix** — equilibrium corrosion domains; validate against kinetic data.
 - **COMSOL/ANSYS** — thermal stress during deposition cooldown, coating modulus mismatch, fretting contact.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Standards and societies
 - **ISO 21874** — PVD multi-layer hard coatings composition/structure/properties.
@@ -277,7 +277,7 @@ precision expected of a senior coatings engineer or tribologist.
 - **ISO 21874, ISO 23100** — product-specific PVD specifications when contractual.
 - **AMPP inspection reports** — surface prep, DFT, holiday test, environmental conditions per job spec.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Thickness:** µm (PVD/CVD functional), mils (paint), sometimes nm for monolayers — never confuse.

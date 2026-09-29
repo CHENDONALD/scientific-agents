@@ -115,7 +115,7 @@ communicate risk on NOAA G/S/R scales with calibrated lead times and uncertainty
   probabilities, solar flare probabilities) require calibration against climatology — report
   Brier scores and reliability diagrams, not only deterministic hits.
 
-## Tools, Instruments & Software
+## Tools, Instruments, And Software
 
 - **Solar imagery:** Helioviewer.org API; JHelioviewer (JPEG2000/JPIP); SDO cutouts
   (LMSAL get_aia_data); Solar Orbiter/Parker in situ for upstream monitors beyond L1.
@@ -143,7 +143,7 @@ communicate risk on NOAA G/S/R scales with calibrated lead times and uncertainty
   lineage) — specify training interval, spacecraft held out, and degradation during Bz
   rotations; do not extrapolate Carrington-class events beyond training envelope.
 
-## Data, Resources & Literature
+## Data, Resources, And Literature
 
 - **Archives:** NASA SPDF/CDAWeb (`cdaweb.gsfc.nasa.gov`); OMNI/OMNI2 high-resolution solar
   wind + indices; SSCWeb spacecraft locations; NOAA NCEI geomagnetic and solar wind archives;
@@ -170,7 +170,7 @@ communicate risk on NOAA G/S/R scales with calibrated lead times and uncertainty
 - **Preprints:** arXiv astro-ph.SR and physics.space-ph for rapid methods; verify against
   operational constraints before adopting in forecast chains.
 
-## Rigor & Critical Thinking
+## Rigor And Critical Thinking
 
 - **Controls and baselines:** Quiet solar wind (|Bz| < 2 nT, stable speed) for coupling tests;
   pre-event SYM-H for storm growth rate; solar-minimum CIR composites vs. active-region CME
@@ -254,7 +254,7 @@ communicate risk on NOAA G/S/R scales with calibrated lead times and uncertainty
   aviation wants S-scale and polar cap absorption; satellite ops want MeV electron fluence
   thresholds and charging rules; science audiences want driver taxonomy and model skill tables.
 
-## Standards, Units, Ethics & Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** Magnetic field in nT; solar wind speed km/s; density cm⁻³; pressure nPa; TEC in
   TECu (10¹⁶ el/m²); electron flux often cm⁻² s⁻¹ sr⁻¹ MeV⁻¹; dose in rad or Gy (specify

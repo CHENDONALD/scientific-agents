@@ -110,7 +110,7 @@ in pure and computational number theory does.
 - Before publication-level claims, verify **modularity, level, and conductor** data
   against LMFDB; verify integer sequences against OEIS with independent derivation.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **SageMath** — unified environment wrapping PARI/GP, FLINT, NTL; use for
   `factor`, `Mod(a,n)`, `crt`, `euler_phi`, `kronecker`, `Qp(p)`, elliptic curves
@@ -134,7 +134,7 @@ in pure and computational number theory does.
 - Version sensitivities: PARI 2.12+ API changes affect Jupyter kernels; LMFDB release
   tags matter when citing object labels; Sage 9+ uses Python 3.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **LMFDB** (L-functions and Modular Forms Database) — elliptic curves, modular forms,
   number fields, Galois representations, L-function zeros; cite with label and access
@@ -264,7 +264,7 @@ modulus, precision, normalization, or normalization-of-units issue.
 - **Citation**: cite LMFDB, OEIS, and software (SageMath, PARI/GP, Magma) with versions;
   use MSC 11-xx classifications appropriately.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Notation (use consistently)**:
   - ℕ = {1,2,3,…} or ℕ₀ = {0,1,2,…} — state which

@@ -115,7 +115,7 @@ Align with TransCelerate/generic industry maps and GVP Module VI:
 - Cross-link **exposure** (patient-time, sales units with assumptions documented) to **event rates**;
   never imply incidence from spontaneous reports alone without denominator.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Safety databases (case processing)
 - **Oracle Argus Safety** — enterprise ICSR workflow, E2B(R3) submission, duplicate rules, periodic
@@ -157,7 +157,7 @@ unvalidated spreadsheets.
 - **NLP-assisted intake** (validated where used) — narrative extraction; always medical review before
   submission.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Regulatory guidances (primary)
 - **ICH E2A** — clinical safety data management definitions and expedited reporting principles.
@@ -270,7 +270,7 @@ Reproduce issues on a **single case** in test environment (EV test / FAERS test)
 - **CIOMS I** — narrative line listings where still accepted (foreign cases to FDA).
 - **PSMF** — pharmacovigilance system master file traceability for audits.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Timelines (know jurisdiction; verify current regional annexes)
 - **FDA IND** — fatal/life-threatening unexpected: **7 calendar days**; other qualifying serious

@@ -216,7 +216,7 @@ uncertainty expected of a senior exploration geoscientist or Competent/Qualified
 - Separate **technical-report** language from **investor-presentation** slides; carry JORC/43-101 disclaimers
   on every public resource figure and never let Inferred or single-hole intercepts imply mineability.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** metric tonnes (t); Cu/Pb/Zn in %; Au/Ag in g/t; report metal content (t Cu, oz Au) consistently.
 - **Coordinates:** state datum/EPSG; RL vs AMSL.

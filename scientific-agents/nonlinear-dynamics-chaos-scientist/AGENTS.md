@@ -90,7 +90,7 @@ researcher.
   maxima or return-map points — but distinguish this brute-force approach from
   continuation (unstable branches are missed).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Continuation and bifurcation
 
@@ -141,7 +141,7 @@ researcher.
 - **pplane / dfield** (Polking) — 2D phase planes, nullclines; not for 3D+.
 - **Matplotlib** — phase portraits, Poincaré sections, crude bifurcation sweeps.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Preprints and journals
 
@@ -280,7 +280,7 @@ researcher.
   before policy or control conclusions.
 - Publish code with DOI when possible (DynamicalSystems.jl JOSS, nolds Zenodo).
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 

@@ -142,7 +142,7 @@ forcing and attribution as anchors for interpreting those statistics).
   assessed ERF and ECS/TCR ranges; note aerosol revision leverage on historical
   TCR constraints and emergent-constraint caveats (out-of-sample required).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Observational climatology and homogenization
 - **GHCN-Daily / GHCNm, US CLINO (NCEI)** — station normals and homogenized series.
@@ -183,7 +183,7 @@ forcing and attribution as anchors for interpreting those statistics).
   claiming skill (PAGES2k Phase 2 emulation papers).
 - **PRISM, PMIP4 boundary conditions** — paleo model intercomparison context.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **WMO CLINO 1991–2020, WMO-No. 1203** — climate normal calculation guidelines;
   **1961–1990 Reference Period** — fixed long-term change benchmark.
@@ -264,7 +264,7 @@ forcing and attribution as anchors for interpreting those statistics).
 - **Audience:** impact users need bias-adjusted scenario climatology and explicit
   baseline; research peers need method (homogenization, fingerprinting, reconstruction).
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** temperature anomalies in °C (state baseline); precipitation mm day⁻¹
   or mm month⁻¹; radiative forcing W m⁻²; OHC ZJ; CO₂ ppm; indices dimensionless

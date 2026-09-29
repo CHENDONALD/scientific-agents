@@ -123,7 +123,7 @@ against the characteristic artifacts of pharmacological measurement.
   (0%) and reference maximum/minimum controls; fit on log<sub>10</sub>[concentration]; global fit
   replicates; report 95% CI on EC<sub>50</sub>/IC<sub>50</sub>.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Binding and functional assays
 - **Radioligand binding** — filtration (Brandel, Harvester) or SPA (PerkinElmer); saturation,
@@ -142,7 +142,7 @@ against the characteristic artifacts of pharmacological measurement.
   popPK/labeling tool — see clinical pharmacologist profile).
 - **ChEMBL, GtoPdb, PDSP Ki DB, BindingDB, PubChem BioAssay** — bioactivity, nomenclature, SAR.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases
 - **Guide to PHARMACOLOGY (GtoPdb / IUPHAR-BPS)** — curated targets, ligands, official NC-IUPHAR
@@ -264,7 +264,7 @@ against the characteristic artifacts of pharmacological measurement.
 - **ARRIVE** — in vivo pharmacology animal reporting.
 - **Assay metadata** — radioligand specific activity, [S], incubation time, wash protocol.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and notation
 - **K<sub>d</sub>, K<sub>i</sub>, K<sub>A</sub>, IC<sub>50</sub>, EC<sub>50</sub>, ED<sub>50</sub>**

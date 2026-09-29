@@ -138,7 +138,7 @@ surveyor.
   - OPUS Projects + WinDesc mark descriptions for NGS publication (NGS 92); retain raw data,
     adjustment reports, ISO 17123 records, and calibration certificates per state board rules.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Field instruments
 - **GNSS receivers** (Trimble R12i/R780, Leica GS18, Topcon HiPer, Septentrio): static, RTK,
@@ -174,7 +174,7 @@ surveyor.
 - Heavy LiDAR → **TerraSolid**; quick QC → **CloudCompare**.
 - Cadastral plat → COGO in **Carlson/TBC** plus state-specific plat templates.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **NGS**: [Datasheets](https://geodesy.noaa.gov/), [OPUS](https://geodesy.noaa.gov/OPUS/),
   [OPUS Projects](https://geodesy.noaa.gov/OPUS-Projects/), [NCAT](https://geodesy.noaa.gov/NCAT/),
@@ -283,7 +283,7 @@ control) before blaming the instrument.
 - **FGDC/ISO 19115** — metadata for GIS deliverables.
 - **RICS GNSS 3rd ed.** — operational GNSS specifications when contract references it.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and notation
 - **Meters**, **U.S. survey feet** (1200/3937 m), **international feet** (0.3048 m)—never mix

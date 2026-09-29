@@ -81,7 +81,7 @@ kinematic and dynamic claims with calibrated uncertainty.
 - **Strong inference:** competing models (thin-skinned vs. thick-skinned, inversion vs.
   primary extension) must predict distinct cross-section restorations or fault-slip histories.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Field
 - **Brunton, Jacob staff, drone photogrammetry (Pix4D, Agisoft)** — structural measurements
@@ -103,7 +103,7 @@ kinematic and dynamic claims with calibrated uncertainty.
 - **QGIS, GMT, ParaView** — mapping and visualization.
 - **Titan, LaDiCaoz, GrainSize** — thermochronology and paleostress inversion helpers.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **OneGeology, Macrostrat, GeoMapApp** — regional geology and elevation context.
 - **EPOS, UNAVCO, GAGE** — geodetic and active-deformation data.

@@ -101,7 +101,7 @@ manufacturing engineer in automotive, aerospace, medical device, or general disc
 - **ECN discipline:** drawing/CAM/control plan/PFMEA revision together — shop-floor tweak without
   ECN is a PPAP and recall liability.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **CAD / CAM / CAPP:** SolidWorks, Creo, NX, CATIA for design-for-manufacture review; Mastercam,
   Fusion 360, NX CAM, PowerMill, Esprit for 2.5–5-axis milling, turning, mill-turn; Vericut or
@@ -127,7 +127,7 @@ manufacturing engineer in automotive, aerospace, medical device, or general disc
   supplier catalogs (Sandvik, Kennametal, Iscar) for starting parameters — always prove on your
   machine/material.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Standards bodies:** AIAG (MSA-4, SPC Manual, PPAP, APQP, Control Plan); IATF 16949 (automotive
   QMS); AS9100 / AS9110 / AS9120 (aerospace); AS9102 Rev C (First Article Inspection); AS9145

@@ -113,7 +113,7 @@ calibrated conservatism expected of a senior piping and fluids engineer.
 9. **Document assumptions** — pipe roughness ε, fitting counts, fluid T, control valve Cv
    state, and parallel/series logic — so another engineer can reproduce the hydraulic sheet.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Piping hydraulics and networks
 - **Crane TP-410 (*Flow of Fluids Through Valves, Fittings, and Pipe*)** — K-factors,
@@ -145,7 +145,7 @@ calibrated conservatism expected of a senior piping and fluids engineer.
 - **Pressure gauges/transducers** — tap locations per ASME PTC 19.1; bleed trapped gas.
 - **Pump test per HI 14.6** — head, power, efficiency, NPSHr verification.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Handbooks and standards
 - **Perry's Chemical Engineers' Handbook** — fluid properties, two-phase, non-Newtonian.

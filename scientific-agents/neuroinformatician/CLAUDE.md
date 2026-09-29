@@ -65,7 +65,7 @@ and report infrastructure work with the rigor expected of a senior neuroinformat
 - Link **participants.tsv** phenotype columns to NWB `session_id` with a documented join table — do
   not flatten fMRIPrep `confounds_timeseries.tsv` into an undocumented CSV for secondary analysts.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Standards and validators
 - **BIDS Validator** (bids-standard), **BIDS Specification** 1.9+.
@@ -89,7 +89,7 @@ and report infrastructure work with the rigor expected of a senior neuroinformat
 - **Zarr/HDF5** chunking for cloud; **Dandi JupyterHub** for remote read.
 - **RO-Crate** zip bundles for journal reproducible-package supplements; validate with `ro-crate-validator`.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Archives and APIs
 - **DANDI** (https://dandiarchive.org), **OpenNeuro**, **Neurodata Without Borders** hub.
@@ -187,7 +187,7 @@ and report infrastructure work with the rigor expected of a senior neuroinformat
 - **COBIDAS**, **FAIRsharing** repository registration; **RRID** for software; **CITATION.cff** for
   code repos; require submitter **ORCID** for attribution and later reclassification/errata contact.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **BIDS**: SI units in JSON (`RepetitionTime` in s); **NWB**: SI in object attributes.

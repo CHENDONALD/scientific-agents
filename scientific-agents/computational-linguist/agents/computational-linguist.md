@@ -119,7 +119,7 @@ computational linguist.
 - **Multilingual studies:** macro-average LAS over treebanks, not pooled tokens, unless you
   explicitly model imbalance; report per-language tables in appendix.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Annotation and treebank editing
 - **INCEpTION, WebAnno/WebAnnoX, Brat** — span and relation annotation for NER, SRL, discourse.
@@ -170,7 +170,7 @@ computational linguist.
 - **Penman, amrlib** — AMR graph manipulation and visualization.
 - **Grew, Udapi** — treebank search, validation, and batch rewriting.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Treebanks and corpora
 - **Universal Dependencies (UD)** — 200+ treebanks, 150+ languages; CoNLL-U format; canonical
@@ -341,7 +341,7 @@ computational linguist.
 - **LDC citation and license** — PTB, OntoNotes redistribution constraints.
 - **FAIR principles** — deposit `.conllu`, predictions, guidelines, and software with version pins.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Notation and metrics
 - **LAS** — labeled attachment score (F1 over head+deprel, subtype truncated to universal relation

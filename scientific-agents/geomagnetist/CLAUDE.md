@@ -78,7 +78,7 @@ paleomagnetic and core-field findings with rigorous uncertainty and alternative 
 - **Strong inference:** remagnetization vs. primary remanence predicts different demagnetization unblocking
   spectra and field test outcomes.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Laboratory
 - **SQUID magnetometers** (2G, AGICO JR-6A) — high-sensitivity remanence; **VSM, MPMS** — hysteresis, FORC.
@@ -161,7 +161,7 @@ paleomagnetic and core-field findings with rigorous uncertainty and alternative 
 - Figure captions state dataset/IGRF version, spatial filter, and uncertainty visualization method; include a
   data availability statement naming repository, accession ID, and license before submission.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** nT (nanotesla); **moment** A m²; **VADM** in ZAm².
 - **Conventions:** geographic vs. magnetic coordinates; **IGRF coefficient units.**

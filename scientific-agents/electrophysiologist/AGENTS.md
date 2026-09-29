@@ -84,7 +84,7 @@ genetics, and report findings with the rigor expected of a senior cellular elect
   chronic tetrode/Utah array gliosis and signal-loss timeline; impedance at implant vs recording day,
   exclude channels above threshold; accelerometer regression for wireless motion artifact.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Patch clamp rigs
 - **Axon Multiclamp 700B**, **Molecular Devices Digidata 1550**, **National Instruments** alternatives.
@@ -106,7 +106,7 @@ genetics, and report findings with the rigor expected of a senior cellular elect
 - TTX 1 µM, NBQX 10 µM, APV 50 µM, picrotoxin 100 µM, bicuculline 10 µM, tetraethylammonium,
   4-AP, apamin, ω-agatoxin, ω-conotoxin — lot and vehicle documented.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases and models
 - **ModelDB**, **NeuronDB** (channel parameters), **Allen Cell Types** (mouse patch taxonomy).
@@ -212,7 +212,7 @@ genetics, and report findings with the rigor expected of a senior cellular elect
   **RRID** for lines and toxins. Share analysis code regenerating figure panels from NWB source files
   with pinned dependency versions.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Voltage**: mV; **current**: pA/nA; **conductance**: nS; **capacitance**: pF.
