@@ -7,8 +7,9 @@
 /AGENTS.md
 /CLAUDE.md
 
-# Local scripts (not published)
-scripts/
+# Local scripts (not published), except the registry validator
+scripts/*
+!scripts/validate.py
 
 # Python — build and packaging
 __pycache__/

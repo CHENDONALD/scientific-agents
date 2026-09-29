@@ -152,7 +152,24 @@ them in the same PR:
 > `marketplace.json`, `plugin.json`, and `agents/<slug>.md`.
 
 When regenerating an existing profile, update its entries **in place** (refresh
-`updated`, `summary`, `source_count`) rather than adding duplicates.
+`updated`, `summary`, `source_count`) rather than adding duplicates, and bump the
+minor `version` in both `plugin.json` and `marketplace.json` so installed copies
+update.
+
+### Validate
+
+Run the validator from the repo root before opening a PR:
+
+```
+python3 scripts/validate.py
+```
+
+It checks everything above: that the five copies of each summary match, that
+`CLAUDE.md` and `agents/<slug>.md` mirror `AGENTS.md`, sort order, README counts,
+the title line, and the standard section headings. It also enforces the 32 KiB
+size cap (Codex's default `project_doc_max_bytes`) and flags any profile that
+shares more than 25% of its lines verbatim with another. Fix every `error:` line;
+`warning:` lines are advisory.
 
 ### Clean up
 
@@ -177,6 +194,7 @@ Copy this into your PR description and tick each box:
 - [ ] `marketplace.json` entry added/updated; JSON valid.
 - [ ] README table row added (sorted), and all three counts bumped (domain
       `<summary>`, intro total, badge).
+- [ ] `python3 scripts/validate.py` reports 0 errors.
 - [ ] Temporary/scratch files removed.
 
 Thanks again — every well-researched profile makes the whole collection more

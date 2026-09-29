@@ -31,6 +31,7 @@ tick what's relevant and delete the rest. -->
 - [ ] `catalog.json` entry added/updated, sorted by `slug`, valid JSON.
 - [ ] `.claude-plugin/marketplace.json` entry added/updated, valid JSON.
 - [ ] README: table row added (sorted alphabetically) **and** all three counts bumped — domain `<summary>`, intro total, and the `Expert_Profiles` badge.
+- [ ] `python3 scripts/validate.py` reports 0 errors.
 - [ ] Temporary/scratch files removed.
 
 ## Sources
