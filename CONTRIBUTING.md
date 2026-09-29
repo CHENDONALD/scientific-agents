@@ -90,86 +90,85 @@ the gap shows. Cover, in the field's own terms:
   standards by name.
 - **Units, ethics, vocabulary** the agent must get right.
 
-Existing profiles run ~10–48 KB. Length must be **earned by specificity**, never
-padded.
+Existing profiles run ~10–31 KB, and the hard cap is **32 KiB** (Codex's default
+`project_doc_max_bytes`; anything longer is silently truncated). Length must be
+**earned by specificity**, never padded.
 
 ### File layout
 
 Each profession is a directory under `scientific-agents/<slug>/`, where `<slug>`
 is the profession as a **kebab-case** slug (e.g. `tissue-engineer`,
-`clinical-epidemiologist`). A complete profile contains **four files**:
+`clinical-epidemiologist`). You write **one** file there; the build script
+generates the other three:
 
 ```
 scientific-agents/<slug>/
-├── AGENTS.md                     # the profile (source of truth)
-├── CLAUDE.md                     # byte-identical copy of AGENTS.md
-├── .claude-plugin/plugin.json    # plugin manifest (name, version, description)
-└── agents/<slug>.md              # subagent file: frontmatter (name, description) + body
+├── AGENTS.md                     # the profile — you write this
+├── CLAUDE.md                     # generated: byte-identical copy of AGENTS.md
+├── .claude-plugin/plugin.json    # generated: plugin manifest
+└── agents/<slug>.md              # generated: Claude Code subagent (frontmatter + body)
 ```
 
-The `description` in `plugin.json` and the frontmatter `description` in
-`agents/<slug>.md` must both be the profile's one-line summary (see house style
-above). `CLAUDE.md` must be identical to `AGENTS.md`.
+Start `AGENTS.md` with `# AGENTS.md — <Profession> Agent` and use the standard
+section headings (`## Mindset And First Principles`, `## How You Frame A Problem`,
+`## How You Work`, `## Tools, Instruments, And Software`,
+`## Data, Resources, And Literature`, `## Rigor And Critical Thinking`,
+`## Troubleshooting Playbook`, `## Communicating Results`,
+`## Standards, Units, Ethics, And Vocabulary`, `## Definition Of Done`). Add
+field-specific sections as needed.
 
-### Registries to keep in sync
+### Register the profile in `catalog.json`
 
-Three shared files index every profile and **must never drift**. Update all of
-them in the same PR:
+[`catalog.json`](catalog.json) is the only registry you edit by hand. Add an
+entry under `agents` (or update the existing one in place when regenerating):
 
-1. **[`catalog.json`](catalog.json)** — add/update the entry under `agents`,
-   sorted by `slug`:
-
-   ```json
-   {
-     "profession": "Tissue Engineer",
-     "slug": "tissue-engineer",
-     "path": "tissue-engineer/AGENTS.md",
-     "work_mode": "wet-lab / regenerative medicine",
-     "summary": "Reasons from … while treating … as first-class failure modes.",
-     "created": "YYYY-MM-DD",
-     "updated": "YYYY-MM-DD",
-     "source_count": 0
-   }
-   ```
-
-2. **[`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json)** — add
-   the plugin entry (`name`, `source`, `description`, `version`, `category`,
-   `keywords`, `metadata`) matching the other entries.
-
-3. **[`README.md`](README.md)** — add a row to the correct domain table:
-   `| [Profession](scientific-agents/<slug>/AGENTS.md) | one-line summary |`,
-   keeping each table sorted alphabetically. Then bump: the profile count in that
-   domain's `<summary>`, the total in the intro sentence, and the
-   `Expert_Profiles` number in the badge at the top of the file.
-
-   Domains: Mathematics & Statistics · Computer Science, Data & AI · Physics ·
-   Astronomy & Space Science · Chemistry · Materials, Nanoscience & Energy ·
-   Earth, Environmental & Atmospheric Science · Biology & Life Sciences ·
-   Medicine & Clinical Science · Agriculture, Food & Veterinary Science ·
-   Engineering.
-
-> The one-line summary must be **identical** in `catalog.json`, `README.md`,
-> `marketplace.json`, `plugin.json`, and `agents/<slug>.md`.
-
-When regenerating an existing profile, update its entries **in place** (refresh
-`updated`, `summary`, `source_count`) rather than adding duplicates, and bump the
-minor `version` in both `plugin.json` and `marketplace.json` so installed copies
-update.
-
-### Validate
-
-Run the validator from the repo root before opening a PR:
-
-```
-python3 scripts/validate.py
+```json
+{
+  "profession": "Tissue Engineer",
+  "slug": "tissue-engineer",
+  "domain": "Biology & Life Sciences",
+  "work_mode": "wet-lab / regenerative medicine",
+  "summary": "Reasons from … while treating … as first-class failure modes.",
+  "version": "1.0.0",
+  "created": "YYYY-MM-DD",
+  "updated": "YYYY-MM-DD",
+  "source_count": 0
+}
 ```
 
-It checks everything above: that the five copies of each summary match, that
-`CLAUDE.md` and `agents/<slug>.md` mirror `AGENTS.md`, sort order, README counts,
-the title line, and the standard section headings. It also enforces the 32 KiB
-size cap (Codex's default `project_doc_max_bytes`) and flags any profile that
-shares more than 25% of its lines verbatim with another. Fix every `error:` line;
-`warning:` lines are advisory.
+- `profession` must match the `AGENTS.md` title.
+- `domain` picks the README section: Mathematics & Statistics · Computer
+  Science, Data & AI · Physics · Astronomy & Space Science · Chemistry ·
+  Materials, Nanoscience & Energy · Earth, Environmental & Atmospheric Science ·
+  Biology & Life Sciences · Medicine & Clinical Science · Agriculture, Food &
+  Veterinary Science · Engineering.
+- `summary` is the house-style sentence. It is reused as the README row, the
+  plugin description, and the subagent description, so it must not contain `|`.
+- `version` starts at `1.0.0`. When you change an existing profile, bump the
+  minor version (`1.0.0` → `1.1.0`) and refresh `updated` and `source_count`, so
+  that installed plugin copies update.
+- Entry order and `path` don't matter; the build sorts entries and fills `path`.
+
+### Build and validate
+
+From the repo root:
+
+```
+python3 scripts/build.py      # regenerate everything derived from AGENTS.md + catalog.json
+python3 scripts/validate.py   # check the result
+```
+
+`build.py` writes the three generated files in each profile folder,
+[`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json), and the
+[`README.md`](README.md) Agents tables, section counts, total, and badge. Never
+edit those by hand; your changes will be overwritten or fail CI. Rerun the build
+instead.
+
+`validate.py` checks catalog fields, the title line, the standard headings, the
+32 KiB cap, and that every generated file is current. It also flags any profile
+that shares more than 25% of its lines verbatim with another. CI runs it on every
+pull request. Fix every `error:` line; `warning:` lines are advisory. Both
+scripts use only the Python standard library.
 
 ### Clean up
 
@@ -186,14 +185,9 @@ Copy this into your PR description and tick each box:
 - [ ] Specifics are **real** (named tools, databases, thresholds, standards). No
       invented specifics; honest gaps over wrong facts.
 - [ ] Second person, scannable, no padding.
-- [ ] All four per-profile files present and consistent (`AGENTS.md`,
-      identical `CLAUDE.md`, `plugin.json`, `agents/<slug>.md`).
-- [ ] Same one-line summary in all five places (catalog, README, marketplace,
-      plugin.json, agents file).
-- [ ] `catalog.json` entry added/updated and sorted by `slug`; JSON valid.
-- [ ] `marketplace.json` entry added/updated; JSON valid.
-- [ ] README table row added (sorted), and all three counts bumped (domain
-      `<summary>`, intro total, badge).
+- [ ] `catalog.json` entry added or updated (`domain`, `summary`, `version`
+      bumped if changing an existing profile).
+- [ ] Ran `python3 scripts/build.py` and committed the generated files.
 - [ ] `python3 scripts/validate.py` reports 0 errors.
 - [ ] Temporary/scratch files removed.
 

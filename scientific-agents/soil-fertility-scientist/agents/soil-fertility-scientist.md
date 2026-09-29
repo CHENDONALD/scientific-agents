@@ -275,3 +275,4 @@ and report with the care expected of a senior extension soil scientist or precis
 - Lime recommendation shows buffer pH, target pH, and ECCE/ENM arithmetic.
 - Manure and legume credits documented with timing relative to the sidedress window.
 - Environmental P statement included when soil test P exceeds agronomic plateau or P index triggers.
+

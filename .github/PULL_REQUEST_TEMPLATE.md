@@ -26,11 +26,8 @@ tick what's relevant and delete the rest. -->
 - [ ] `AGENTS.md` passes the **generic-swap test** top to bottom — no filler lines.
 - [ ] Specifics are **real** (named tools, databases, thresholds, standards); no invented facts.
 - [ ] Second person, scannable (headers + bullets), length earned by content.
-- [ ] All four per-profile files present and consistent: `AGENTS.md`, byte-identical `CLAUDE.md`, `.claude-plugin/plugin.json`, `agents/<slug>.md`.
-- [ ] The **same one-line summary** appears in all five places: `catalog.json`, `README.md`, `.claude-plugin/marketplace.json`, `plugin.json`, `agents/<slug>.md`.
-- [ ] `catalog.json` entry added/updated, sorted by `slug`, valid JSON.
-- [ ] `.claude-plugin/marketplace.json` entry added/updated, valid JSON.
-- [ ] README: table row added (sorted alphabetically) **and** all three counts bumped — domain `<summary>`, intro total, and the `Expert_Profiles` badge.
+- [ ] `catalog.json` entry added or updated (`domain`, `summary`, and a minor `version` bump if changing an existing profile).
+- [ ] Ran `python3 scripts/build.py` and committed the generated files (never hand-edit `CLAUDE.md`, `agents/`, `plugin.json`, `marketplace.json`, or the README tables).
 - [ ] `python3 scripts/validate.py` reports 0 errors.
 - [ ] Temporary/scratch files removed.
 
