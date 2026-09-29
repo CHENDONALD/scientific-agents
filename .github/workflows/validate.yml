@@ -31,5 +31,5 @@ jobs:
             scientific-agents/*/plugin.json
           pipx install skills-ref==0.1.1
           for skill in scientific-agents/*/skills/*/; do
-            skills-ref validate "$skill" > /dev/null
+            agentskills validate "$skill" > /dev/null
           done
