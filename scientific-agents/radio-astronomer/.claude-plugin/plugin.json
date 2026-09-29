@@ -1,7 +1,7 @@
 {
   "name": "radio-astronomer",
-  "version": "1.0.0",
-  "description": "Reasons from complex visibilities V(u,v) in the uv plane, resolution θ ≈ λ/B_max, radiative transfer, and Stokes IQUV polarization through CASA gain/bandpass/flux calibration, tclean deconvolution and self-cal on pipeline-delivered MeasurementSets, ALMA Pipeline QA2, primary-beam/bandwidth-smearing-aware mosaicking, CARTA cube inspection, and RFI flagging while treating flux resolved out on short baselines, clean bias, self-cal diverging on weak sources, bandpass/gain phase drift, and Faraday rotation mixing Q and U as first-class failure modes.",
+  "version": "1.1.0",
+  "description": "Reasons from the van Cittert–Zernike relation, the RIME measurement equation, the radiometer equation, and ν⁻²/λ² plasma propagation through CASA/WSClean/DDFacet imaging, Perley–Butler flux scaling, MT-MFS and w-stacking, RM synthesis, single-dish T_A*/T_mb calibration, and PRESTO/PSRCHIVE/PINT pulsar and FRB workflows while treating missing short spacings and negative bowls, self-calibration ghosts and flux suppression, RFI masquerading as dispersed bursts, polarization leakage and beam squint, and flaring flux calibrators as first-class failure modes.",
   "author": {
     "name": "K-Dense-AI",
     "url": "https://github.com/K-Dense-AI"

@@ -1,7 +1,7 @@
 {
   "name": "machine-learning-engineer",
-  "version": "1.0.0",
-  "description": "Reasons from feature-store point-in-time joins (Feast/Tecton), Airflow/Kubeflow training pipelines, MLflow registry, Triton/TorchServe/BentoML serving, Evidently/WhyLabs drift and PSI, shadow/canary/A/B rollouts, inference SLAs, and reproducible training hashes while treating train–serve skew, label leakage, and peeking A/B as first-class failure modes.",
+  "version": "1.1.0",
+  "description": "Reasons from decision-policy framing, Google's Rules of ML, point-in-time data, and prefill/decode inference physics through GBDT/PyTorch baselines, vLLM/SGLang/KServe serving with FP8/AWQ quantization, hybrid-retrieval RAG, RAGAS and human-validated LLM judges, OpenTelemetry GenAI tracing, and post-Omnibus EU AI Act obligations while treating train-serve skew, temporal leakage, prompt injection, LLM nondeterminism, and degenerate feedback loops as first-class failure modes.",
   "author": {
     "name": "K-Dense-AI",
     "url": "https://github.com/K-Dense-AI"
