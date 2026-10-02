@@ -7,6 +7,7 @@
 [![Reddit](https://img.shields.io/badge/Reddit-u%2F--k--dense---FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/user/-k-dense-/)
 [![Expert Profiles](https://img.shields.io/badge/Expert_Profiles-503-7C3AED)](#agents)
 [![Agent Plugins](https://img.shields.io/badge/Agent_Plugins-1.0.0-0F766E)](https://agent-plugins.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.00084-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.00084)
 
 # Scientific Agents
 
@@ -19,6 +20,8 @@ tools and data it reaches for, how it stress-tests claims, and how it reports fi
 </div>
 
 > 🎬 **New to agent profiles?** [Getting Started with Scientific Agent Skills](https://youtu.be/ZxbnDaD_FVg) shows how K-Dense skills and profiles plug into your agent. More walkthroughs on the [K-Dense YouTube channel](https://www.youtube.com/@K-Dense-Inc).
+
+> 📄 **Read the paper:** [Scientific Agents: Evaluating Profession-Specific System Prompts on Scientific Tasks](https://arxiv.org/abs/2610.00084) (arXiv:2610.00084). If these profiles support your research, please [cite it](#citation).
 
 ## Table of contents
 
@@ -36,6 +39,7 @@ tools and data it reaches for, how it stress-tests claims, and how it reports fi
   - [Other supported tools](#other-supported-tools)
 - [Star this repo if it helps your work](#star-this-repo-if-it-helps-your-work)
 - [Follow K-Dense](#follow-k-dense)
+- [Citation](#citation)
 - [Agents](#agents)
 
 ## What is AGENTS.md?
@@ -291,6 +295,25 @@ along for new expert profiles, scientific skills, and research workflows:
 - **Website** — [k-dense.ai](https://www.k-dense.ai)
 
 > Stay up to date: follow K-Dense on [X](https://x.com/k_dense_ai), [LinkedIn](https://www.linkedin.com/company/k-dense-inc), and [YouTube](https://www.youtube.com/@K-Dense-Inc).
+
+## Citation
+
+If you use these profiles in your research, please cite the paper:
+
+> Timothy Kassis. *Scientific Agents: Evaluating Profession-Specific System Prompts on
+> Scientific Tasks.* arXiv:2610.00084, 2026. https://arxiv.org/abs/2610.00084
+
+```bibtex
+@misc{kassis2026scientificagents,
+  title         = {Scientific Agents: Evaluating Profession-Specific System Prompts on Scientific Tasks},
+  author        = {Timothy Kassis},
+  year          = {2026},
+  eprint        = {2610.00084},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2610.00084}
+}
+```
 
 ## Agents
 
