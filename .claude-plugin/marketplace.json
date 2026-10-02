@@ -5,7 +5,7 @@
     "url": "https://github.com/K-Dense-AI"
   },
   "metadata": {
-    "description": "Expert-thinking profiles that turn any AI agent into an AI Scientist. Install a single profession to add it as a Claude Code subagent.",
+    "description": "Expert-thinking profiles that give AI agents a domain expert's playbook. Install a single profession to add it as a Claude Code subagent.",
     "version": "1.0.0"
   },
   "plugins": [

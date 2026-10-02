@@ -11,11 +11,12 @@
 
 # Scientific Agents
 
-**Turn any AI agent into an AI Scientist.**
+**Give your AI agent a domain expert's playbook.**
 
-Expert-thinking profiles: each `AGENTS.md` teaches an AI agent to reason like a senior
-practitioner in one scientific or engineering profession — how it frames problems, the
-tools and data it reaches for, how it stress-tests claims, and how it reports findings.
+Expert-thinking profiles: each `AGENTS.md` captures how a senior practitioner in one
+scientific or engineering profession works — how they frame problems, the tools and
+data they reach for, how they stress-test claims, and how they report findings — as
+context an AI agent can load.
 
 </div>
 
@@ -53,8 +54,8 @@ claim, and what mistakes to watch for.
 This repository collects **expert-thinking profiles**: one `AGENTS.md` per scientific
 or engineering profession. Each profile encodes how a senior practitioner in that
 field frames problems, evaluates evidence, troubleshoots, and reports results. Drop
-one into your workflow and the agent stops reasoning like a generic chatbot and starts
-reasoning like someone who knows your domain.
+one into your workflow to give the agent your field's databases, methods, failure
+modes, and reporting norms as working context.
 
 The format is an [open standard](https://agents.md/) (stewarded by the Agentic AI
 Foundation). The same file works across many AI tools — you do not need a separate
