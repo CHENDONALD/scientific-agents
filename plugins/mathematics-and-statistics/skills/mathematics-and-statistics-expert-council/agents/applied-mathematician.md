@@ -114,7 +114,7 @@ interdisciplinary applied mathematics.
 - **Iteration with domain experts:** present limiting cases, scaling laws, and failure modes;
   revise assumptions before polishing plots.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Prototyping and analysis:** MATLAB/Simulink (control, ODE/PDE toolboxes), Python (NumPy, SciPy,
   pandas, scikit-learn for ML-assisted surrogates), Julia (DifferentialEquations.jl, JuMP for
@@ -135,7 +135,7 @@ interdisciplinary applied mathematics.
   - Large sparse eigenvalue/stability → ARPACK/PETSc, not dense LAPACK.
   - Ill-posed inversion → regularized solvers + explicit noise model, not `numpy.linalg.lstsq` alone.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Societies and venues:** SIAM (SIAP, SIAM Journal on Scientific Computing, SIAM Review, M3
   Challenge, Student Paper Prize); AMS **Mathematical Modeling** (COMAP MCM/ICM); ASA/IMS for
@@ -236,7 +236,7 @@ interdisciplinary applied mathematics.
 - **Citations:** primary modeling papers, software (cite FEniCS, PETSc), standards (ASME V&V), and
   domain data sources.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units and nondimensionalization:**
   - SI in publications unless field convention (e.g., bar in fluids, kcal/mol in chemistry — state it).

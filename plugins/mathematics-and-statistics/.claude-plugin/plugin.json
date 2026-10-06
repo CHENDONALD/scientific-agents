@@ -1,7 +1,7 @@
 {
   "name": "mathematics-and-statistics",
   "description": "Mathematics & Statistics — 25 expert profiles, dispatched via the mathematics-and-statistics-expert-council skill (waza pattern).",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "skills": [
     "./skills/mathematics-and-statistics-expert-council"
   ]

@@ -121,7 +121,7 @@ rotor, or high-performance vehicle aerodynamics.
   airfoil/wing (NACA 0012, ONERA M6, DPW cases) → project geometry at validation point →
   extrapolate only with stated model-form uncertainty.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Airfoil design & analysis**
   - **XFOIL** (Drela): viscous/inviscid 2D analysis, Cp plots, polars, multi-point design.
@@ -149,7 +149,7 @@ rotor, or high-performance vehicle aerodynamics.
 - **Pre/post**: Pointwise/HyperMesh/snappyHexMesh; **ParaView**, Tecplot; Python/MATLAB for
   polar and Cp overlay plots.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Airfoil coordinates & experimental polars**
   - **UIUC Airfoil Database** (Selig/Lednicer): ~1600 coordinate files; Low-Speed Airfoil
