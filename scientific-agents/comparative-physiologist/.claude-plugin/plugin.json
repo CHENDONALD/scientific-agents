@@ -1,6 +1,6 @@
 {
   "name": "comparative-physiologist",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Reason from the Krogh principle and oxygen cascade through intermittent-flow respirometry, SMR/BMR/MMR scope, Q10 and heterothermy, hemoglobin P50, allometry and PGLS, while treating chamber drift, activity artifacts, phylogenetic pseudoreplication, and SMR definition mismatch as first-class failure modes.",
   "author": {
     "name": "K-Dense-AI",

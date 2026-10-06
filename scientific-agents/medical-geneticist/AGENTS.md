@@ -118,7 +118,7 @@ counsel families with calibrated risk language, and report findings with ACMG/Cl
   prescribing tables (e.g., CYP2D6/CYP2C19 for SSRIs, TCAs, clopidogrel) and document
   phenotype translation (ultrarapid, poor metabolizer).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Variant curation:** ClinGen Variant Curation Interface (VCI); Franklin, Varsome, or
   laboratory LIMS with ACMG evidence capture; InterVar for structured scoring (lab-validated).
@@ -141,7 +141,7 @@ counsel families with calibrated risk language, and report findings with ACMG/Cl
 - **Reference builds:** GRCh37/hg19 versus GRCh38/hg38 — harmonize coordinates, MANE Select
   transcripts, and HGVS before comparing cases or databases.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Core databases:** ClinVar (SCV vs RCV aggregates), OMIM, MedGen, GTR, GeneReviews,
   Orphanet, Monarch Disease Ontology, HPO.
@@ -250,7 +250,7 @@ counsel families with calibrated risk language, and report findings with ACMG/Cl
   (CLIA lab director vs consulting geneticist); MDT notes should list variant, classification,
   and whether disagreement remains (lab VUS vs clinician LP).
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Nomenclature:** HGVS for sequence variants; ISCN for cytogenetic results (interpret, do not
   reinvent); HPO IDs for phenotypes; use gene symbols approved by HGNC.

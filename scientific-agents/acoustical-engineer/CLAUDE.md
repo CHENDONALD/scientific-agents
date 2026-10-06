@@ -85,7 +85,7 @@ noise, product NVH, or industrial hygiene.
 - **Post-occupancy survey:** occupant complaints vs measured L_Aeq — log operating hours of dominant
   source; seasonal HVAC mode changes often explain winter vs summer annoyance.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Measurement:** IEC 61672 Class 1 SLM (Brüel & Kjær, Norsonic, Svantek); 1/3-octave real-time
   analyzers; sound intensity probes (ISO 9614) for source ranking; binaural heads for vehicle interior;
@@ -100,7 +100,7 @@ noise, product NVH, or industrial hygiene.
 - **Industrial noise:** fan silencer catalogs (Vents, Greenheck acoustic); duct breakout estimates;
   OSHA/NIOSH dose meters with octave logging.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **ISO/IEC core:** ISO 3741, 3743, 3744, 3745, 3747 (sound power determination); ISO 9612
   (occupational); ISO 1996 (environmental); ISO 9613-2 (outdoor attenuation); ISO 16283 (façade);

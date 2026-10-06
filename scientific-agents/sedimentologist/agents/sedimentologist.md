@@ -86,7 +86,7 @@ and report sedimentary claims with calibrated uncertainty.
 - **Strong inference:** competing environments (shoreface vs. delta front vs. incised valley)
   predict distinct facies successions and ichnofauna — list discriminating beds.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Field and core
 - **Hand lens, grain-size cards, Jacob staff, color charts (Munsell for soils context)** —
@@ -112,7 +112,7 @@ and report sedimentary claims with calibrated uncertainty.
 - **R (sieveR, grainSize), Python (statistical facies)** — granulometry and clustering.
 - **Rose diagram tools, Stereonet for paleocurrent** — directional statistics.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Macrostrat, SEPM Strata, ICS stratigraphic charts** — regional framework.
 - **IODP/ODP/LDEO core repositories** — deep-sea reference sections.

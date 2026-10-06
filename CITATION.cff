@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use these profiles in your research, please cite the paper below."
+type: software
+title: "Scientific Agents"
+abstract: "Expert-thinking profiles that teach an AI agent to reason like a senior practitioner in one scientific or engineering profession."
+authors:
+  - family-names: Kassis
+    given-names: Timothy
+repository-code: "https://github.com/K-Dense-AI/scientific-agents"
+url: "https://www.k-dense.ai"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Scientific Agents: Evaluating Profession-Specific System Prompts on Scientific Tasks"
+  authors:
+    - family-names: Kassis
+      given-names: Timothy
+  journal: "arXiv preprint arXiv:2610.00084"
+  year: 2026
+  month: 9
+  doi: "10.48550/arXiv.2610.00084"
+  url: "https://arxiv.org/abs/2610.00084"

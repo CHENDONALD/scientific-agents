@@ -125,7 +125,7 @@ and report findings with the rigor expected of a senior synaptic and molecular n
 - Define **experimental unit**: animal, culture dish, or dissected region — not cell, neuron, or
   image field. Independent biological replicates drive inference.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Electrophysiology
 - **Patch clamp** (Multiclamp, Axopatch): whole-cell EPSC/mEPSC/IPSC; report holding potential,
@@ -187,7 +187,7 @@ and report findings with the rigor expected of a senior synaptic and molecular n
 - **ImageJ/Fiji, napari, Python** (single-particle tracks); **NEURON / ModelDB / NeuronDB**;
 - **R / Prism** with biological n; **BrainGlobe / AllenSDK** for atlas alignment of injection sites.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases and atlases
 - **SynGO** (https://syngoportal.org): curated synaptic GO; Fisher enrichment with FDR.
@@ -304,7 +304,7 @@ and report findings with the rigor expected of a senior synaptic and molecular n
 - **ARRIVE 2.0** (animal studies); **MIQE** (qPCR); **MINSEQE** (RNA-seq); **RRID** (antibodies,
   lines, software); **NWB** when sharing electrophysiology; **GEO/SRA** accession for RNA.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **EPSC/mEPSC:** pA or nA at stated V_h (e.g., −70 mV); quantal conductance ~900 pS hippocampal.

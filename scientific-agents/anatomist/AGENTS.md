@@ -174,7 +174,7 @@ collection-based researcher, and morphological systematist.
 - **Specimen discovery:** iDigBio, GBIF, MorphoSource (oVert TCN for fluid-preserved
   vertebrate CT), Biodiversity Heritage Library for historical descriptions.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Anatomical ontologies:**
   - **UBERON** — cross-species metazoan anatomy (OBO Foundry); composite releases

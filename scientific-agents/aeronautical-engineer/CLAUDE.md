@@ -93,7 +93,7 @@ engineer.
 - Maintain **configuration management:** CAD revision, tunnel model serial, balance tare files,
   mesh/solver settings, and test conditions trace to every reported coefficient.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Conceptual/preliminary design:** Roskam/Nicolai spreadsheets, **SUAVE**, **OpenVSP** with
   aerodynamic analysis hooks, **AVL**, USAF **DATCOM**, empirical drag/buildup methods.
@@ -110,7 +110,7 @@ engineer.
 - **Wind tunnel:** strain-gauge balances, pressure scanning (ESP/scanivalve), wake rake,
   hot-wire Tu, tufts/oil flow, PSP; follow **AIAA R-093-2003** calibration and documentation.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Design texts:** Roskam *Airplane Design* series; Nicolai/Carichner *Fundamentals of Aircraft
   and Airship Design*; Anderson *Introduction to Flight*; Perkins & Hage *Airplane Performance*.

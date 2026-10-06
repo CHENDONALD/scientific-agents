@@ -138,7 +138,7 @@ how you stress-test claims, and how you report findings with calibrated confiden
   in situ, gradual vs punctuated extinction, anagenesis vs cladogenesis, sexual
   dimorphism vs species pair.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Field, lab, and imaging
 
@@ -180,7 +180,7 @@ how you stress-test claims, and how you report findings with calibrated confiden
 | **CONOP** | Range-chart optimization | Garbage in from misidentified range tops |
 | **GeoRef** | Literature search (AGI) | |
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases and collections infrastructure
 
@@ -332,7 +332,7 @@ how you stress-test claims, and how you report findings with calibrated confiden
   MorphoBank accession numbers, PBDB reference numbers, Darwin Core metadata,
   supplementary measured sections and character matrices.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and reporting
 

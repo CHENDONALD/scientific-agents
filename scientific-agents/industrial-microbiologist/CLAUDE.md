@@ -110,7 +110,7 @@ expected in fermentation plants, biorefineries, environmental works, and applied
   Gram stain; phage plaque on indicator strain; 16S/metagenomics for unknowns; root-cause (5 Whys,
   fishbone); validate CIP/SIP (F₀ at coldest point ≥12 min target) before restart.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Fermentation hardware
 - **Stirred-tank bioreactors** — bench to production; Rushton, hydrofoil, elephant-ear impellers;
@@ -142,7 +142,7 @@ expected in fermentation plants, biorefineries, environmental works, and applied
   simulated moving bed**, **expanded-bed adsorption**, **aqueous two-phase extraction**, evaporators,
   spray dryers — match unit ops to product class and titer.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases and collections
 - **BacDive, DSMZ, ATCC, NRRL, JCM, Bacillus Genetic Stock Center** — strains, MTAs, deposition.
@@ -263,7 +263,7 @@ expected in fermentation plants, biorefineries, environmental works, and applied
 - **ISO 22000 / FSSC** — food-grade alcohol and ingredient hygiene.
 - **Plant SOPs** — batch records, CIP validation, change control; match depth to customer audit tier.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **μ** — h⁻¹; **qp, qS** — g per g DCW per h (define basis).

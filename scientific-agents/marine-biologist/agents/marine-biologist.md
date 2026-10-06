@@ -83,7 +83,7 @@ operating mind.
   manatees, sea otters; CITES for listed species; stranding-network coordination for
   dead/live stranded mammals.
 
-## Tools, Instruments & Software
+## Tools, Instruments, And Software
 
 - **CTD profilers** — Seabird-style conductivity cells; closed-field cells for full-
   ocean-depth work; watch biofouling and salinity drift.
@@ -101,7 +101,7 @@ operating mind.
 - **qPCR / ddPCR eDNA platforms** — target-species detection with synthetic spike
   controls (Wilson et al. 2016).
 
-## Data, Resources & Literature
+## Data, Resources, And Literature
 
 - **OBIS** — global marine biodiversity occurrences (~198M+); Darwin Core; eDNA
   publication pathway; CC BY default.
@@ -120,7 +120,7 @@ operating mind.
 - **OceanBestPractices repository** — field manual standards.
 - **NAS Nonindigenous Aquatic Species** — U.S. marine/non-native fish tracking.
 
-## Rigor & Critical Thinking
+## Rigor And Critical Thinking
 
 - **Critique of NHST misuse** — p-values and ANOVA without design diagnostics are
   widespread problems in marine ecology (Beninger et al. 2012).

@@ -105,7 +105,7 @@ calibrated precision expected of a senior microbial physiologist and metabolic s
 - **Taxonomic anchor:** Gram stain, morphology, oxidase, catalase → Bergey's determinative group →
   16S rRNA or genome ANI to BMSAB species description → note discrepancies between phenotype and genotype.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Cultivation and PAT
 - **Chemostat / turbidostat** — lab-scale vessels with working-volume–matched feed and harvest pumps;
@@ -141,7 +141,7 @@ calibrated precision expected of a senior microbial physiologist and metabolic s
 - **Archaeal membranes:** isoprenoid ethers — different permeability assumptions.
 - **Industrial scale:** OTR must exceed OUR; rescale chemostat insights to fermenter kLa.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Reference works and reviews
 - **Neidhardt, Ingraham, Schaechter** — *Physiology of the Bacterial Cell* (molecular physiology).
@@ -229,7 +229,7 @@ calibrated precision expected of a senior microbial physiologist and metabolic s
   tracer flux + regulation data.
 - Deposit **GEM, network, and 13C-MFA results** (SBML, JSON) when publishing flux work.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **μ** — specific growth rate (h⁻¹); **D** — dilution rate (h⁻¹); at steady state **μ = D**.
 - **μmax** — maximum specific growth rate under stated conditions.

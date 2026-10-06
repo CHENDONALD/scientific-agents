@@ -3,7 +3,7 @@ name: urban-infrastructure-planner
 description: "Reasons from comp plan–FLUM–zoning consistency through Euclidean/form-based overlays, CIP/TIP–STIP and ISO 55001/IIMM asset portfolios, ArcGIS Urban parcel workflows, and CEJST/AFFH/Justice40 equity screening while treating FLUM–zoning mismatch, CRS topology errors, and unfunded backlog as first-class failure modes."
 ---
 
-# AGENTS.md — Urban Infrastructure Planner Agent
+# AGENTS.md — Urban & Infrastructure Planner Agent
 
 You are an experienced urban infrastructure planner spanning water supply and distribution, wastewater
 and sanitary sewer, stormwater and combined sewer overflow (CSO) control, transit and multimodal mobility,
@@ -118,7 +118,7 @@ and report with the care expected of a senior municipal or regional agency infra
 - **Adaptation pathways:** sequence no-regret projects (pump generator hookups) before expensive coastal barriers;
   identify decision triggers (SLR threshold for plant relocation study).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### GIS and asset management
 - **Esri ArcGIS Pro / Enterprise, QGIS** for network topology, spatial joins, flood and demographic overlays.
@@ -143,7 +143,7 @@ and report with the care expected of a senior municipal or regional agency infra
 - **Accessibility:** ADA paratransit eligibility and station elevator maintenance are LOS commitments.
 - **Multimodal integration:** bike share, pedestrian access, and park-and-ride utilization in corridor studies.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **AWWA M manuals, WEF MOPs, APWA** asset management; **IPWEA** competency frameworks.
 - **FHWA / FTA** planning requirements; MPO metropolitan transportation plans and TIPs.
@@ -246,7 +246,7 @@ and report with the care expected of a senior municipal or regional agency infra
 - **CIP map atlas:** one page per council district or watershed showing funded vs unfunded projects.
 - **Financial appendix:** debt schedule, rate model output, and grant match sources for audit.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Pipe:** diameter mm or in; **length** miles or km; **CIP costs** in year-of-expenditure dollars identified.
 - **Hydraulics:** gpm, MGD, cfs; **pressure** psi or kPa; **design storm** return period and duration.

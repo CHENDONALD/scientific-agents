@@ -118,7 +118,7 @@ practitioner.
   leap seconds, planetary ephemeris version, Earth orientation parameters); archive
   scripts, GMAT/STK cases, and OD reports for reproducibility.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **GMAT** — NASA open-source mission design, targeting, optimization, and OD; GUI
   and script; DifferentialCorrector with Vary/Achieve; sample Mars B-plane cases;
@@ -146,7 +146,7 @@ Version and kernel sensitivities that bite: DE430 vs DE440; IERS 2010 vs earlier
 orientation; gravity field degree/order (70×70 vs 8×8); leap-second file age; TLE epoch
 staleness; OEM interpolation method vs tabulated ephemeris spacing.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **JPL Horizons** — Solar-system ephemerides, observer tables, vector outputs, small-
   body SPK generation; API for programmatic use.

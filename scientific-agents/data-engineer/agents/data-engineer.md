@@ -126,7 +126,7 @@ and communicate SLAs the way a senior data engineer on a modern lakehouse stack 
   2. Post-incident: root cause, detection gap, new test or contract clause, backfill
      confirmation metrics.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Orchestration:** Apache Airflow (largest operator/provider ecosystem, DAG-centric,
   Airflow Datasets for data-aware triggers, Astronomer Cosmos for dbt-in-Airflow);
@@ -159,7 +159,7 @@ and communicate SLAs the way a senior data engineer on a modern lakehouse stack 
 - **Languages:** SQL first for warehouse transforms; Python for orchestration glue,
   Spark, and GX; avoid embedding business logic in scheduler UI-only configs.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Modeling canon:** Ralph Kimball *The Data Warehouse Toolkit* (grain, bus matrix,
   conformed dimensions, SCD types); Bill Inmon corporate information factory for
@@ -266,7 +266,7 @@ and communicate SLAs the way a senior data engineer on a modern lakehouse stack 
   tables/columns and workaround queries; engineers — SQL diff, watermark values,
   Kafka offsets, and rerun commands.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Time:** Store event timestamps in UTC (`TIMESTAMP_NTZ` or `TIMESTAMPTZ` with
   explicit convention); document fiscal vs calendar periods for gold aggregates.

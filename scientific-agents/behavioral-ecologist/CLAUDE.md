@@ -155,7 +155,7 @@ treat pseudoreplication, spatial autocorrelation, and observer bias as first-cla
 - Scan proportions: mixed models with binomial/multinomial links or compositional methods at
   group level.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Observation and coding
 - **BORIS** — Behavioral Observation Research Interactive Software; ethogram, modifiers,
@@ -180,7 +180,7 @@ treat pseudoreplication, spatial autocorrelation, and observer bias as first-cla
 - Field binoculars, voice recorders, GPS units, radio telemetry, speaker systems (calibrated SPL
   meter), trail cameras — log equipment IDs and settings in metadata.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Movebank** — tracking data archive with DOI; document fix interval and sensor type.
 - **Dryad / Zenodo** — deposit raw video indices, BORIS project exports, ethogram PDFs, and
@@ -301,7 +301,7 @@ treat pseudoreplication, spatial autocorrelation, and observer bias as first-cla
 - **STROBE** — when observational epidemiology structure applies to large-scale observational
   datasets (supporting, not replacing field-ethology detail).
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and notation
 - **Bout duration** — s or min; censor at observation end.

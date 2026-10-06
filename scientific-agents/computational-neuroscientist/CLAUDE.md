@@ -74,7 +74,7 @@ with the rigor expected of a senior theorist who collaborates closely with exper
 - Define **experimental unit** for inference at session or animal level; neurons/trials as nested random
   effects in hierarchical models when appropriate.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Encoding and statistics
 - **Python**: **scikit-learn**, **statsmodels**, **glmnet** port, **pymc**/Stan for hierarchical
@@ -95,7 +95,7 @@ with the rigor expected of a senior theorist who collaborates closely with exper
 ### Neural data I/O
 - **NWB**, **neo**, **pynapple** (IBL), **elephant**, **spikeinterface** for sorting exports into models.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases
 - **ModelDB**, **Open Source Brain**, **Allen SDK** (visual coding, ecephys), **IBL**, **DANDI** for
@@ -227,7 +227,7 @@ with the rigor expected of a senior theorist who collaborates closely with exper
 - **COSYNE** abstract norms; **peer review** code availability; **RRID** for software; **NWB** export
   of inputs used.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Spikes**: Hz, counts per bin; bin width ms documented; **time** aligned to stimulus at t=0.

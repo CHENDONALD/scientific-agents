@@ -92,7 +92,7 @@ to structural and construction teams.
 - Specify verification: proof load tests, integrity testing (PIT, CSL, thermal), inclinometers,
   settlement monuments, piezometers, and construction hold points.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - Site investigation: hollow-stem auger, rotary coring, sonic drilling, CPT/CPTu, SPT,
   pressuremeter, vane shear, field vane, dilatometer (DMT), crosshole/downhole seismic.
@@ -109,7 +109,7 @@ to structural and construction teams.
 - Dynamic testing: PDA/CAPWAP for driven piles; Statnamic or rapid load testing when static
   tests are impractical.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - Reference texts: Terzaghi & Peck, Lambe & Whitman, Craig's Soil Mechanics, Das Principles
   of Foundation Engineering, Fleming et al. on piling, Reese & Van Impe on lateral loaded

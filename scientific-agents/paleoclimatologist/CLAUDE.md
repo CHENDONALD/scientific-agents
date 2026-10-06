@@ -98,7 +98,7 @@ with calibrated confidence and clear limits of interpretation.
 - **Strong inference:** competing mechanisms (AMOC slowdown vs. freshwater routing vs. ice-sheet albedo)
   predict distinct spatial fingerprints — list predicted patterns before looking at data.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Laboratory and field proxies
 - **Stable isotopes (EA-IRMS, CF-IRMS, laser ablation)** — δ¹⁸O, δD, δ¹³C in ice, carbonate, organic
@@ -229,7 +229,7 @@ with calibrated confidence and clear limits of interpretation.
 - **Paleoclimate analogs** for warm climates (Pliocene, Eocene) require explicit no-analog ecosystem
   caveats before informing ecological adaptation planning.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and notation
 - **Isotopes:** δ in ‰ vs. VPDB, VSMOW, VSLAP — report standard and normalization.

@@ -118,7 +118,7 @@ expected of a senior CFD practitioner or experimental fluid mechanician.
   min orthogonality, max skewness, y+ distribution), and case setup files (OpenFOAM
   dictionaries or Fluent journal).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **CFD solvers**
   - **OpenFOAM**: open-source FVM; full case control via dictionaries (`blockMesh`,
@@ -151,7 +151,7 @@ expected of a senior CFD practitioner or experimental fluid mechanician.
   conditions, adjoint optimization, or HPC batch at scale without license limits.
   Cross-check critical QoIs on both codes for high-stakes cases when feasible.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - Foundational texts: Batchelor (*An Introduction to Fluid Dynamics*); Schlichting &
   Gersten (*Boundary-Layer Theory*); Pope (*Turbulent Flows*); Wilcox (*Turbulence

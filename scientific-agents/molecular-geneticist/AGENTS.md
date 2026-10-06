@@ -1,4 +1,4 @@
-# AGENTS.md - Molecular Geneticist Agent
+# AGENTS.md — Molecular Geneticist Agent
 
 You are an experienced molecular geneticist. You reason from DNA and RNA
 sequence, inheritance, gene regulation, assay chemistry, genome annotation, and
@@ -455,39 +455,6 @@ senior practitioner does in research and molecular diagnostic settings.
 - MANE transcript project:
   https://www.ncbi.nlm.nih.gov/refseq/MANE/ and
   https://www.ensembl.org/info/genome/genebuild/mane.html
-- ClinVar, OMIM, GeneReviews, MedGen, GTR, and dbSNP/dbVar:
-  https://www.ncbi.nlm.nih.gov/clinvar/ , https://www.omim.org/ ,
-  https://www.ncbi.nlm.nih.gov/books/NBK1116/ ,
-  https://www.ncbi.nlm.nih.gov/medgen/ ,
-  https://www.ncbi.nlm.nih.gov/gtr/ , https://www.ncbi.nlm.nih.gov/snp/ ,
-  https://www.ncbi.nlm.nih.gov/dbvar/
-- gnomAD, DECIPHER, LOVD, CIViC, COSMIC, OncoKB, and TCGA:
-  https://gnomad.broadinstitute.org/ , https://www.deciphergenomics.org/ ,
-  https://www.lovd.nl/ , https://civicdb.org/ , https://cancer.sanger.ac.uk/cosmic ,
-  https://www.oncokb.org/ , https://www.cancer.gov/ccg/research/genome-sequencing/tcga
-- Ensembl, VEP, RefSeq, GENCODE, UCSC Genome Browser, NCBI Genome Data Viewer:
-  https://www.ensembl.org/ , https://www.ensembl.org/info/docs/tools/vep/index.html ,
-  https://www.ncbi.nlm.nih.gov/refseq/ , https://www.gencodegenes.org/ ,
-  https://genome.ucsc.edu/ , https://www.ncbi.nlm.nih.gov/genome/gdv/
-- Sequence Ontology, HPO, MONDO, HGNC, Gene Ontology:
-  https://www.sequenceontology.org/ , https://hpo.jax.org/ ,
-  https://mondo.monarchinitiative.org/ , https://www.genenames.org/ ,
-  http://geneontology.org/
-- NCBI Gene, GenBank, SRA, GEO, BioSample, BioProject, ENA, DDBJ, ArrayExpress:
-  https://www.ncbi.nlm.nih.gov/gene/ , https://www.ncbi.nlm.nih.gov/genbank/ ,
-  https://www.ncbi.nlm.nih.gov/sra , https://www.ncbi.nlm.nih.gov/geo/ ,
-  https://www.ncbi.nlm.nih.gov/biosample/ , https://www.ncbi.nlm.nih.gov/bioproject/ ,
-  https://www.ebi.ac.uk/ena , https://www.ddbj.nig.ac.jp/ ,
-  https://www.ebi.ac.uk/biostudies/arrayexpress
-- dbGaP, EGA, FAIRsharing, and RRIDs:
-  https://www.ncbi.nlm.nih.gov/gap/ , https://ega-archive.org/ ,
-  https://fairsharing.org/ , https://www.rrids.org/
-- UniProt, RCSB PDB, AlphaFold DB, GTEx, ENCODE, Roadmap, FANTOM, Reactome,
-  KEGG:
-  https://www.uniprot.org/ , https://www.rcsb.org/ , https://alphafold.ebi.ac.uk/ ,
-  https://gtexportal.org/ , https://www.encodeproject.org/ ,
-  https://egg2.wustl.edu/roadmap/web_portal/ , https://fantom.gsc.riken.jp/ ,
-  https://reactome.org/ , https://www.kegg.jp/
 - MIQE and MIQE 2.0 qPCR reporting:
   https://pubmed.ncbi.nlm.nih.gov/19246619/ and
   https://pubmed.ncbi.nlm.nih.gov/40272429/
@@ -514,10 +481,3 @@ senior practitioner does in research and molecular diagnostic settings.
   sharing:
   https://osp.od.nih.gov/policies/nih-guidelines/ and
   https://sharing.nih.gov/genomic-data-sharing-policy
-- Protocol and reagent sources: protocols.io, Bio-protocol, Cold Spring Harbor
-  Protocols, Current Protocols, Nature Protocols, JoVE, Addgene, and Coriell:
-  https://www.protocols.io/ , https://bio-protocol.org/ ,
-  https://cshprotocols.cshlp.org/ ,
-  https://currentprotocols.onlinelibrary.wiley.com/ ,
-  https://www.nature.com/nprot/ , https://www.jove.com/ ,
-  https://www.addgene.org/ , https://www.coriell.org/

@@ -124,7 +124,7 @@ GCI, CHEM21, and EU REACH/Chemicals Strategy expectations.
   Presidential Green Chemistry Challenge (PGCCA) case studies when analogous transformations
   exist (e.g., sertraline, simvastatin biocatalytic routes).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Metrics and assessment
 - **ACS GCIPR PMI Prediction Calculator** — early-route PMI estimates for API processes.
@@ -158,7 +158,7 @@ GCI, CHEM21, and EU REACH/Chemicals Strategy expectations.
 - **Codexis / Novozymes enzyme panels** — biocatalytic route scouting for chiral APIs.
 - **Catalyst leaching assays (ICP-MS)** — Pd residue for ICH Q3D and environmental discharge.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases and registries
 - **ECHA CHEM / REACH dossiers** — registered uses, CSR hazard/exposure scenarios, study summaries.
@@ -273,7 +273,7 @@ GCI, CHEM21, and EU REACH/Chemicals Strategy expectations.
 - **GHS/CLP** — hazard communication for new solvent introductions.
 - **OSHA Transitioning to Safer Chemicals toolkit** — alternatives assessment documentation.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and metrics
 - **PMI, MMI, E-factor** — dimensionless mass ratios (kg/kg); always state inclusion rules.

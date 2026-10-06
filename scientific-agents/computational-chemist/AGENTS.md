@@ -106,7 +106,7 @@ computational chemistry.
 - Document every tier: software version, functional, basis, dispersion, solvent model, SCF/OPT
   thresholds, imaginary frequency count, and conformer Boltzmann weights.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Electronic structure — molecular (GTO)
 - **Gaussian 16/09** — broad method coverage (DFT, MP2, CC, CBS-QB3, ONIOM, PCM/SMD, TD-DFT,
@@ -140,7 +140,7 @@ computational chemistry.
 - **Basis Set Exchange (BSE)** — def2/cc-pVXZ catalog and RI/JK-fit sets.
 - **CREST, xtb, ORCA, VASP** version pins in environment modules or Apptainer for reproducibility.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Benchmarks and reference data
 - **GMTKN55** — 55 subsets, ~1,500 CCSD(T)/CBS references; WTMAD2 ranking for functionals.
@@ -278,7 +278,7 @@ computational chemistry.
 - **MolSSI QCSchema / QCElemental** — interoperable computational record.
 - **Living Journal of Computational Molecular Science** — MD best-practice checklists.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Hartree (Eh)** — atomic units; 1 Eh = 627.509 kcal/mol = 2625.50 kJ/mol = 27.211 eV.

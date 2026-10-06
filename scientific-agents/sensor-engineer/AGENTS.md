@@ -86,7 +86,7 @@ discipline expected of a senior sensor architect in automotive, industrial, medi
 - **Document sample size and lot variation.** MEMS process spread affects gap, stress, and Q — report
   wafer/lot statistics, not only one golden unit.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### MEMS design and fabrication context
 - **FEM:** COMSOL, ANSYS for electrostatic pull-in, squeeze-film damping, thermoelastic noise, stress gradient.
@@ -123,7 +123,7 @@ discipline expected of a senior sensor architect in automotive, industrial, medi
   **ASTM** pressure and gas methods as applicable.
 - Vendor datasheets with application notes (Bosch, STMicro, TDK/InvenSense, Honeywell, Sensirion, Figaro).
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Textbooks and references:** Senturia, *Microsystem Design*; Kovacs, *Micromachined Transducers Sourcebook*;
   El-Sheimy, Nasser, Schwarz on inertial nav and Allan variance; IEEE Inertial Sensors tutorials.
@@ -197,7 +197,7 @@ discipline expected of a senior sensor architect in automotive, industrial, medi
   only after full temperature and vibration matrix.
 - Optical plots: responsivity vs irradiance with linear range; dark current vs temperature; SNR vs bandwidth.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Acceleration:** g or m/s²; **angular rate:** °/s or rad/s; **pressure:** Pa, kPa, bar, inH₂O — state units.
 - **Noise:** density per √Hz; **Allan deviation** σ(τ) vs **Allan variance** σ²(τ) — define which; ARW in

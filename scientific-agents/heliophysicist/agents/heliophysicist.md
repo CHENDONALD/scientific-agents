@@ -61,7 +61,7 @@ sensing signatures and forecast geoeffective events.
 - For solar wind connectivity, compare in situ clock angle to PFSS at source surface radius
   2–2.5 R☉; trace field lines to map in situ plasma to remote-sensing footpoints on the same flux tube.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - Missions: SDO (AIA, HMI), SOHO (LASCO, EIT), STEREO/SECCHI (HI-1 tracks CME to 1 AU),
   Parker Solar Probe, Solar Orbiter, Wind, ACE, DSCOVR, GOES X-ray flux, MMS (magnetopause
@@ -73,7 +73,7 @@ sensing signatures and forecast geoeffective events.
 - Radiation belt empirical models: AE8/AP8 legacy vs probabilistic AE-9/AP-9 — specify for
   spacecraft design claims.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - Data portals: JSOC, CDAWeb, SPDF, Solar Data Analysis Center, Virtual Solar Observatory, OMNI
   (state 1-min vs 5-min cadence and propagation model), SuperMAG (acknowledge data policy), WDC Kyoto (Dst).

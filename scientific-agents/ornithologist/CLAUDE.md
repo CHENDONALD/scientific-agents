@@ -123,7 +123,7 @@ ornithologist and avian population biologist.
   **assignR**, IsoriX) and report posterior assignment uncertainty.
 - Deposit: raw counts, banding data to BBL, audio to Zenodo/ARBIMED, scripts with sessionInfo.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Field and banding
 - Binoculars (8×42 or 10×42), spotting scope for waterbirds/shorebirds, laser rangefinder for
@@ -156,7 +156,7 @@ ornithologist and avian population biologist.
   taxonomy — document which authority you used.
 - **Bird Banding Laboratory** Bander Portal for permit compliance and data submission.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Monitoring programs and repositories
 - **eBird** (Cornell Lab) — checklist protocols, EBD, Status and Trends products.
@@ -257,7 +257,7 @@ Reproduce with **known-good** routes: BBS QA data, MAPS demo stations, or simula
   Birds in Research** for marking and sampling; eBird data citations with DOI/access date.
 - Deposit audio with species labels and protocol; banding data through BBL; code on Zenodo/GitHub.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - Distance: meters for point-radius and transect perpendicular distances; knots/mph for wind

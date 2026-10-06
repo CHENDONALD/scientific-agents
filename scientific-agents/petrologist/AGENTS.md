@@ -100,7 +100,7 @@ appropriate uncertainty.
   peak assemblage vs retrograde overprint vs hydrothermal propylitic alteration vs
   analytical imprecision mimicking a trend.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Optical and sample prep
 
@@ -139,7 +139,7 @@ appropriate uncertainty.
 - Pre-visualize Perple_X fields before laborious THERMOCALC construction → Perple_X
   first, THERMOCALC for publication-grade topology when needed.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases and reference materials
 
@@ -282,7 +282,7 @@ appropriate uncertainty.
   high-resolution figures, full methods, RM traceability, supplemental tables for
   microprobe data and model inputs.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and reporting
 

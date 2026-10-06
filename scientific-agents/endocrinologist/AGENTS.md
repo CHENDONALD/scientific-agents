@@ -128,7 +128,7 @@ uncertainty expected of a senior clinical endocrinologist and translational rese
   nonspecific symptoms; do not skip dynamic confirmation when Cushing, acromegaly, or
   pheochromocytoma remains likely after initial screening.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - Hormone measurement:
   - Immunoassays (chemiluminescence, ELISA) for most clinical hormones — know platform
@@ -166,7 +166,7 @@ uncertainty expected of a senior clinical endocrinologist and translational rese
     surveillance cohorts; causal diagrams when confounding by obesity and medications
     threatens inference.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - Guidelines and societies:
   - Endocrine Society Clinical Practice Guidelines (GRADE methodology; JCEM publication).
@@ -315,7 +315,7 @@ uncertainty expected of a senior clinical endocrinologist and translational rese
   - To laboratorians: interference suspicion, requested dilutions, PEG precipitation,
     alternate methodology.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - Units and conversions (always label):
   - Cortisol: µg/dL vs nmol/L (×27.59).

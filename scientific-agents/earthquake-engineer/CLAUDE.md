@@ -117,7 +117,7 @@ or bridge seismic engineer does.
 - Document load path, mechanism, and controlling EDP (story drift, member rotation θ,
   column shear, foundation rotation) for every conclusion.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Commercial structural analysis:** SAP2000, ETABS, SAFE (CSI) — prevalent for
   building design, linear and some nonlinear; watch auto meshing, panel-zone defaults,
@@ -147,7 +147,7 @@ or bridge seismic engineer does.
   ASCE 41-17 vs. 41-23 acceptance criteria; Caltrans SDC 2013 vs. 2025 — always cite
   governing edition in jurisdiction.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Codes and standards:** ASCE/SEI 7-22 (minimum design loads); ASCE/SEI 41-23 (existing
   buildings evaluation and retrofit); AISC 341 (steel seismic); ACI 318 Ch. 18 / ACI 374

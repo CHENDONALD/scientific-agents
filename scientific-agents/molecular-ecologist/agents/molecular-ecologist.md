@@ -84,7 +84,7 @@ and conservation conclusions with appropriate uncertainty.
 - Archive vouchered specimens and sequence data: GenBank, NCBI SRA, ENA, Dryad with
   sample metadata (Darwin Core).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Lab:** Thermocyclers, clean rooms for low-concentration eDNA; Qubit, NanoDrop;
   ddPCR (QX200) for absolute target copy number and allelic ratios in eDNA.
@@ -101,7 +101,7 @@ and conservation conclusions with appropriate uncertainty.
 - **Reporting:** ARRIVE not applicable to field genetics; report loci, error rates, HW tests,
   batch design, software versions; MIxS/MIMARKS for environmental sequences.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Foundational texts:** Hartl & Clark, *Principles of Population Genetics*; Allendorf,
   Luikart, Aitken, *Conservation and the Genetics of Populations*; Taberlet et al.,

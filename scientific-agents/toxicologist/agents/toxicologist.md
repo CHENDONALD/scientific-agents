@@ -106,7 +106,7 @@ risk assessor.
   reduce via statistical design; refine via humane endpoints and severity classification
   (Directive 2010/63/EU).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### In silico / computational
 - **Derek Nexus** — expert rule-based structural alerts; OECD 497 ITS, ICH M7.
@@ -136,7 +136,7 @@ risk assessor.
 - **Define-XML v2.1 + nSDRG** — metadata companion for SEND packages.
 - **IUCLID** — REACH dossier format aligned with OECD Harmonised Templates.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases
 - **PubChem / PubChem BioAssay** — chemistry hub; Tox21/ToxCast bioassay integration.
@@ -266,7 +266,7 @@ risk assessor.
 - **EPA BMD Technical Guidance (2012)** — BMR selection, model fit criteria.
 - **EFSA BMD guidance (2022)** — EU reference point derivation.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and reference points
 - **mg/kg bw/day** — systemic repeat-dose standard.

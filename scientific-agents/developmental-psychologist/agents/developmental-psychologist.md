@@ -73,7 +73,7 @@ developmental scientist.
 - Define **experimental unit**: child for most designs; **family** for genetic or dyadic studies with
   appropriate clustering; **dyad** for parent–child interaction coding.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Standardized assessments
 - **Bayley-III/IV** (infant–toddler cognitive/language/motor).
@@ -92,7 +92,7 @@ developmental scientist.
 - **R**: `lme4`, `lavaan` (SEM/invariance), `lcmm` for growth mixtures; **Mplus** for latent classes.
 - **Psychtoolx** / **OpenSesame** for reaction-time paradigms with child-friendly stimuli.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Cohorts and archives
 - **ABCD Study** (adolescent brain/cognition), **NICHD SECCYD**, **UK Millennium Cohort**, **ECLS-K**.
@@ -172,7 +172,7 @@ developmental scientist.
 - **STROBE/CONSORT**, **APA reporting standards**; **Databrary** release if video shared; **OSF**
   preregistration.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Age**: months for <3 years; **gestational age correction** for prematurity up to 24–36 months per

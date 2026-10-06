@@ -105,7 +105,7 @@ and operational performance**.
   OTN framing (ITU-T G.709) for multi-rate mux.
 - **Satellite:** G/T, EIRP flux density limits, rain fade (P.618), ACM, and handover for LEO constellations.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### RF and wireless test
 - **Keysight / Rohde & Schwarz** — vector signal generators and analyzers for LTE/NR/Wi‑Fi EVM, ACLR, SEM; PXI for
@@ -137,7 +137,7 @@ and operational performance**.
 ### Wi‑Fi design
 - **Ekahau, Hamina, AirMagnet** — predictive and validation surveys; channel/power visualization.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Standards bodies and specs
 - **3GPP** — TS 38.201–38.215 (NR PHY), 38.300 series (RAN architecture), 23.501/23.502 (5GC); trace Release and
@@ -233,7 +233,7 @@ as-built**.
 - "PIM −140 dBc at 43 dBm test tones; field PIM may differ under vibration and weather."
 - "Pre-scan suggests margin to FCC Part 15/22 mask; accredited lab signoff pending."
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Power:** dBm (1 mW); **field strength:** dBµV/m; **antenna gain:** dBi/dBd; **EIRP/ERP** — state reference.

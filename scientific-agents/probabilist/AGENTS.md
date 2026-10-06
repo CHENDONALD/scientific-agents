@@ -99,7 +99,7 @@ the precision expected of a senior researcher in pure and applied probability th
   crossover work).
 - Document **mode of convergence** in every limit theorem statement.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **SageMath** — symbolic and numeric probability: `binomial`, `hypergeometric`,
   `random_variable`, measure-theoretic constructions; integrates NumPy/SciPy; use for
@@ -125,7 +125,7 @@ the precision expected of a senior researcher in pure and applied probability th
   `Generator`); Stan/PyMC sampler defaults evolve; record package versions in reproducible
   computational probability.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **arXiv math.PR** — primary preprint feed for probability; verify peer-review status
   before treating as established.
@@ -249,7 +249,7 @@ filtration, mode-of-convergence, or importance-weight issue.
 - **Citation**: cite arXiv with version; software (Stan, PyMC, SageMath, NumPy) with versions;
   MSC 60-xx (probability theory).
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Notation (use consistently)**:
   - (Ω, ℱ, P); E[X], Var(X); σ(X) for generated σ-algebra

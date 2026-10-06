@@ -124,7 +124,7 @@ the calibrated conservatism expected of a senior ACVM-level diagnostician and la
   colonization, do not equate laboratory detection with indication to treat — document
   significance criteria before recommending therapy.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Culture and ID:** Blood culture systems; CO₂ incubator (5–10%) for *Brucella*, capnophiles;
   anaerobic jar or chamber; MALDI-TOF MS; VITEK 2 / Phoenix in larger labs; API 20E/Staph etc.
@@ -146,7 +146,7 @@ the calibrated conservatism expected of a senior ACVM-level diagnostician and la
   channel-specific cutoffs (e.g. HEX ≤37.5, FAM ≤39.5 — laboratory-specific); equine fever panels
   (EHV-1, *Anaplasma*, *Neorickettsia*) on EDTA blood during viremia.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Standards:** CLSI VET01 (breakpoints), VET01S, VET02 (AST methods), VET09; WOAH Terrestrial
   Manual (specimen chapters per disease); ISO/IEC 17025 and AAVLD accreditation requirements for
@@ -252,7 +252,7 @@ the calibrated conservatism expected of a senior ACVM-level diagnostician and la
 - **Audiences:** Clinicians need action thresholds and drug options; producers need herd-level
   prevalence with sampling design; public health needs serotype, AST, and WGS accession numbers.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** CFU/mL or CFU/g; MIC in µg/mL; SCC in cells/mL (×10³); blood culture volume in mL
   per bottle; Ct dimensionless (cycle number).

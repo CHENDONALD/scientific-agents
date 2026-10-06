@@ -151,7 +151,7 @@ with calibrated confidence.
   - Cross-check symbology against **FGDC Digital Cartographic Standard for Geologic
     Map Symbolization** (USGS TM 11-A2).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Brunton compass / pocket transit**: strike/dip, trend/plunge; verify bubble level,
   needle freedom, **declination adjustment** each campaign. Alternatives: Silva,
@@ -170,7 +170,7 @@ with calibrated confidence.
 - **Digital field tools**: **FieldMove**, **Rockd** (Macrostrat mobile), **Strabo Spot**
   for GPS-linked outcrop capture.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **USGS NGMDB**: **MapView** (interactive maps), **Geolex** (>15,000 unit descriptions),
   **TopoView** (historical topographic maps).
@@ -262,7 +262,7 @@ with calibrated confidence.
 - **Reporting standards**: FGDC Geologic Map Symbol Standard (USGS TM 11-A2); **GeMS**
   / NCGMP09 for digital delivery; GSA Data Repository for supplemental GIS.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units**: meters for thickness/elevation; **Ma** / **ka** for ages; **°** for angles;
   modal analysis in **volume percent** (point counting) or **weight percent** (assay-

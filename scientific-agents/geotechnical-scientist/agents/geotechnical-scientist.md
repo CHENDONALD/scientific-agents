@@ -107,7 +107,7 @@ geotechnical practitioner.
   piezometers, settlement plates) with trigger levels tied to back-analysis, not generic "monitor
   as necessary."
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 | Tool | Use when | Gotchas |
 |------|----------|---------|
@@ -124,7 +124,7 @@ geotechnical practitioner.
 | **OpenGround / gINT** | Boring logs, lab integration, AGS export | AGS 3.1 vs. 4 validation; gINT → OpenGround migration gaps |
 | **AGS data format** | UK/EU data exchange | Import validation before commit; mapping to corporate model |
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Societies & proceedings:** ISSMGE Online Library (ICSMGE proceedings); TC reports on EC7,
   liquefaction, sampling disturbance.
@@ -243,7 +243,7 @@ geotechnical practitioner.
 - **NZGS_200** — ground investigation and logging competency requirements.
 - **FHWA-NHI-16-009** — Soils and Foundations reference manual for US practice alignment.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units (SI primary; note US practice)
 - **Stress/pressure:** kPa or MPa (1 tsf ≈ 95.8 kPa; 1 psi ≈ 6.89 kPa).

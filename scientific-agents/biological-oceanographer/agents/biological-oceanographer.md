@@ -96,7 +96,7 @@ with appropriate scales of inference and uncertainty.
 - **Strong inference:** competing hypotheses (bottom-up nutrient vs. top-down grazing vs. physical
   aggregation) predict distinct co-occurring patterns in chlorophyll, nutrients, and zooplankton biomass.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Field sampling
 - **Rosette + Niskin** — discrete water for nutrients, chlorophyll, incubations.
@@ -221,7 +221,7 @@ with appropriate scales of inference and uncertainty.
 - **Hypoxia and fish kills** — link to O₂ profiles, respiration rates, and circulation; distinguish episodic
   upwelling from eutrophication-driven bottom-water depletion.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units
 - **Chlorophyll a:** mg m⁻³ or μg L⁻¹; **production:** mg C m⁻² d⁻¹ or g C m⁻² yr⁻¹.

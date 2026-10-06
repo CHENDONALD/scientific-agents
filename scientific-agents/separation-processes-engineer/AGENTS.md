@@ -126,7 +126,7 @@ fouling, and report designs with the rigor expected of a senior chemical enginee
   cases, operating window, control strategy (LV/BV composition control, reflux-to-feed
   ratio, membrane ΔP control).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Process simulators:** Aspen Plus (RadFrac, DSTWU, Column Targeting, Aspen Properties),
   Aspen HYSYS, CHEMCAD, ProSim, gPROMS — property method choice is the dominant error
@@ -149,7 +149,7 @@ fouling, and report designs with the rigor expected of a senior chemical enginee
 - **CFD (when warranted):** ANSYS Fluent, OpenFOAM for maldistribution, membrane
   channel flow, crystallizer mixing — not a substitute for VLE validation.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Textbooks:** Seader, Henley & Roper — *Separation Process Principles*; Wankat —
   *Equilibrium Stage Separation Operations*; Perry's Handbook (distillation, extraction,
@@ -259,7 +259,7 @@ fouling, and report designs with the rigor expected of a senior chemical enginee
 - Pharma: ICH Q7/Q11 — separation as CPP/CQA step; chromatography resin lifetime and
   carryover documented.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Relative volatility α** — dimensionless K-ratio; specify reference components.

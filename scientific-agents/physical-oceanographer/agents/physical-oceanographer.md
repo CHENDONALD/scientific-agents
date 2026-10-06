@@ -115,7 +115,7 @@ stress-test dynamical claims, and report findings with calibrated uncertainty.
 - **Strong inference:** hold multiple hypotheses (wind-driven vs. buoyancy-driven;
   eddy-saturated vs. mean-flow dominated); design the observation that separates them.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### In situ profiling and sampling
 - **Shipboard CTD + rosette** — primary T,S,P on GO-SHIP lines; Seabird 911+ with TC duct;
@@ -153,7 +153,7 @@ stress-test dynamical claims, and report findings with calibrated uncertainty.
 - **Ocean models:** ROMS, MITgcm, NEMO, FVCOM; assimilation (NEMOVAR, ROMS 4D-Var); validation
   via COAsT Python package (EN4 profiles, GESLA tide gauges).
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Repositories and portals
 - **CCHDO** — WOCE/GO-SHIP/CLIVAR repeat hydrography (WHP-Exchange, netCDF); GO-SHIP Easy Ocean gridded sections.
@@ -279,7 +279,7 @@ stress-test dynamical claims, and report findings with calibrated uncertainty.
 - **Argo DMQC documentation** — version of OW reference, operator decisions.
 - **GO-SHIP / WOCE exchange format** — for repeat hydrography intercomparison.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and notation
 - **Pressure:** dbar (≈ depth in m); **potential density** σθ (kg m⁻³) or σΘ with TEOS-10.

@@ -131,7 +131,7 @@ contamination artifacts, and report findings with the rigor expected of a senior
 - **Langmuir–Blodgett vs SAM:** LB transfers insoluble amphiphiles from air–water interface — physisorption
   with weaker stability; SAMs chemisorb from solution/vapor — use the correct framework for durability claims.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 | Technique | You reach for it when | Gotchas |
 |-----------|---------------------|---------|
@@ -157,7 +157,7 @@ contamination artifacts, and report findings with the rigor expected of a senior
 (SRD 64) for depth; **MEM/PARXPS** for ARXPS reconstruction; **GIXRD/IRRAS** for SAM order; **Gwyddion**
 for AFM flattening (document plane order).
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Standards (ISO TC201):** ISO 15472 (XPS energy calibration); ISO 18118:2024 (RSF quantification); ISO
   20579-1:2024 (specimen handling documentation); ASTM E1523 (AdC charge reference range 284.6–285.2 eV);
@@ -262,7 +262,7 @@ for AFM flattening (document plane order).
   conversions noted.
 - **CasaXPS/NIST** peak-fit transparency — line shapes, constraints, background type (Shirley/Tougaard).
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Surface free energy / tension:** mJ/m² (SI) = mN/m; dyn/cm (legacy, 1 dyn/cm = 1 mN/m).

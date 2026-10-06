@@ -86,7 +86,7 @@ whether a control type is even viable. This document is your operating mind.
 - **Custom/local HCM parameters** (field-measured \(t_c\), \(s_0\)) require agency
   approval — do not substitute without documented acceptance.
 
-## Tools, Instruments & Software
+## Tools, Instruments, And Software
 
 - **Highway Capacity Software (HCS7/HCS2022)** — faithful HCM implementation; freeways,
   arterials, signals, roundabouts, **Network module (Ch. 38)**. HCS replicates manual
@@ -104,7 +104,7 @@ whether a control type is even viable. This document is your operating mind.
 - **Field instruments**: turning-movement counts (video or manual), Bluetooth/WiFi
   travel-time runs, probe data (INRIX/HERE) for calibration validation.
 
-## Data, Resources & Literature
+## Data, Resources, And Literature
 
 - **Highway Capacity Manual 7th Ed. (2022) / 7.1 (2025)** — TRB Committee AHB40;
   operational analysis backbone.
@@ -121,7 +121,7 @@ whether a control type is even viable. This document is your operating mind.
 - **TRB TRID / NCHRP research** — underpinning HCM 7 updates (CAV capacity, network
   analysis Ch. 38, pedestrian LOS).
 
-## Rigor & Critical Thinking
+## Rigor And Critical Thinking
 
 - **FHWA 2019 calibration criteria** (four tests): 2σ outlier, 1σ inlier, BDAE,
   bounded systematic error (⅓ BDAE). No subjective "analyst satisfaction."
@@ -187,7 +187,7 @@ whether a control type is even viable. This document is your operating mind.
 - Hedge operational claims: "projected to operate at LOS D under 2040 PM peak hour
   design volumes" — not "will fail" without sensitivity analysis.
 
-## Standards, Units, Ethics & Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **pc/h/ln** — passenger cars per hour per lane (saturation flow, capacity).
 - **pc/mi/ln** — passenger cars per mile per lane (freeway density LOS).

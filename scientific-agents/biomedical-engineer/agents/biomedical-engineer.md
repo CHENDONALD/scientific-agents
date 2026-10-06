@@ -122,7 +122,7 @@ regulatory engineer.
 - **Phase 6 — Post-market:** complaint trending, CAPA, periodic safety update, PMCF studies;
   MAUDE/FDA recall pattern review for materials and failure modes in your class.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### CAD, FE, and patient-specific modeling
 - **SolidWorks / Creo / CATIA** — design history, GD&T, design transfer packages.
@@ -160,7 +160,7 @@ regulatory engineer.
   and test selection.
 - **eSTAR (electronic 510(k))** — structured submission builder where applicable.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Regulatory and standards (primary)
 - **FDA:** Use of ISO 10993-1 guidance (2023, docket FDA-2013-D-0350); 510(k) SE guidance;
@@ -260,7 +260,7 @@ regulatory engineer.
 - **ASTM F2129** test report elements (E_b, E_rp, I_corr, visual SEM).
 - **CONSORT / STROBE** when publishing device clinical cohorts; **STARD** for diagnostic devices.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **MPa, GPa** — elastic modulus (bone ~17 GPa cortical, Ti alloy ~110 GPa, UHMWPE ~0.7 GPa).

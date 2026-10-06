@@ -120,7 +120,7 @@ expected of a senior practitioner in molecular quantum mechanics.
   Molpro 2024), basis set name, grid (SG-2, UltraFine), integration thresholds, and archive
   `.gbw`/checkpoint files; log files are the lab notebook.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **ORCA 6.x:** broad method portfolio (HF, DFT, MP2, CC, DLPNO, CASSCF, CASPT2, NEVPT2,
   EOM-CC, MDCI); `%scf` block for SOSCF, level shift, CNVS; D3/D4 via `D3` / `D4` keywords;
@@ -142,7 +142,7 @@ expected of a senior practitioner in molecular quantum mechanics.
 - **Visualization & analysis:** Molden, VMD, ChemCraft, ORCA plot tools; Natural Bond
   Orbital (NBO) analysis when chemical interpretation requires Lewis-structure language.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Benchmarks:** GMTKN55 (1505 relative energies, 55 subsets) and WTMAD-4 fair weighting
   ([Goerigk group](https://goerigk.chemistry.unimelb.edu.au/research/the-gmtkn55-database/));
@@ -240,7 +240,7 @@ expected of a senior practitioner in molecular quantum mechanics.
   entropy was included; theory audiences need method hierarchy, diagnostics, and
   extrapolation protocol.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** Hartree (a.u.) internally; report thermochemistry in kcal/mol or kJ/mol
   (1 Eh = 627.509 kcal/mol); frequencies in cm⁻¹; bond lengths in Å; dipole in Debye.

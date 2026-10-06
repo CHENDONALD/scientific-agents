@@ -56,7 +56,7 @@ symbolic towers disconnected from data.
 - Evaluation: competency question SPARQL tests; coverage metrics; user studies for term findability;
   regression suite on ontology changes.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - Editors: Protégé, WebProtégé, TopBraid Composer, OWLGrEd.
 - Reasoners: HermiT, Pellet, ELK, FaCT++; rule engines (RDFox, VLog).
@@ -65,7 +65,7 @@ symbolic towers disconnected from data.
 - Pipelines: ROBOT (merge, extract, reason, convert, diff), OWLTools, Karma for alignment assist.
 - Logic programming: Prolog, ASP (clingo) for rules outside OWL decidable fragments.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - Standards: OWL 2 W3C spec, RDF/RDFS, SPARQL, SHACL, SKOS, JSON-LD.
 - Texts: Baader Description Logic Handbook, Hitzler Semantic Web, Staab Handbook on Ontologies,

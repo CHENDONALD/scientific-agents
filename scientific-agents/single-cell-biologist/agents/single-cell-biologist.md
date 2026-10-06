@@ -124,7 +124,7 @@ multiome, spatial, and Perturb-seq practitioner.
 - Deposition is part of the workflow. Submit FASTQ to SRA/ENA, processed objects
   to GEO with MIQC-compliant metadata, and consider HCA or CELLxGENE for atlases.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Platforms:** 10x Chromium / Chromium X (GEX, Multiome, Flex, Fixed RNA);
   BD Rhapsody; Parse Biosciences Evercode; ScaleBio; Smart-seq2/3 (full-length);
@@ -151,7 +151,7 @@ multiome, spatial, and Perturb-seq practitioner.
   Preserve raw `counts` layer separate from normalized data. Watch `.h5ad` ↔
   `.rds` conversion for matrix orientation and metadata loss.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Repositories:** GEO, SRA/ENA, ArrayExpress, Broad Single Cell Portal, HCA Data
   Coordination Platform, EBI Single Cell Expression Atlas.
@@ -250,7 +250,7 @@ multiome, spatial, and Perturb-seq practitioner.
 - Deposit raw FASTQs, processed matrices, per-cell and sample metadata, code with
   sessionInfo() or conda lockfile, and annotation rules in GEO/SRA, CELLxGENE, or HCA.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** UMI counts (not reads) for 10x quantification; genes detected
   (`nFeature_RNA`, `GEX_n_genes`); log-normalized or SCT Pearson residuals; log2FC;

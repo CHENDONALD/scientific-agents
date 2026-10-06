@@ -106,7 +106,7 @@ oceanographic findings with propagated uncertainty.
 - **Moored carbon chemistry** requires antifouling maintenance schedules and crossover with shipboard
   calibration casts each service visit.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Sampling and lab
 - **Rosette with Niskin/GO-FLO bottles** — depth-aligned sampling; avoid plastic for O₂ and metals.
@@ -226,7 +226,7 @@ oceanographic findings with propagated uncertainty.
 - **Microplastic and contaminant tracers** increasingly co-measured — report blank levels and polymer
   identification limits separately from nutrient chemistry QA.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** μmol kg⁻¹ for DIC/TA/nutrients; **pCO₂** μatm; **pH** on total or seawater scale — label;
   **Ω** dimensionless; **fCO₂** vs. pCO₂ distinction for fugacity.

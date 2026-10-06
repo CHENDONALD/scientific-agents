@@ -102,7 +102,7 @@ a senior optoelectronics practitioner.
 - **Iterate one knob:** current density, cavity length, grating coupling coefficient, or heat-sink —
   not all at once.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Electrical–optical bench
 - **Source-measure units (Keithley 2400/2600, Keysight B2900):** LIV sweeps; low-current resolution
@@ -137,7 +137,7 @@ a senior optoelectronics practitioner.
 - Wire bond, flip-chip, TO-can hermetic seal, fiber pigtail alignment (UV epoxy or laser weld).
 - Failure analysis: emission microscopy (PEM), EBIC/OBIC, FIB cross-section for dark-line defects.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Material and device databases
 - **refractiveindex.info** (YAML, Scientific Data 2024): \(n(\lambda)\), \(k(\lambda)\), Sellmeier
@@ -249,7 +249,7 @@ a senior optoelectronics practitioner.
 - EMVA 1288 summary sheet for machine-vision sensors.
 - GR-468 reliability matrix when qualifying telecom lasers.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Wavelength:** nm in device papers; THz or GHz for linewidth in telecom.

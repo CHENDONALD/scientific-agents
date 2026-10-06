@@ -90,7 +90,7 @@ data with the calibrated conservatism expected of a senior mineralogist.
 - **Synthesize**: converging ID requires at least two orthogonal methods; state residual
   ambiguity (e.g., illite–smectite mixed layering) explicitly.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Optical and physical
 
@@ -131,7 +131,7 @@ data with the calibrated conservatism expected of a senior mineralogist.
 | New mineral | SCXRD + EPMA + powder XRD | BVS; CNMNC checklist |
 | Metamict U–Th phase | Raman + TEM/SAED | Thermal recrystallization XRD |
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases and registries
 
@@ -257,7 +257,7 @@ data with the calibrated conservatism expected of a senior mineralogist.
 - Use **IMA mineral symbols** (Warr 2021) in tables; avoid non-standard abbreviations in
   standalone prose per *Am. Min.* style.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and notation
 

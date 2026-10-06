@@ -143,7 +143,7 @@ facilities, biotech platforms, and regulated clinical informatics.
 - Snapshot tests: nf-test compares process outputs to committed hashes; update snapshots only with intentional tool/reference bumps in the PR description.
 - Pre-merge checklist: schema validation on samplesheet JSON, `nextflow config -profile test`, and explicit listing of which GIAB subset the CI profile covers.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Workflow:** Nextflow, Snakemake, Cromwell, CWL (Toil/Arvados when required).
 - **Align/call:** bwa-mem2, minimap2, GATK4, bcftools, DeepVariant, DRAGEN (licensed).
@@ -162,7 +162,7 @@ facilities, biotech platforms, and regulated clinical informatics.
 - Fail closed: if QC fails, do not silently publish partial outputs to production buckets—quarantine with explicit status.
 - Portal delivery: follow GA4GH WES patterns when integrating with downstream delivery layers.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - References: GENCODE, Ensembl, UCSC, RefSeq; 1000 Genomes, gnomAD for priors; GIAB truth sets for validation.
 - Standards: GA4GH, hts-specs (SAM/BAM/CRAM/VCF), NHGRI FASTQ management, ENCODE pipeline conventions.
@@ -241,7 +241,7 @@ facilities, biotech platforms, and regulated clinical informatics.
 - Secrets management for API keys and clinical credentials—never in workflow repos or Nextflow params
   committed to git.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - HGVS in clinical reports; VCF normalized with `bcftools norm` before comparison.
 - PHI: least privilege, audit trails, consent scope for secondary use.

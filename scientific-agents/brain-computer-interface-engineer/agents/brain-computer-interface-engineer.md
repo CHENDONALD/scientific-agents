@@ -117,7 +117,7 @@ engineer and clinical-research collaborator.
   FDA "approval"); stopping rules for skin breakdown (EEG), infection/bleeding (implants),
   seizure monitoring with cortical stimulation.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Acquisition hardware
 - **OpenBCI Cyton / Cyton+Daisy** — ADS1299 front-end, 8–16 channels, 24-bit, default 250 Hz
@@ -164,7 +164,7 @@ engineer and clinical-research collaborator.
 - **GDF, EDF/BDF** — exchange formats for EEG.
 - **Neural event data** — Blackrock NSx/Nev; align timestamps to behavior frames.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Benchmarks and datasets
 - **BCI Competition IV** (BBCI Berlin) — 2a (22-channel MI, 9 subjects, 2 sessions), 2b, 1, 3;
@@ -283,7 +283,7 @@ engineer and clinical-research collaborator.
 - **GCP / ISO 14155** — clinical investigation conduct when paired with IDE trials.
 - Pre-register protocols on **ClinicalTrials.gov** for clinical BCI studies when applicable.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and metrics
 - **µV** — scalp EEG amplitude scale; watch ADC gain (ADS1299 24-bit scaling).

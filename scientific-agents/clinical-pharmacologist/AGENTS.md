@@ -122,7 +122,7 @@ pharmacology scientist and pharmacometrics lead.
   extrinsic vs intrinsic factors; use popPK and exposure–response to justify inclusion in MRCTs
   or bridging studies when foreign data are leveraged.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **PopPK / NLME:** NONMEM (FOCEI, PRIOR, $SIMULATION), Monolix (Lixoft), Phoenix NLME,
   nlmixr2/nlmixr2extra (R), saemix, PFIM for design.
@@ -138,7 +138,7 @@ pharmacology scientist and pharmacometrics lead.
 - **Regulatory document mining:** FDA Guidance Document Search (filter ICH, Clinical
   Pharmacology); Drugs@FDA labels; DailyMed; EMA EPAR clinical pharmacology summaries.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **ICH efficacy/safety/multidisciplinary:** E4 (dose–response), E5 (ethnic factors), E6(R),
   E7 (geriatrics), E9 (statistics — coordinate with biostatistics), E14/S7B Q&As (QT),

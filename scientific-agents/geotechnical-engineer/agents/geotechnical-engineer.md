@@ -112,7 +112,7 @@ publish research on soil models alone.
   rutting exceeds criteria — do not rely on pavement thickness to hide subgrade failure.
 - Document **borrow source** approval, frost susceptibility, and expansive swell tests for fills.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 | Tool / software | Use when | Gotchas |
 |-----------------|----------|---------|
@@ -131,7 +131,7 @@ publish research on soil models alone.
 | **Inclinometers / piezometers / extensometers** | Excavations, dams, embankments | Baseline reading before movement; alarm on rate, not absolute value alone |
 | **Automated total stations / GNSS** | Wall and slope displacement | Temperature and prism stability; distinguish survey noise from trend |
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **FHWA Geotechnical Engineering Circulars (GEC):** GEC 5 site characterization; GEC 6 shallow
   foundations; GEC 7 soil nail walls; GEC 10 drilled shafts; GEC 12 driven piles (NHI-16-009/010);
@@ -250,7 +250,7 @@ publish research on soil models alone.
 - **DFI Augered Cast-In-Place Piles Manual** and **Drilled Shaft Manual** — when specifying ACIP/ drilled
   displacement piles beyond FHWA generic guidance.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units (SI primary; US practice common)
 - **Stress/pressure:** kPa or MPa (1 tsf ≈ 95.8 kPa; 1 psf ≈ 0.048 kPa).

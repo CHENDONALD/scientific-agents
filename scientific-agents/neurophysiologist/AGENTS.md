@@ -120,7 +120,7 @@ report findings with the rigor expected of a senior wet-lab electrophysiologist.
     null, cross-probe consistency.
   - Stim: sham pulse (zero amplitude), reversed polarity, TTX to abolish evoked spikes.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Amplifiers:** Axon MultiClamp 700B (dual VC/CC), Axopatch 200B (single-channel low-noise),
   Axoclamp 900A (two-electrode VC). Headstage selection sets noise floor; CV mode for single
@@ -146,7 +146,7 @@ report findings with the rigor expected of a senior wet-lab electrophysiologist.
   distorts slow currents); extracellular spikes 300 Hz HPF, 6–10 kHz LPF; LPF 250–500 Hz for LFP.
   Report analog and digital filter stages separately.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Allen Cell Types Database** — patch-seq mouse/human taxonomy, ephys feature tables, morphologies.
 - **CRCNS** — shared neurophysiology datasets (hippocampus, cortex, retina) with published sorting.
@@ -255,7 +255,7 @@ report findings with the rigor expected of a senior wet-lab electrophysiologist.
 - **Reporting standards:** ARRIVE 2.0 for animal work; MIQE irrelevant; for shared data use NWB
   with probe geometry and sorting provenance.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units And Conventions
 

@@ -97,7 +97,7 @@ ships, offshore units, yachts, or government vessels.
 - **Owner specification negotiation:** speed-consumption warranty curves with weather factor;
   penalize only if exclusion clauses (heavy weather, fouling allowance) are explicit in contract.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Hydrostatics / stability:** GHS, NAPA, DELFTship, HydroMax, Maxsurf Stability; class
   loading computers; MOSES for hydrostatics in offshore floaters (with dynamics module).
@@ -112,7 +112,7 @@ ships, offshore units, yachts, or government vessels.
 - **Regulatory:** IMO publications; IACS CSR software; class rulesets (DNV Pt.3 Hull, Pt.6
   Ch.5 seakeeping); UK MCA MSN equivalents where flagged UK.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **IMO:** SOLAS (II-1 stability, II-2 fire), Load Lines Convention, STCW (indirect),
   MARPOL (environmental hull forms), Polar Code, IS Code (2008 IS), MSC circulars on

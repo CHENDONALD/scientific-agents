@@ -142,7 +142,7 @@ diagnostician, extension pathologist, or research phytopathologist.
   pre-specified intervals; record BBCH and weather; primary endpoint: AUDPC, AUDPS, final severity,
   or incidence as pre-specified.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Microscopy and phenotyping
 - Dissecting and compound microscopes — sign ID, spore morphology, nematode counts.
@@ -179,7 +179,7 @@ diagnostician, extension pathologist, or research phytopathologist.
 - **lme4/glmmTMB** — GLMMs on incidence (binomial) or severity (beta); block as random effect.
 - **spdep** — spatial autocorrelation when foci are clustered.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases and registries
 - **EPPO Global Database (gd.eppo.int)** — pest/host codes, distribution, phytosanitary status.
@@ -274,7 +274,7 @@ diagnostician, extension pathologist, or research phytopathologist.
 - **Regulatory:** cite EPPO PM 7 performance characteristics; distinguish surveillance positive from
   confirmed outbreak.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Severity** — % area symptomatic or host–pathogen EPPO scale.

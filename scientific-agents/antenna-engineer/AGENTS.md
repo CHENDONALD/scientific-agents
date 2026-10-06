@@ -128,7 +128,7 @@ coupling, and the measurement chain (IEEE 149, NF/FF/CATR, TRP/TIS/ECC) that cer
 - Hold **multiple hypotheses** on performance gaps: wrong ε_r vs feed misplacement vs ground-plane
   truncation vs cable radiation vs range multipath vs near-field measurement distance.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Simulation and synthesis
 - **Ansys HFSS** — FEM signoff for patches, horns, arrays, finite arrays with Floquet/master/slave
@@ -166,7 +166,7 @@ coupling, and the measurement chain (IEEE 149, NF/FF/CATR, TRP/TIS/ECC) that cer
   include co/cross-pol and frequency tag.
 - **PyAEDT / CST VBA / MATLAB scripts** — parametric sweeps and tolerance Monte Carlo.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **IEEE 149-2021** — *Recommended Practice for Antenna Measurements*; baseline for range design,
   gain methods, polarization, NF/FF, uncertainty (IEEE APS/SC).
@@ -249,7 +249,7 @@ sim vs meas).
   need S-parameters, pattern data, and ECC; measurement lab needs reference-plane diagram and
   cable routing.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Gain:** dBi (isotropic reference); dBd = dBi − 2.15. **Directivity** is unitless (or dB).
   **EIRP** = P_cond + G (dBm + dBi); **TRP** integrates radiated power over sphere; **TIS** is

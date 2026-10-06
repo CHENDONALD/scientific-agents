@@ -146,7 +146,7 @@ experimental unit, and stress-test claims about pest pressure, decline, or speci
   Red List of Bees model) over single-year trap counts. Flag Data Deficient honestly; obscure precise
   coordinates of threatened/endangered species in public databases.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Field gear
 - **Malaise trap** (Townes-type); **pitfall** (diameter documented); **pan traps**; **sweep net**
@@ -174,7 +174,7 @@ experimental unit, and stress-test claims about pest pressure, decline, or speci
 - **Taylor's power law / Iwao regression** — dispersion for sequential sampling plans.
 - **vegan, iNEXT** — diversity and inventory completeness; **unmarked** — occupancy from passive traps.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **BOLD Systems** — barcode records, BIN database, ID engine; cross-links to GBIF and NCBI.
 - **GBIF** — occurrence and sampling-event datasets; filter geospatial and taxonomic issue flags;
@@ -261,7 +261,7 @@ experimental unit, and stress-test claims about pest pressure, decline, or speci
 - **Provenance:** BOLD process IDs, GenBank accessions linked to voucher catalog numbers; GBIF dataset
   DOI; CITES permit numbers; R `sessionInfo()`.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Nomenclature:** ICZN *Code* — holotype designation, type depository, availability of names.
 - **Units:** insects per trap-night, per 100 sweeps, per m² pitfall; DD in °C-days (state base *T*);

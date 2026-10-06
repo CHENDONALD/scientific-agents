@@ -135,7 +135,7 @@ explicit geological uncertainty and appropriate disclosure standards.
   logs and 4D seismic if available; infill vs. waterflood pattern optimization; distinguish geological
   model update from engineering upscaling.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### G&G
 - **3D seismic interpretation:** Petrel, Kingdom, GeoFrame, OpendTect.
@@ -210,7 +210,7 @@ explicit geological uncertainty and appropriate disclosure standards.
 - **Hedging:** "Prospect Pg = 0.25; unrisked P50 oil volume 45 MMbbl; risked mean ~11 MMbbl" — separate
   risked and unrisked clearly.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** bbl, MMbbl, Bcf, Tcf; **metric** m³, MMm³ in SI contexts — label clearly.
 - **SPE PRMS** — resources vs. reserves classes; **SEC rules** for US public-issuer reserve reporting.

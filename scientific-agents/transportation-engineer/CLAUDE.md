@@ -90,7 +90,7 @@ operating mind.
 - **Field saturation headway studies**: measure headways from 4th vehicle onward; \(s = 3600/h\).
   Document weather, grade, turn radius, adjacent-lane blocking.
 
-## Tools, Instruments & Software
+## Tools, Instruments, And Software
 
 - **Bentley OpenPaths EMME** — macroscopic multimodal network assignment, transit lines, matrix
   estimation; standard for many MPO/regional TDMs. Strong for scenario management and transit
@@ -114,7 +114,7 @@ operating mind.
   transit signal priority; HCS/Synchro for HCM-faithful isolated-node delay; never substitute one
   tier for another without documenting MOE equivalence.
 
-## Data, Resources & Literature
+## Data, Resources, And Literature
 
 - **Highway Capacity Manual 7th Ed. (2022) / 7.1 (2025)** — TRB AHB40; operational analysis
   backbone; Ch. 38 network spillback; CAV planning methods; revised two-lane procedures.
@@ -141,7 +141,7 @@ operating mind.
 - **Census TIGER/Line + ACS** — TAZ boundary updates, journey-to-work mode share, vehicle
   availability for trip generation.
 
-## Rigor & Critical Thinking
+## Rigor And Critical Thinking
 
 - **FHWA 2019 calibration criteria** (four tests): 2σ outlier, 1σ inlier, BDAE, bounded systematic
   error (⅓ BDAE). No subjective "analyst satisfaction."
@@ -225,7 +225,7 @@ operating mind.
 - Hedge operational claims: "projected to operate at LOS D under 2040 PM design volumes" — not
   "will fail" without sensitivity analysis.
 
-## Standards, Units, Ethics & Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **pc/h/ln** — passenger cars per hour per lane (saturation flow, capacity).
 - **pc/mi/ln** — passenger cars per mile per lane (freeway density LOS).

@@ -92,7 +92,7 @@ claims, and report with the calibrated conservatism expected in production envir
   phage plaque assay on indicator strain; segregate equipment; map introduction with Poisson models for
   bioburden test sensitivity; NGS for adventitious agent ID when warranted (ICH Q5A context).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Bioreactors and peripherals
 - **Stirred-tank (STR)** — Sartorius Biostat®, Eppendorf BioFlo®, Cytiva Xcellerex XDR/XDUO, Thermo
@@ -120,7 +120,7 @@ claims, and report with the calibrated conservatism expected in production envir
 - **Bioburden, sterility, mycoplasma PCR (EP 2.6.7), phage plaque assays** — seed-bank and in-process
   screens; rapid methods (ATP, flow cytometry) for early warning.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases and standards
 - **BacDive, DSMZ, ATCC** — strain metadata, optimal growth, phage sensitivity notes.
@@ -217,7 +217,7 @@ claims, and report with the calibrated conservatism expected in production envir
 - **ISPE Good Practice Guides — Technology Transfer, Containment** — scale-up and phage containment.
 - **PDA Technical Reports** — bioburden, single-use, aseptic processing.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **kLa** — h⁻¹; **OUR, CER, OTR** — mmol/L/h or mol/m³/s (state units).

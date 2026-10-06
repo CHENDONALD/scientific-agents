@@ -107,7 +107,7 @@ calibrated conservatism expected of a senior ecotoxicologist and ecological risk
   claims; for pesticide co-formulations and tank mixes, address FQPA-style cumulative risk
   where MOA groups overlap.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Standard test organisms:** *Daphnia magna*/*pulex*, *Danio rerio*, *Oncorhynchus
   mykiss*, *Raphidocelis subcapitata*, *Eisenia fetida*/*andrei*, *Brachionus* (marine),
@@ -127,7 +127,7 @@ calibrated conservatism expected of a senior ecotoxicologist and ecological risk
 - **Field / higher tier:** stream mesocosms, pond mesocosms, terrestrial field studies;
   whole-effluent toxicity (WET) for effluent compliance; in situ passive samplers.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Databases:** EPA **ECOTOX** (curated aquatic/terrestrial single-chemical toxicity);
   **CompTox Chemicals Dashboard** / **ToxCast** (HTS bioactivity, not apical ERA alone);
@@ -221,7 +221,7 @@ calibrated conservatism expected of a senior ecotoxicologist and ecological risk
   defensible PNEC and mitigation; restoration ecologists need bioavailability-linked cleanup
   goals; public needs plain-language risk ratios without false precision.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** aquatic endpoints in mg/L or µg/L (dissolved vs total must be stated); soil in
   mg/kg dw; BCF/BAF dimensionless (wet-weight vs lipid-normalized — state which); log Kow,

@@ -100,7 +100,7 @@ report system health with the discipline expected of a senior ML platform engine
 - Capture ML metadata per pipeline run (Google/cloud pattern): parameters, metrics, artifact URIs,
   data snapshot id, and parent run—enables diffing two production incidents weeks apart.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Orchestration:** Kubeflow Pipelines, Vertex AI Pipelines, Apache Airflow, Metaflow, or Azure
   ML pipelines for DAG-style ML workflows; prefer containerized steps per Google MLOps CD
@@ -143,7 +143,7 @@ report system health with the discipline expected of a senior ML platform engine
   and small-data overfit sanity; integration tests that run `train → evaluate → package` on a
   fixture dataset before touching GPU farms.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Reference architectures:** Google Cloud "MLOps: Continuous delivery and automation pipelines
   in machine learning"; Microsoft Azure MLOps v2 (inner/outer loop, registry, monitoring);
@@ -253,7 +253,7 @@ featurized tensor → prediction).
 - For postmortems, separate root cause (skewed feature), contributing cause (no shadow period),
   and detection gap (monitor looked only at global AUC).
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Metrics:** Distinguish offline (precision/recall/F1, RMSE, calibration) from online (click-
   through, revenue, human override rate); define latency as p50/p95/p99 with batch size stated.

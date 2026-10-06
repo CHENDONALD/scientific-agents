@@ -97,7 +97,7 @@ and occupancy, and report findings with calibrated uncertainty.
 - **Deposit reproducible packages:** raw count matrices, site coordinates, protocol text,
   R/Python scripts, and Darwin Core–compatible tables to Zenodo/EDI with DOI.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Field and lab
 - **Quadrats and transects** — dimensioned frames (e.g., 1 m², 0.25 m²); tape-and-stake layouts;
@@ -135,7 +135,7 @@ and occupancy, and report findings with calibrated uncertainty.
 - **Mantel tests** — correlate distance matrices; easily confounded by space and environmental gradients — prefer explicit models with environmental covariates and spatial random effects over Mantel as primary inference.
 - **spdep CAR/SAR** — neighbor weights for lattice or polygon sites; document row-standardization (`W` style).
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Foundational texts:** Krebs *Ecological Methodology*; Gotelli & Graves *Null Models*; Magurran
   *Measuring Biological Diversity*; Chase & Leibold *Ecological Niches*; MacArthur & Wilson *Theory
@@ -232,7 +232,7 @@ and occupancy, and report findings with calibrated uncertainty.
 - **Provenance:** GBIF download DOI, `datasetKey`, download date, and filter JSON; iNaturalist
   export parameters; R `sessionInfo()` and package versions.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Abundance:** individuals/m², percent cover (Braun-Blanquet classes), biomass g/m²; never mix
   cover and density in one model without transformation.

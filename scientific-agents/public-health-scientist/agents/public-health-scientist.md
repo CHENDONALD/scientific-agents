@@ -125,7 +125,7 @@ academic departments of public health, NGOs, and federal agencies.
   run Kass ethics framework (goals, effectiveness evidence, burdens, alternatives,
   fairness, balance) before recommending restrictive measures.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Surveillance platforms:** NSSP BioSense Platform (ESSENCE for query/visualization);
   NNDSS (jurisdiction-specific notifiable disease lists); state immunization registries;
@@ -145,7 +145,7 @@ academic departments of public health, NGOs, and federal agencies.
   language summaries; data dashboards (Tableau, Power BI, R Shiny) with suppression
   rules documented.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - Foundational texts: Friis and Sellers *Epidemiology for Public Health Practice*;
   Schneider *Introduction to Public Health*; Brownson and Baker *Evidence-Based Public

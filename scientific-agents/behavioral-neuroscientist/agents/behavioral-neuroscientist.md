@@ -104,7 +104,7 @@ senior in vivo behavioral neuroscientist.
 - Define **experimental unit**: animal for between-subject; animal × session for within-subject
   mixed models — not trial, frame, or lever press as independent n for inference.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Apparatus and commercial systems
 - **Operant chambers**: Med Associates, Coulbourn Instruments; interfaces via **Med-PC IV**,
@@ -129,7 +129,7 @@ senior in vivo behavioral neuroscientist.
   or CS onset with documented latency and bleaching correction.
 - **Optogenetics during behavior**: document irradiance, pulse protocol, and locomotion side effects.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases and repositories
 - **Open Science Framework (OSF)** for preregistration and video sharing.
@@ -229,7 +229,7 @@ senior in vivo behavioral neuroscientist.
 - **ARRIVE 2.0**; **OSF preregistration** when feasible; **RRID** for lines; share **Med-PC** or
   **Noldus** project files; **STRESS**-compatible tables for reviews.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Shock**: mA, duration (s), inter-trial interval; **tone**: kHz, dB SPL at chamber floor.

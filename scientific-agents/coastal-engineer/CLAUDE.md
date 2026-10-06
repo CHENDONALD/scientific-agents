@@ -107,7 +107,7 @@ coastal engineering with calibrated uncertainty.
 - **State CZM / living shoreline policies** — prefer softest feasible approach on sheltered coasts;
   document wave energy thresholds and monitoring (NCCOS/NOAA performance protocols).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 | Tool / software | Use when | Gotchas |
 |-----------------|----------|---------|
@@ -126,7 +126,7 @@ coastal engineering with calibrated uncertainty.
 | **SMS (Surface-water Modeling System)** | Pre/post, CMS coupling, GenCade setup | Version match to engine; grid orthogonality at structures |
 | **BOUSS-2D / phase-resolving** | Harbor resonance, short-scale runup | Expensive; use when spectral models miss narrowband energy |
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **USACE Coastal Engineering Manual (EM 1110-2-1100)** — processes, design, and example problems (Parts V–VI).
 - **EM 1110-2-1614** — revetments, seawalls, bulkheads; design waves, runup, overtopping.
@@ -234,7 +234,7 @@ coastal engineering with calibrated uncertainty.
 - **NOAA Living Shorelines guidance (2015)** — alternatives and monitoring.
 - **ASCE 7 / IBC coastal chapters** — when coordinating structural loads on decks and piles.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units (SI primary; US practice common)
 - **Wave height:** m (ft); Hs, Hm0, H1/3 stated explicitly.

@@ -115,7 +115,7 @@ in commercial shipping, offshore, naval support, or port/industrial marine plant
   fire main, emergency generator, oily water separator 15 ppm) — rank repair queue by statutory
   risk not convenience.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Prime movers & packages:** MAN B&W, WinGD (two-stroke); Wärtsilä, Caterpillar MaK,
   Cummins, Bergen (medium/high-speed); Rolls-Royce MTU for fast craft. Read technical files
@@ -138,7 +138,7 @@ in commercial shipping, offshore, naval support, or port/industrial marine plant
 - **Regulatory databases:** IMO GISIS, class rules portals (DNV Rules, LR Rulesets); IACS
   unified interpretations; flag state circulars.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Rules & conventions:** SOLAS; MARPOL Annexes I, VI; STCW (manning context); IBC/IGC for
   chemical/LNG carriers; Polar Code if applicable; IMO BWM Convention (D-2 discharge standard);

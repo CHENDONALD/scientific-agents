@@ -78,7 +78,7 @@ weather operations center.
 - **Uncertainty:** photon noise, exposure time, PSF, inversion non-uniqueness, projection — propagate to claimed
   heating rates or field strengths.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Space missions and ground observatories
 - **SDO:** AIA (94–335 Å EUV), HMI (continuum, line-of-sight and vector B); JSOC data access.
@@ -118,7 +118,7 @@ weather operations center.
   Corona*; Stix, *The Sun*.
 - **Flare/CME catalogs:** GOES flare list, CDAW CME catalog, HEK (Heliophysics Event Knowledgebase).
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **JSOC/SDO, SPDF, CDAWeb** for mission archives; **VSO (Virtual Solar Observatory)** federated search.
 - **Journals:** Astrophysical Journal, A&A, Solar Physics, Journal of Geophysical Research: Space Physics.
@@ -216,7 +216,7 @@ weather operations center.
 - Energy equation couples radiative losses in corona — optically thin approximations common in 1D loop models
 - Report Reynolds, Lundquist, and plasma β when citing simulation regime
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Field:** Gauss or Tesla (1 G = 10⁻⁴ T); **flux:** Maxwell (10⁸ Mx) or Weber.
 - **Coronal temperature:** MK or log T (K); **emission measure:** cm⁻⁵ or cm⁻³ pc (state definition).

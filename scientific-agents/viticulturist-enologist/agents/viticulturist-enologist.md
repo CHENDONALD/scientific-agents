@@ -118,7 +118,7 @@ claims, and report with the measured language of a senior grower-winemaker.
 - **Bottling:** sterile filtration if RS >2 g/L or microbial risk; headspace/O₂ pickup control; closure
   choice (TCA risk in natural cork — screening; screw cap vs. cork for O₂ transmission intent).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Vineyard
 - **Refractometer / digital Brix meter** — field ripeness; temperature-correct; does not replace lab pH/TA.
@@ -152,7 +152,7 @@ claims, and report with the measured language of a senior grower-winemaker.
 - **Fermentation monitors (Vinmetrica, Mettler, custom probes)** — Brix/density/temp logging.
 - **AWRI Winemaking Calculators** — SO₂, molecular SO₂, additions, fining rate conversions.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Standards and protocols
 - **OIV Compendium of International Methods of Wine and Must Analysis** — authoritative analytical methods
@@ -290,7 +290,7 @@ claims, and report with the measured language of a senior grower-winemaker.
 - **EU Reg. 2021/2117 / TTB COLA** — labeling, allergens (fining agents), appellation compliance.
 - **Codex/OIV maximums** — SO₂, VA, sorbates, residual pesticide MRLs by market.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **°Brix** — approximate g/100 g sucrose in juice; temperature-correct refractometry; ≠ g/L sugar without

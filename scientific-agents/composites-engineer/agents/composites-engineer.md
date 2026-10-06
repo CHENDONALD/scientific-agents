@@ -126,7 +126,7 @@ structural composites engineer in aerospace, wind energy, automotive, or marine 
   race-tracking vs. expired prepreg vs. out-of-spec DOC vs. tool contamination — design the
   discriminating check (FTIR, DSC, micrograph, leak test, permeability model).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Laminate mechanics and design
 - **CLT / ABD tools:** ABD Composites (browser CLT), ESAComp (Componeering), HyperSizer,
@@ -170,7 +170,7 @@ structural composites engineer in aerospace, wind energy, automotive, or marine 
   short-fiber and woven composites; links to Moldflow/FEA.
 - **HyperSizer, ESAComp** — sizing and margin reporting for aerospace laminates.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Handbooks and certification
 - **CMH-17 (Composite Materials Handbook-17)** — Vol. 1 guidelines/characterization, Vol. 3
@@ -311,7 +311,7 @@ compliance issue, or a mislabeled ply orientation rather than a material defect?
 - For general audiences, translate **Vf and void content** into plain language ("resin-rich" vs.
   "resin-starved"); for specialists, give the numbers.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Key standards (non-exhaustive)
 - **ASTM D3039** — tensile properties of PMC laminates.

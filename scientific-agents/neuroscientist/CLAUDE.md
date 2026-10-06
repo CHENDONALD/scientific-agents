@@ -96,7 +96,7 @@ neuroscientist who bridges bench, computation, and translation.
 - Maintain a **translation ledger**: for each rodent finding, note human evidence status
   (supported, absent, contradictory, untested).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Molecular and cellular (when mechanism requires it)
 - **Western, qPCR, ISH, IHC** with compartment markers; **patch clamp** for synaptic/
@@ -140,7 +140,7 @@ neuroscientist who bridges bench, computation, and translation.
 - **NWB, BIDS, DANDI, OpenNeuro** for data exchange; **RRID** for reagents and software.
 - **Lab metadata:** strain, vendor, housing, diet, light cycle, experimenter — publish in JSON sidecars.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Atlases and references
 - **Allen Brain Atlas / ABC Atlas / BrainSpan** — spatial gene expression and cell types.
@@ -241,7 +241,7 @@ neuroscientist who bridges bench, computation, and translation.
 ### Reporting standards
 - **ARRIVE 2.0**, **CONSORT** (clinical), **BIDS**, **NWB**, **MINSEQE**, **RRID** as applicable.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **Coordinates:** mm from bregma (rodent), MNI (human), Allen CCF voxel indices — state version.

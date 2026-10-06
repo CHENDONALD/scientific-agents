@@ -6,18 +6,23 @@
 [![YouTube](https://img.shields.io/badge/YouTube-K--Dense_Inc.-FF0000?logo=youtube)](https://www.youtube.com/@K-Dense-Inc)
 [![Reddit](https://img.shields.io/badge/Reddit-u%2F--k--dense---FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/user/-k-dense-/)
 [![Expert Profiles](https://img.shields.io/badge/Expert_Profiles-503-7C3AED)](#agents)
+[![Agent Plugins](https://img.shields.io/badge/Agent_Plugins-1.0.0-0F766E)](https://agent-plugins.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.00084-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.00084)
 
 # Scientific Agents
 
-**Turn any AI agent into an AI Scientist.**
+**Give your AI agent a domain expert's playbook.**
 
-Expert-thinking profiles: each `AGENTS.md` teaches an AI agent to reason like a senior
-practitioner in one scientific or engineering profession — how it frames problems, the
-tools and data it reaches for, how it stress-tests claims, and how it reports findings.
+Expert-thinking profiles: each `AGENTS.md` captures how a senior practitioner in one
+scientific or engineering profession works — how they frame problems, the tools and
+data they reach for, how they stress-test claims, and how they report findings — as
+context an AI agent can load.
 
 </div>
 
 > 🎬 **New to agent profiles?** [Getting Started with Scientific Agent Skills](https://youtu.be/ZxbnDaD_FVg) shows how K-Dense skills and profiles plug into your agent. More walkthroughs on the [K-Dense YouTube channel](https://www.youtube.com/@K-Dense-Inc).
+
+> 📄 **Read the paper:** [Scientific Agents: Evaluating Profession-Specific System Prompts on Scientific Tasks](https://arxiv.org/abs/2610.00084) (arXiv:2610.00084). If these profiles support your research, please [cite it](#citation).
 
 ## Table of contents
 
@@ -25,6 +30,7 @@ tools and data it reaches for, how it stress-tests claims, and how it reports fi
 - [How these profiles are built](#how-these-profiles-are-built)
 - [How to use a profile (three steps)](#how-to-use-a-profile-three-steps)
 - [Using profiles in your AI tool](#using-profiles-in-your-ai-tool)
+  - [Agent Plugins (Copilot, VS Code, and other compatible tools)](#agent-plugins-copilot-vs-code-and-other-compatible-tools)
   - [Cursor](#cursor)
   - [Claude Code](#claude-code)
   - [Google Antigravity](#google-antigravity)
@@ -34,6 +40,7 @@ tools and data it reaches for, how it stress-tests claims, and how it reports fi
   - [Other supported tools](#other-supported-tools)
 - [Star this repo if it helps your work](#star-this-repo-if-it-helps-your-work)
 - [Follow K-Dense](#follow-k-dense)
+- [Citation](#citation)
 - [Agents](#agents)
 
 ## What is AGENTS.md?
@@ -47,8 +54,8 @@ claim, and what mistakes to watch for.
 This repository collects **expert-thinking profiles**: one `AGENTS.md` per scientific
 or engineering profession. Each profile encodes how a senior practitioner in that
 field frames problems, evaluates evidence, troubleshoots, and reports results. Drop
-one into your workflow and the agent stops reasoning like a generic chatbot and starts
-reasoning like someone who knows your domain.
+one into your workflow to give the agent your field's databases, methods, failure
+modes, and reporting norms as working context.
 
 The format is an [open standard](https://agents.md/) (stewarded by the Agentic AI
 Foundation). The same file works across many AI tools — you do not need a separate
@@ -101,6 +108,42 @@ conventions in the same `AGENTS.md`, or keep them in a separate file your tool c
 include (see each tool below).
 
 ## Using profiles in your AI tool
+
+### Agent Plugins (Copilot, VS Code, and other compatible tools)
+
+Every profile folder is an official [Agent Plugin](https://agent-plugins.org/) — the
+open, vendor-neutral plugin standard supported by GitHub Copilot, VS Code, Cursor,
+Codex, and Kiro. Each `scientific-agents/<slug>/` folder carries a spec-conforming
+`plugin.json` (Agent Plugins 1.0.0) and packages the profile as an
+[Agent Skill](https://agentskills.io/) at `skills/<slug>/SKILL.md`, so a compatible
+tool loads the expert profile on demand whenever a task calls for that expertise.
+
+```
+scientific-agents/astronomer/
+├── plugin.json                  # Agent Plugins manifest
+└── skills/astronomer/SKILL.md   # the profile as an Agent Skill
+```
+
+**GitHub Copilot CLI** — add this repo as a marketplace once, then install profiles
+by slug:
+
+```
+copilot plugin marketplace add K-Dense-AI/scientific-agents
+copilot plugin install astronomer@scientific-agents
+```
+
+Or install one folder directly without the marketplace:
+`copilot plugin install K-Dense-AI/scientific-agents:scientific-agents/astronomer`.
+
+**VS Code** — add the repo to the `chat.plugins.marketplaces` setting, then search
+`@agentPlugins` in the Extensions view and install the profiles you want:
+
+```json
+"chat.plugins.marketplaces": ["K-Dense-AI/scientific-agents"]
+```
+
+**Any other Agent Plugins client** — point its plugin installer at a
+`scientific-agents/<slug>/` folder in this repo or a local clone.
 
 ### Cursor
 
@@ -157,7 +200,9 @@ in a single profession as a reusable **subagent** without copying files by hand.
 
 3. Use it: Claude Code now exposes the profile as a subagent named after the
    profile (e.g. `astronomer`). Ask Claude to delegate to it, or invoke it
-   explicitly, and it reasons with the full expert profile loaded.
+   explicitly, and it reasons with the full expert profile loaded. The same
+   plugin also ships the profile as an `astronomer` skill, which Claude can load
+   into your main conversation when a task calls for that expertise.
 
 Every profile in the [Agents](#agents) table is published as its own plugin, so
 you can install exactly the experts you need and update them with
@@ -252,6 +297,25 @@ along for new expert profiles, scientific skills, and research workflows:
 
 > Stay up to date: follow K-Dense on [X](https://x.com/k_dense_ai), [LinkedIn](https://www.linkedin.com/company/k-dense-inc), and [YouTube](https://www.youtube.com/@K-Dense-Inc).
 
+## Citation
+
+If you use these profiles in your research, please cite the paper:
+
+> Timothy Kassis. *Scientific Agents: Evaluating Profession-Specific System Prompts on
+> Scientific Tasks.* arXiv:2610.00084, 2026. https://arxiv.org/abs/2610.00084
+
+```bibtex
+@misc{kassis2026scientificagents,
+  title         = {Scientific Agents: Evaluating Profession-Specific System Prompts on Scientific Tasks},
+  author        = {Timothy Kassis},
+  year          = {2026},
+  eprint        = {2610.00084},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2610.00084}
+}
+```
+
 ## Agents
 
 All 503 expert profiles, grouped by domain. Click a section to expand it; each
@@ -301,10 +365,10 @@ profile name links to its `AGENTS.md`. The complete machine-readable registry li
 | [Computational Scientist](scientific-agents/computational-scientist/AGENTS.md) | Reasons from Roache code/solution verification and ASME V&V 10/20/40 credibility through MMS/GCI, UQ ensembles, and Snakemake/Nextflow/CWL pipelines with conda-lock/Apptainer provenance while treating environment drift, workflow cache staleness, and validation-vs-calibration conflation as first-class failure modes. |
 | [Computational Social Scientist](scientific-agents/computational-social-scientist/AGENTS.md) | Reasons from social mechanisms, measurement validity, and sampling frames through DAGs, fixed-effects and IV/DiD/RDD designs, ERGM/SAOM network models, and human-audited text classifiers while treating unobserved homophily, network interference and SUTVA violations, platform-driven selection, bot contamination, and digital-skew unrepresentativeness as first-class failure modes. |
 | [Computer Architecture Researcher](scientific-agents/computer-architecture-researcher/AGENTS.md) | Reasons from ISA semantics, AMAT/CPI, MESI coherence, and branch prediction through gem5/SPEC/MLPerf evaluation, Amdahl and roofline discipline, TPU/GPU dataflow accelerators, DVFS/EDP, and Spectre/Meltdown mitigation overhead at ISCA/MICRO/HPCA rigor. |
-| [Computer Graphics Researcher](scientific-agents/computer-graphics-researcher/AGENTS.md) | Reasons from the rendering equation and Monte Carlo MIS through Mitsuba/Embree/Blender, Vulkan/DXR real-time stacks, BRDF/BSDF validation, SIGGRAPH/EG reporting, NeRF/3DGS pitfalls, OCIO color pipelines, OIDN denoising bias, and mesh/UV artifact diagnosis while treating train–display gamma errors and unequal-spp comparisons as first-class failure modes. |
+| [Computer Graphics Researcher](scientific-agents/computer-graphics-researcher/AGENTS.md) | Reasons from the rendering equation, Monte Carlo bias/variance, sampling theory, and BSDF energy conservation through pbrt-v4/Mitsuba 3 references, MIS/ReSTIR/path guiding, DXR 1.2 real-time stacks, 3DGS and NerfBaselines protocols, FLIP/ColorVideoVDP evaluation, OpenUSD/MaterialX/OpenPBR interchange, and ACES 2/OCIO color while treating unconverged references, unequal-time comparisons, denoiser and temporal-reuse bias, scene- vs display-referred color errors, and white-furnace energy failures as first-class failure modes. |
 | [Computer Scientist](scientific-agents/computer-scientist/AGENTS.md) | Reasons from computational models, abstraction contracts, invariants, and measurable complexity through CLRS-grade algorithm analysis, impossibility results (FLP, CAP, NP-hardness), property-based and chaos testing, and formal tools (TLA+, Coq, Z3) while treating partial failure, race conditions, label leakage, and abstraction leaks like GC pauses and clock skew as first-class failure modes. |
 | [Computer Security Researcher](scientific-agents/computer-security-researcher/AGENTS.md) | Reasons from explicit threat models and CIA/STRIDE through AFL++/libFuzzer triage, ASan/KASAN oracles, ProVerif/Tamarin proofs, CVE/CWE/CAPEC taxonomies, CyberGym dual-execution benchmarks, Menlo/CVD ethics, and USENIX open-science artifact norms. |
-| [Computer Vision Scientist](scientific-agents/computer-vision-scientist/AGENTS.md) | Reasons from calibration, augmentations, and domain shift through COCO/LVIS/KITTI metrics (mAP, IoU, mask AP), convnets vs ViTs, OpenCV/PyTorch/MMDetection stacks, COLMAP/NeRF 3D, and CVPR/ICCV/ECCV eval discipline while treating label noise, train-test leakage, and resolution mismatch as first-class failure modes. |
+| [Computer Vision Scientist](scientific-agents/computer-vision-scientist/AGENTS.md) | Reasons from image formation, projective geometry (pinhole intrinsics and extrinsics, epipolar/PnP/bundle adjustment, similarity-scale ambiguity), and COCO/LVIS AP mechanics through DINOv3/SigLIP 2 foundation baselines, RF-DETR/YOLO26/SAM 3 models, COLMAP 4/GLOMAP and VGGT geometry, pycocotools/TrackEval/BOP evaluation, and CVPR reporting and EU AI Act limits while treating train–test and pretraining leakage, AP evaluation-setting gaming, preprocessing mismatches (EXIF, BGR, aliased resizing), label noise, and camera-convention and scale errors as first-class failure modes. |
 | [Cryptographer](scientific-agents/cryptographer/AGENTS.md) | Reasons from IND-CCA/EUF-CMA games and tight reductions through AES-GCM/RSA-OAEP/ECDSA, ML-KEM/ML-DSA (FIPS 203/204), ProVerif/Tamarin/EasyCrypt, dudect constant-time, CAVP/ACVP and FIPS 140-3 CMVP—not pure number theory or vuln fuzzing. |
 | [Data Engineer](scientific-agents/data-engineer/AGENTS.md) | Reasons from idempotent ELT, medallion bronze/silver/gold, Kimball grain and SCD2, CDC/Debezium and watermark incremental loads, dbt/GX quality gates, Airflow/Dagster orchestration, Iceberg/Delta lakehouse MERGE, data contracts and freshness SLIs while treating silent join drops, duplicate amplification, schema drift, and green-DAG-wrong-numbers as first-class failure modes. |
 | [Data Scientist](scientific-agents/data-scientist/AGENTS.md) | Reasons from CRISP-DM business estimands, leakage-safe sklearn Pipelines and nested CV, SQL/warehouse semantic metrics, A/B power and SRM/AA guardrails, causal DAG covariate discipline, and Model Cards/Datasheets while treating train-test leakage, Simpson's paradox, peeking, and PSI>0.25 drift as first-class failure modes. |
@@ -315,14 +379,14 @@ profile name links to its `AGENTS.md`. The complete machine-readable registry li
 | [Formal Methods Researcher](scientific-agents/formal-methods-researcher/AGENTS.md) | Reasons from operational semantics and temporal logics through SPIN/TLA+/PRISM, Coq/Lean/Isabelle, Z3/CVC5, refinement and separation logic, vacuity and false-positive diagnosis, and Dafny/F* versus property-based testing boundaries. |
 | [High-Performance Computing Specialist](scientific-agents/high-performance-computing-specialist/AGENTS.md) | Reasons from NUMA topology and hybrid MPI+OpenMP+CUDA decomposition through Slurm fairshare/backfill job design, strong/weak scaling (Amdahl/Gustafson), Darshan/mpiP/Nsight profiling, and parallel HDF5/MPI-IO on Lustre while treating I/O storms, collectives bottlenecks, and rank-binding mistakes as first-class failure modes. |
 | [Human–Computer Interaction Researcher](scientific-agents/human-computer-interaction-researcher/AGENTS.md) | Reasons from situated context, Fitts/GOMS/KLM, and CHI contribution types; runs contextual inquiry through LMM/CLMM analysis with SUS/NASA-TLX triangulation; uses Prolific/OSF and treats demand characteristics, novelty effects, ordinal misuse, and WEIRD samples as first-class failure modes. |
-| [Information Retrieval Scientist](scientific-agents/information-retrieval-scientist/AGENTS.md) | Reasons from the Probability Ranking Principle, ranked-list utility, and candidate-generation-versus-re-ranking separation through BM25 baselines, dense and cross-encoder retrieval, and TREC-style qrels evaluated with trec_eval and nDCG, while treating position-biased clicks, unjudged-as-nonrelevant pools, analyzer mismatches, and AOL-style search-log re-identification as first-class failure modes. |
+| [Information Retrieval Scientist](scientific-agents/information-retrieval-scientist/AGENTS.md) | Reasons from the Probability Ranking Principle, Saracevic's relevance layers, and Cranfield pooling through tuned BM25, SPLADE/ColBERT/dense and LLM reranking, trec_eval/ir_measures with paired topic-level tests, interleaving, and nugget-based RAG evaluation while treating unjudged-as-nonrelevant pools, position-biased clicks, LLM-judge circularity, single-vector embedding limits, and benchmark contamination as first-class failure modes. |
 | [Knowledge Representation Researcher](scientific-agents/knowledge-representation-researcher/AGENTS.md) | Reasons from model-theoretic semantics, the expressivity-vs-decidability-vs-scalability tradeoff, and competency questions through OWL 2 profiles, reasoners (HermiT, Pellet, ELK), ROBOT/Protégé pipelines, and SHACL validation while treating unsatisfiable classes, silent OWA-vs-CWA semantic mixing, hallucinated LLM-suggested axioms, and IRI-reuse on bad merges as first-class failure modes. |
-| [Machine Learning Engineer](scientific-agents/machine-learning-engineer/AGENTS.md) | Reasons from feature-store point-in-time joins (Feast/Tecton), Airflow/Kubeflow training pipelines, MLflow registry, Triton/TorchServe/BentoML serving, Evidently/WhyLabs drift and PSI, shadow/canary/A/B rollouts, inference SLAs, and reproducible training hashes while treating train–serve skew, label leakage, and peeking A/B as first-class failure modes. |
+| [Machine Learning Engineer](scientific-agents/machine-learning-engineer/AGENTS.md) | Reasons from decision-policy framing, Google's Rules of ML, point-in-time data, and prefill/decode inference physics through GBDT/PyTorch baselines, vLLM/SGLang/KServe serving with FP8/AWQ quantization, hybrid-retrieval RAG, RAGAS and human-validated LLM judges, OpenTelemetry GenAI tracing, and post-Omnibus EU AI Act obligations while treating train-serve skew, temporal leakage, prompt injection, LLM nondeterminism, and degenerate feedback loops as first-class failure modes. |
 | [Machine Learning Researcher](scientific-agents/machine-learning-researcher/AGENTS.md) | Reasons from population risk, double descent, and inductive bias; enforces sacred test sets, hierarchical ablations, nested CV, and HELM/Dynabench-aware benchmarking; reports with NeurIPS and Pineau reproducibility checklists while treating leakage, meta-overfitting, benchmark contamination, Goodhart gaming, and seed variance as first-class failure modes. |
 | [MLOps Engineer](scientific-agents/mlops-engineer/AGENTS.md) | Reasons from data contracts, feature parity, evaluation gates, and rollback-readiness through MLflow/W&B registries, Feast feature stores, KServe/Triton serving, Great Expectations/TFDV validation, and Evidently PSI/KS drift monitors while treating train-serve skew, data leakage, silent degradation, and schema/concept drift as first-class failure modes. |
 | [Natural Language Processing Scientist](scientific-agents/natural-language-processing-scientist/AGENTS.md) | Reasons from tokenization, data curation (datatrove/NeMo), and evaluation protocols (SacreBLEU/COMET, IFEval, HELM); enforces contamination audits (ConTAM, perplexity separation), paired bootstrap significance, SFT→DPO/RLHF with alignment-tax checks, and ARR/Dodge reproducibility while treating exposure bias, benchmark leakage, prompt-template confounds, and metric gaming as first-class failure modes. |
 | [Programming Languages Researcher](scientific-agents/programming-languages-researcher/AGENTS.md) | Reasons from operational semantics, type-theoretic invariants, and soundness as preservation-plus-progress through Ott/LN-defined calculi, Coq/Isabelle/Agda mechanization, Hindley-Milner inference, and abstract-interpretation Galois connections while treating stuck terms, blame escaping onto well-typed pure terms, broken substitution and canonical-forms lemmas, and unsound widening as first-class failure modes. |
-| [Reinforcement Learning Researcher](scientific-agents/reinforcement-learning-researcher/AGENTS.md) | Reasons from MDP/POMDP and Bellman operators through DQN/PPO/SAC/TD3, MuJoCo/Atari/Procgen/Brax benchmarks, offline RL (CQL/IQL), reward-hacking diagnostics, Gymnasium/CleanRL/SB3 stacks, and NeurIPS/ICML/CoRL seed-stratified evaluation with bootstrap CIs. |
+| [Reinforcement Learning Researcher](scientific-agents/reinforcement-learning-researcher/AGENTS.md) | Reasons from MDP/POMDP structure, Bellman contraction and the deadly triad, and policy-gradient variance through Gymnasium 1.x/MuJoCo v5/ALE v5 protocols, CleanRL/SB3/JAX (MJX, MuJoCo Playground) stacks, rliable IQM with stratified bootstrap CIs, Minari offline datasets, and GRPO/RLVR post-training while treating truncation-as-termination bootstrap bugs, seed and hyperparameter selection bias, reward hacking, and offline extrapolation error as first-class failure modes. |
 | [Research Software Engineer](scientific-agents/research-software-engineer/AGENTS.md) | Reasons from Software Carpentry and FAIR4RS through SemVer releases, CITATION.cff/SPDX metadata, pytest/Hypothesis CI gates, Docker/Apptainer on Slurm, and maintainability discipline for citable, reproducible research code. |
 | [Theoretical Computer Scientist](scientific-agents/theoretical-computer-scientist/AGENTS.md) | Reasons from explicit models (TM, circuit, communication, query) and resource measures; audits Karp/parsimonious/gap/fine-grained reductions against ETH/SETH/#ETH and PCP/UGC/APX barriers; uses Complexity Zoo, ECCC/arXiv cs.CC, Coq/Lean/DRAT, Williams algorithms-for-lower-bounds, and Yao/IC lower bounds while treating wrong reduction direction, non-parsimony, APSP–3SUM conflation, oracle overclaim, and natural-proofs misuse as first-class failure modes. |
 
@@ -347,12 +411,12 @@ profile name links to its `AGENTS.md`. The complete machine-readable registry li
 | [Metrology Scientist](scientific-agents/metrology-scientist/AGENTS.md) | Reason from SI traceability, GUM uncertainty budgets, and VIM distinctions between calibration and verification; propagates Type A/B components, CIPM MRA equivalence, and ILAC decision rules before any pass/fail claim. |
 | [Nanophysicist](scientific-agents/nanophysicist/AGENTS.md) | Reasons from quantum confinement dimensionality, Coulomb diamonds and SET conditions, Kondo vs Luttinger-liquid power laws, and lock-in cryostat transport through STM/STS, AFM/KPFM, and STEM/EELS while treating charging artifacts, tip convolution, contact resistance, and beam-damage plasmon shifts as first-class failure modes. |
 | [Nuclear Physicist](scientific-agents/nuclear-physicist/AGENTS.md) | Reasons from shell and collective structure, reaction mechanisms, and ENDF/EXFOR data; matches FRIB–CEBAF–RHIC science to R-matrix, Hauser-Feshbach, chiral ab initio, and GEANT4 tools; treats dead time, normalization, and evaluation covariances as first-class failure modes. |
-| [Optical Physicist](scientific-agents/optical-physicist/AGENTS.md) | Reasons from quantized atom-field coupling, recoil and trap energy scales (Γ, E_rec, U/J, κ), and coupled instability-versus-systematic budgets through optical Bloch equations, in-situ lattice-depth and Rabi calibration, QuTiP and ARC modeling, and Allan-deviation and clock systematic tables, while treating uncalibrated lattice depth, intensity-noise heating, double-occupancy mimicking unity filling, and missing BBR or AC-Stark shifts as first-class failure modes. |
+| [Optical Physicist](scientific-agents/optical-physicist/AGENTS.md) | Reasons from square-law detection and Fourier duality, Gaussian-beam and coherence theory, Jones/Mueller polarization, and dispersion and χ⁽²⁾/χ⁽³⁾ phase matching through FROG/SPIDER/d-scan retrieval, phase-shifting and absolute interferometry, Zemax/CODE V/Optiland modeling, SNLO, FTIR/Raman/ellipsometry, and ISO 10110/11146/21254 reporting while treating parasitic etalons, coherent artifacts of unstable pulse trains, thermal lensing mistaken for Kerr nonlinearity, Zernike-convention and retrace errors, and FFT-propagation aliasing as first-class failure modes. |
 | [Particle Physicist](scientific-agents/particle-physicist/AGENTS.md) | Reasons from SM gauge structure, parton PDFs, and detector response through ATLAS/CMS/LHCb/Belle II/DUNE workflows, Geant4+Pythia/MG5 simulation, HistFactory/Combine/pyhf likelihoods, and HEPData/Rivet preservation while treating LEE/global significance, JES/pile-up, fake leptons, and flux×cross-section systematics as first-class failure modes. |
 | [Photonics Scientist](scientific-agents/photonics-scientist/AGENTS.md) | Reasons from guided-wave dispersion, ring FSR–Q–coupling, and FWM phase matching; designs waveguides, lasers, and modulators with Lumerical MODE/FDTD/CHARGE/INTERCONNECT while treating dispersive FSR mismatch, TPA/FCA/XPM detuning, mesh dispersion, etalon ripples, and thermal bistability as first-class failure modes. |
 | [Plasma Physicist](scientific-agents/plasma-physicist/AGENTS.md) | Reasons from collective scales (Debye length, plasma frequency), dimensionless regime parameters (beta, collisionality, Lundquist number), and instability drive-versus-dissipation through Grad-Shafranov equilibria (EFIT, VMEC), gyrokinetic and MHD codes (GENE, NIMROD, XGC), PIC simulation (VPIC, OSIRIS), and confinement scalings (IPB98, Greenwald, Troyon) while treating probe sheath distortion, equilibrium-reconstruction error, resolution-limited reconnection rates, and unmatched wall conditioning as first-class failure modes. |
 | [Quantum Computing Scientist](scientific-agents/quantum-computing-scientist/AGENTS.md) | Reasons from qubits as noisy open systems through T1/T2, gate fidelity, RB/GST/XEB, and quantum volume to surface-code QEC; compiles with Qiskit/Cirq, applies ZNE/PEC/readout mitigation, and treats crosstalk, transpilation depth, and calibration drift as first-class failure modes. |
-| [Quantum Information Scientist](scientific-agents/quantum-information-scientist/AGENTS.md) | Reasons from qubits as open systems, gate fidelities, and error correction while treating crosstalk and calibration drift as first-class failure modes. |
+| [Quantum Information Scientist](scientific-agents/quantum-information-scientist/AGENTS.md) | Reasons from operational entropies (smooth min-entropy, coherent information), Stinespring/Choi channel pictures, and the achievability-versus-converse split through dual-certified SDP/NPA bounds, EAT/GEAT finite-key security proofs, Stim/PyMatching/BP+OSD circuit-level QEC simulation, classical shadows and GST, and ETSI/ISO QKD evaluation standards while treating asymptotic key rates passed off as performance, uncertified superadditivity numerics, code distance mistaken for circuit distance, MLE-tomography bias, and CHSH violations mistaken for security proofs as first-class failure modes. |
 | [Quantum Optics Scientist](scientific-agents/quantum-optics-scientist/AGENTS.md) | Reasons from field quadratures, atom-photon coupling (g, κ, γ), and heralding efficiency budgets through g⁽²⁾ Hanbury Brown-Twiss measurement, balanced homodyne tomography, HOM interference, and SNSPD/APD detector calibration while treating afterpulsing-faked antibunching, LO phase drift erasing squeezing, accidentals and dark counts, and unaddressed Bell-test loopholes as first-class failure modes. |
 | [Quantum Physicist](scientific-agents/quantum-physicist/AGENTS.md) | Reasons from Hilbert-space density operators, commutation relations, and Lindblad open-system dynamics through randomized benchmarking, gate-set and process tomography, Bell-CHSH tests, and Stim/PyMatching surface-code decoding while treating crosstalk, leakage, calibration drift, and measurement backaction as first-class failure modes. |
 | [Semiconductor Physicist](scientific-agents/semiconductor-physicist/AGENTS.md) | Reasons from ε_n(k), effective-mass tensor, and 2D subband DOS through Hall/multiband fits, mobility scattering analysis, Lang DLTS (E_T, σ, N_T), and quantum-well intersubband spectroscopy while treating compensation, rate-window artifacts, and DFT gap error as first-class failure modes. |
@@ -382,13 +446,13 @@ profile name links to its `AGENTS.md`. The complete machine-readable registry li
 | [Gravitational-Wave Astronomer](scientific-agents/gravitational-wave-astronomer/AGENTS.md) | Reasons like a senior GW astronomer across LIGO–Virgo–KAGRA matched-filter CBC searches, calibration-aware PE, GraceDB/GWTC alert–catalog discipline, BAYESTAR/Bilby skymaps, and EM follow-up campaigns. |
 | [Heliophysicist](scientific-agents/heliophysicist/AGENTS.md) | Reasons from MHD, magnetic topology, reconnection, and IMF Bz coupling through SDO/HMI magnetograms, DEM and NLFFF analysis, coronagraph GCS fitting, and WSA-ENLIL/EUHFORIA ensembles while treating LOS foreshortening, AIA stray light, force-free NLFFF breakdown, and Dst/SYM-H saturation as first-class failure modes. |
 | [High-Energy Astrophysicist](scientific-agents/high-energy-astrophysicist/AGENTS.md) | Reasons from Compton/synchrotron radiative processes and compact-object energetics through HEASARC/Fermi/Swift/XMM/Chandra/NuSTAR/XRISM pipelines, XSPEC/Sherpa spectral fitting, pile-up and background systematics, blazar/GRB/TDE campaigns, and GCN multi-messenger coordination while treating RMF versioning, soft-proton flares, and look-elsewhere significance as first-class failure modes. |
-| [Observational Astronomer](scientific-agents/observational-astronomer/AGENTS.md) | Reasons from radiative transfer, the distance ladder, and statistical-versus-systematic error budgets through HST/JWST/ALMA pipelines, Gaia DR3 astrometry, archives (SIMBAD, MAST, HEASARC), and emcee/dynesty inference while treating the look-elsewhere effect, PSF and flat-field artifacts, photo-z catastrophic outliers, and Malmquist/Eddington selection bias as first-class failure modes. |
+| [Observational Astronomer](scientific-agents/observational-astronomer/AGENTS.md) | Reasons from the CCD signal-to-noise equation, sky- versus read-noise-limited scaling, airmass extinction and seeing laws, and a CALSPEC-anchored calibration chain through ETC-backed proposals, ccdproc/PypeIt/DRAGONS and CRDS-pinned JWST reductions, optimal extraction with telluric correction, Gaia-anchored astrometry, ZOGY difference imaging, and Rubin broker-to-TOM-to-TNS follow-up while treating IR persistence and reciprocity failure, fringing and shutter-timing errors, differential-refraction slit losses, difference-image dipoles, and red-noise-inflated light curves as first-class failure modes. |
 | [Planetary Geologist](scientific-agents/planetary-geologist/AGENTS.md) | Reasons from stratigraphy and landform genesis through ISIS/GDAL/JMARS/ArcGIS, CraterTools/CSFD Tools/CraterStats2 chronology, CRISM/M3/THEMIS spectroscopy with SPLib/RELAB, and PDS archives while treating secondaries, projection/datums, and production-function choice as first-class failure modes. |
-| [Planetary Scientist](scientific-agents/planetary-scientist/AGENTS.md) | Reasons from orbital mechanics, radiative balance, and CSFD crater chronology (Neukum/Hartmann) through NAIF SPICE kernels and PDS4 archives, ISIS/GDAL mosaics tied to MLA/LOLA altimetry, BLS/TLS transit search with centroid and odd-even vetting, RadVel/juliet RV modeling with bisector-span activity indicators, and petitRADTRANS/PLATON Bayesian retrievals across JWST NIRSpec/MIRI spectra while treating self-secondary crater saturation, stellar-rotation aliasing of RV periods, unocculted-facula spectral contamination, silent sin i mass claims, and habitable-zone-as-habitability conflation as first-class failure modes. |
-| [Radio Astronomer](scientific-agents/radio-astronomer/AGENTS.md) | Reasons from complex visibilities V(u,v) in the uv plane, resolution θ ≈ λ/B_max, radiative transfer, and Stokes IQUV polarization through CASA gain/bandpass/flux calibration, tclean deconvolution and self-cal on pipeline-delivered MeasurementSets, ALMA Pipeline QA2, primary-beam/bandwidth-smearing-aware mosaicking, CARTA cube inspection, and RFI flagging while treating flux resolved out on short baselines, clean bias, self-cal diverging on weak sources, bandpass/gain phase drift, and Faraday rotation mixing Q and U as first-class failure modes. |
+| [Planetary Scientist](scientific-agents/planetary-scientist/AGENTS.md) | Reasons from bulk density, moment of inertia, tidal Love numbers, libration, electromagnetic induction, and sample-calibrated impact-flux chronology through NAIF SPICE kernels, PDS4 archives, radio-science gravity with SHTOOLS, PSG/NEMESIS retrievals, gamma-ray/neutron and radar sounding, and COSPAR planetary-protection categories while treating non-hydrostatic shapes, plasma currents mimicking ocean induction, radar clutter and roughness mimicking ice, single-line trace-gas detections, and one-flyby snapshot bias as first-class failure modes. |
+| [Radio Astronomer](scientific-agents/radio-astronomer/AGENTS.md) | Reasons from the van Cittert–Zernike relation, the RIME measurement equation, the radiometer equation, and ν⁻²/λ² plasma propagation through CASA/WSClean/DDFacet imaging, Perley–Butler flux scaling, MT-MFS and w-stacking, RM synthesis, single-dish T_A*/T_mb calibration, and PRESTO/PSRCHIVE/PINT pulsar and FRB workflows while treating missing short spacings and negative bowls, self-calibration ghosts and flux suppression, RFI masquerading as dispersed bursts, polarization leakage and beam squint, and flaring flux calibrators as first-class failure modes. |
 | [Solar Physicist](scientific-agents/solar-physicist/AGENTS.md) | Reasons from magnetic field topology, plasma beta, reconnection, and radiative transfer through DEM inversion, NLFFF/PFSS extrapolation, coronal seismology, and WSA-ENLIL forecasting while treating single-channel AIA temperature claims, HMI disambiguation ambiguity at the PIL, limb projection artifacts, and Parker-spiral connectivity uncertainty as first-class failure modes. |
 | [Space Weather Scientist](scientific-agents/space-weather-scientist/AGENTS.md) | Reasons from Dungey coupling and prolonged southward Bz through ICME vs. CIR/SIR drivers; uses OMNI/CDAWeb, L1 RTSW, WSA-Enlil, CCMC/CAMEL validation, SuperMAG SYM-H, GloTEC/IRI, and NOAA G/S/R scales while treating sheath-vs-cloud Bz, catalog false alarms, and Dst timing artifacts as first-class failure modes. |
-| [Stellar Astrophysicist](scientific-agents/stellar-astrophysicist/AGENTS.md) | Reasons from stellar structure, nucleosynthesis, radiative transfer, and the distance ladder through MESA evolution models, spectroscopic and asteroseismic fitting, Gaia astrometry, and MCMC/nested-sampling inference while treating PSF and flat-field artifacts, telluric contamination, Malmquist and Eddington selection bias, and look-elsewhere global significance as first-class failure modes. |
+| [Stellar Astrophysicist](scientific-agents/stellar-astrophysicist/AGENTS.md) | Reasons from hydrostatic and thermal balance, convective-boundary physics (Schwarzschild/Ledoux, α_MLT, overshoot), nuclear bottlenecks, and p/g/mixed-mode seismology through MESA/GYRE resolution ladders, multi-grid isochrone fitting (MIST, PARSEC, BaSTI), corrected scaling relations, 1D-LTE-vs-3D-NLTE abundance analysis, and eclipsing-binary and Gaia benchmarks while treating unconverged default-control models, asteroseismic surface effects and scaling-relation biases, NLTE-biased spectroscopic log g, grid-to-grid age systematics, and unrecognized binary or merger products as first-class failure modes. |
 
 </details>
 

@@ -127,7 +127,7 @@ with the calibrated rigor expected of a senior ACRM-aligned rehabilitation metho
   effect sizes: reach, effectiveness, adoption, implementation fidelity, maintenance at 6–12+
   months.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Performance-based clinical measures:**
   - Gait: 4-m or 10-m walk (m/s), 6MWT (m), TUG (s), Dynamic Gait Index.
@@ -160,7 +160,7 @@ with the calibrated rigor expected of a senior ACRM-aligned rehabilitation metho
 - **Statistics:** R (lme4, nlme, emmeans), SAS (PROC MIXED), SPSS; SCED packages (scan,
   SingleCaseES); G\*Power for conventional trials; ClinCalc for NNT when appropriate.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Evidence databases:** PEDro (physiotherapy RCTs and systematic reviews, PEDro scale 0–10),
   OTseeker, Cochrane Rehabilitation, PubMed/Rehabilitation filter, Epistemonikos.
@@ -284,7 +284,7 @@ with the calibrated rigor expected of a senior ACRM-aligned rehabilitation metho
 - Tailor abstracts for ACRM/ACR abstract limits: lead with population, intervention dose summary,
   primary ICF-linked outcome, MCID-responder result, and clinical implication — not p-values alone.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - Gait speed in **m/s** (not km/h in clinical rehab literature); TUG and timed tests in **seconds**;

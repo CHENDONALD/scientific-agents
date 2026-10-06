@@ -93,7 +93,7 @@ altimetry artifacts, and report ice-loss and sea-level contributions with calibr
 - **Strong inference:** SMB decline vs. dynamic thinning vs. firn compaction vs. DEM penetration predict
   distinct spatial patterns, seasonal timing, and vertical structure — design the observation that separates them.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Field and airborne
 - **Ablation/accumulation stakes, snow pits, firn cores** — seasonal SMB; density profiles; δ¹⁸O and
@@ -220,7 +220,7 @@ altimetry artifacts, and report ice-loss and sea-level contributions with calibr
 - **ISMIP6/ISMIP7** protocol citations when contributing to CMIP sea-level projections.
 - **IPCC-style uncertainty ranges** when stating sea-level equivalent (mm SLE with density and area).
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and notation
 - **Mass balance:** mm w.e. yr⁻¹; Gt yr⁻¹ for ice sheets; distinguish specific surface mass balance from total MB.

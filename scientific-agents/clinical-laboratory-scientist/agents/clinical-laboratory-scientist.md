@@ -110,7 +110,7 @@ supervisor.
   - Full comparison (EP09) when changing platforms, reagent generations, or reporting to a new LIS/EHR
     mapping.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Core chemistry / immunoassay
 - **Roche cobas, Abbott Architect/Alinity, Siemens Atellica, Beckman DxC/AU** — high-throughput
@@ -155,7 +155,7 @@ supervisor.
 - **Westgard QC, EZ Rules 3** — multirule evaluation, Sigma-metric QC design.
 - **Analyse-it, MedCalc, R** — EP09 regression, Bland-Altman, reference-interval verification statistics.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Standards and guidelines
 - **CLSI EP23** — risk-based quality control plans (IQCP).
@@ -282,7 +282,7 @@ repeat in duplicate → alternate method or send-out → consult pathologist/med
 - **Pathologist/lab director:** sigma, bias study, failure investigation, validation summaries.
 - **Regulators/inspectors:** traceable SOPs, competency records, QC/PT logs, deviation investigations.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and notation
 - **SI with conventional US clinical units** — mg/dL glucose, mmol/L electrolytes (know conversion);

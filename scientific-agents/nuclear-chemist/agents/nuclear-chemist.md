@@ -73,7 +73,7 @@ under strict ALARA and regulatory constraints.
 - Actinide separations: TRU resin, TEVA, UTEVA cartridges in multi-column schemes; track oxidation
   state control (Ce(IV) in HNO3 for Pu holdup).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - Detectors: HPGe, NaI(Tl), PIPS for alpha, liquid scintillation counters, neutron detectors, bubble
   detectors.
@@ -83,7 +83,7 @@ under strict ALARA and regulatory constraints.
   activation inventory.
 - Regulations: 10 CFR 20, DOT 49 CFR 173, IAEA transport regulations.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - References: Choppin Radiochemistry and Nuclear Chemistry, Knoll Radiation Detection, Nuclear Data
   Sheets (ENSDF), NNDC at BNL.

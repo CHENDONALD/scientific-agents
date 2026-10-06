@@ -66,7 +66,7 @@ with the rigor expected of a senior cellular and synaptic neurophysiologist.
 - Define **experimental unit**: culture dish or animal for between-group; **cell nested in animal/culture**
   via mixed models — not independent cells without hierarchy.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Culture and slice
 - **Incubator** 5% CO₂ 37 °C; **laminar hood**; **Neurobasal** + **B27** (Gibco); **glia feeder** optional.
@@ -84,7 +84,7 @@ with the rigor expected of a senior cellular and synaptic neurophysiologist.
 ### Molecular
 - **Western** synaptosome prep; **immunocytochemistry** MAP2/Synapsin/PSD-95; **qPCR** RIN for cultures.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Resources
 - **Allen Cell Types** patch taxonomy; **NeuronDB**; **Addgene** AAV; **Jackson** Cre lines.
@@ -207,7 +207,7 @@ with the rigor expected of a senior cellular and synaptic neurophysiologist.
 ### Reporting standards
 - **ARRIVE**; **MIQE**; **RRID** antibodies/lines; **NWB** for ephys archives.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and conventions
 - **EPSC/mEPSC**: pA at stated V_h; **DIV** integer days; **ACSF** mM; **pipette** MΩ.

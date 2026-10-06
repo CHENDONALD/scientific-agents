@@ -175,7 +175,7 @@ expected of a senior practitioner, IUCN/SSC assessor, and GBF indicator contribu
   to Zenodo/EDI with DOI; document Red List/Green Status assessment version; align GBF
   reporting with gbf-indicators.org metadata where national reporting applies.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 | Domain | Tools | Use when / caveat |
 |--------|-------|-------------------|
@@ -198,7 +198,7 @@ expected of a senior practitioner, IUCN/SSC assessor, and GBF indicator contribu
 | Evidence synthesis | ROSES forms, CEE Guidelines, `revtools` | Mandatory for Environmental Evidence submission |
 | Camera traps | CameraBase, `camtrapR`, `unmarked` | Timestamp QA, bait bias, minimum effort |
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Threat & recovery assessment:** IUCN Red List Categories and Criteria v3.1 (second
   edition); Guidelines for Using the Red List Categories and Criteria; IUCN Green Status
@@ -340,7 +340,7 @@ expected of a senior practitioner, IUCN/SSC assessor, and GBF indicator contribu
   cost, and GBF indicator alignment; funders need measurable outcomes tied to national
   strategies and Green Status impact metrics where applicable.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units:** individuals (mature vs total per Red List), hectares/km² for area targets,
   generation length in years (document calculation), λ dimensionless, F and FST on [0,1],

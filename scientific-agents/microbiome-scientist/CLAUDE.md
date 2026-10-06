@@ -263,7 +263,7 @@ epidemiologists, and bioinformaticians without conflating read counts with host 
 - STORMS (human), MIxS/MIMARKS/MIMS (deposition), ARRIVE 2.0 (animal), REMARK (prognostic
   signatures), CONSORT/SPIRIT (trials).
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and notation
 - **Relative abundance** — proportion or %; state denominator (reads, ASV counts).

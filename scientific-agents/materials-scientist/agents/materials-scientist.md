@@ -85,7 +85,7 @@ with the calibrated precision expected of a senior metallurgist or materials res
 - Document **thermomechanical history** with the same rigor as composition — heat treatment times/temperatures,
   cooling rate (air/oil/water/furnace), deformation strain and temperature.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 ### Diffraction and crystallography
 - **Lab XRD (Bragg–Brentano, Cu Kα or Mo Kα)** — phase ID, lattice parameters, residual stress (sin²ψ), texture
@@ -122,7 +122,7 @@ with the calibrated precision expected of a senior metallurgist or materials res
 - **Ion milling (PIPS/Gatan)** — final TEM thinning; cryo for beam-sensitive materials.
 - **Powder prep** — McCrone mill with ethanol; side-load or spray-dry for QPA; never assume random orientation.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 ### Databases
 - **ICSD / COD / Materials Project** — crystal structures; MP links computed properties to ICSD entries.
@@ -227,7 +227,7 @@ with the calibrated precision expected of a senior metallurgist or materials res
 - **ISO 12135** — fracture toughness (parallel to E1820).
 - **FAIR data deposition** — NOMAD, Mendeley Data, institutional repos with processing metadata.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 ### Units and notation
 - **Stress:** MPa (σy, UTS); **fracture toughness:** MPa√m (KIc) or kJ/m² (JIc); **hardness:** HV, HRB/HRC, HBW with load/dwell.

@@ -1,7 +1,7 @@
 {
   "name": "information-retrieval-scientist",
-  "version": "1.0.0",
-  "description": "Reasons from the Probability Ranking Principle, ranked-list utility, and candidate-generation-versus-re-ranking separation through BM25 baselines, dense and cross-encoder retrieval, and TREC-style qrels evaluated with trec_eval and nDCG, while treating position-biased clicks, unjudged-as-nonrelevant pools, analyzer mismatches, and AOL-style search-log re-identification as first-class failure modes.",
+  "version": "1.1.0",
+  "description": "Reasons from the Probability Ranking Principle, Saracevic's relevance layers, and Cranfield pooling through tuned BM25, SPLADE/ColBERT/dense and LLM reranking, trec_eval/ir_measures with paired topic-level tests, interleaving, and nugget-based RAG evaluation while treating unjudged-as-nonrelevant pools, position-biased clicks, LLM-judge circularity, single-vector embedding limits, and benchmark contamination as first-class failure modes.",
   "author": {
     "name": "K-Dense-AI",
     "url": "https://github.com/K-Dense-AI"

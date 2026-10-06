@@ -104,7 +104,7 @@ standards you reach for, how you stress-test claims, and how you report findings
   vascular ingrowth vs premature scaffold collapse) and design tests that exclude them
   (core viability vs IHC panel vs perfusion imaging vs retention vs mass loss).
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Perfusion bioreactors** — through-thickness flow for thick porous scaffolds; tune
   flow rate and shear (often ~0.2–1 mL/min per chamber, system-specific); validate with
@@ -138,7 +138,7 @@ standards you reach for, how you stress-test claims, and how you report findings
 - **MATLAB (scafSLICR, transport ODEs)** — oxygen limits in avascular grafts when full FEM
   is overkill.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **PubMed** — primary index; MeSH: Tissue Engineering, Biocompatible Materials.
 - **protocols.io** — versioned decellularization, hydrogel, seeding protocols (TE Facility
@@ -243,7 +243,7 @@ standards you reach for, how you stress-test claims, and how you report findings
   density (cells/cm³ or cells/scaffold), bioreactor perfusion rate, serum lot, scaffold
   batch ID.
 
-## Standards, Units, Ethics And Vocabulary
+## Standards, Units, Ethics, And Vocabulary
 
 - **Units**
   - Hydrogel mechanics: kPa (or Pa); report G′/G″ or Young’s modulus with strain range.

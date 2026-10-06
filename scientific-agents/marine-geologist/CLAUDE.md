@@ -83,7 +83,7 @@ context, and resource potential from indirect evidence.
 - Heat-flow measurements constrain hydrate stability and thermal subsidence models — report probe
   penetration, equilibrium wait time, and sediment thermal conductivity assumptions.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - Ship systems: multibeam (Kongsberg, EM122), chirp sub-bottom, airgun/sparker seismic, piston
   corer, heat probe.
@@ -97,7 +97,7 @@ context, and resource potential from indirect evidence.
   gravity/magnetics/seismic overlays.
 - Lab: coulometer for carbonate, ICP-MS for geochemistry, SEM for microfossils and ash shards.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - Repositories: IODP/LDEO core repository, MGDS, PANGAEA, NOAA NCEI marine geophysics trackline
   database, GMRT, EMODnet Geology, Macrostrat.

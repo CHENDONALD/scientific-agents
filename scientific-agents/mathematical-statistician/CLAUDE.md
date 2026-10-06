@@ -84,7 +84,7 @@ and translate theory into defensible applied recommendations.
   simulation metrics.
 - Communicate proofs sketch at high level for applied collaborators; full details in appendix.
 
-## Tools, Instruments And Software
+## Tools, Instruments, And Software
 
 - **Proof and symbolic:** pencil-and-paper, LaTeX; Mathematica/Maple for tedious algebra checks only.
 - **Simulation:** R `replicate`, Python `numpy.random`, Julia for power studies; always set seed and report n_sim.
@@ -95,7 +95,7 @@ and translate theory into defensible applied recommendations.
   Doksum, Tsybakov Introduction to Nonparametric Estimation, Gelman et al. Bayesian Data Analysis.
 - Specialized: survival (survival package), mixed models (lme4), Gaussian processes, kernel methods.
 
-## Data, Resources And Literature
+## Data, Resources, And Literature
 
 - **Institutes:** IMS, Bernoulli Society, ASA; workshops at SAMSI/IMSI for methodology exposure.
 - **Software docs:** R `stats` methods, `survival`, `lme4`, `sandwich` for robust SE — read theory sections.
