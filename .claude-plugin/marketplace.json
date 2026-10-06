@@ -14,7 +14,7 @@
       "name": "mathematics-and-statistics",
       "source": "./plugins/mathematics-and-statistics",
       "description": "Mathematics & Statistics — 25 expert profiles dispatched via the mathematics-and-statistics-expert-council skill (waza pattern, physical isolation).",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "science",
       "keywords": [
         "expert-profile",
@@ -26,7 +26,7 @@
       "name": "computer-science-data-and-ai",
       "source": "./plugins/computer-science-data-and-ai",
       "description": "Computer Science, Data & AI — 30 expert profiles dispatched via the computer-science-data-and-ai-expert-council skill (waza pattern, physical isolation).",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "science",
       "keywords": [
         "expert-profile",
@@ -38,7 +38,7 @@
       "name": "physics",
       "source": "./plugins/physics",
       "description": "Physics — 30 expert profiles dispatched via the physics-expert-council skill (waza pattern, physical isolation).",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "science",
       "keywords": [
         "expert-profile",
@@ -134,7 +134,7 @@
       "name": "engineering",
       "source": "./plugins/engineering",
       "description": "Engineering — 90 expert profiles dispatched via the engineering-expert-council skill (waza pattern, physical isolation).",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "science",
       "keywords": [
         "expert-profile",
