@@ -1,0 +1,8 @@
+{
+  "name": "chemistry",
+  "description": "Chemistry — 37 expert profiles, dispatched via the chemistry-expert-council skill (waza pattern).",
+  "version": "1.0.0",
+  "skills": [
+    "./skills/chemistry-expert-council"
+  ]
+}

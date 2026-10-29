@@ -1,0 +1,146 @@
+{
+  "name": "scientific-agents",
+  "owner": {
+    "name": "CHENDONALD",
+    "url": "https://github.com/CHENDONALD"
+  },
+  "metadata": {
+    "description": "Fork of K-Dense-AI/scientific-agents. Each of the 11 official README domains is a physically-isolated plugin containing a waza-pattern expert-council skill that dispatches that domain's profiles. ZCode scans only the installed domain's agents/.",
+    "version": "5.0.0",
+    "homepage": "https://github.com/CHENDONALD/scientific-agents"
+  },
+  "plugins": [
+    {
+      "name": "mathematics-and-statistics",
+      "source": "./plugins/mathematics-and-statistics",
+      "description": "Mathematics & Statistics — 25 expert profiles dispatched via the mathematics-and-statistics-expert-council skill (waza pattern, physical isolation).",
+      "version": "1.0.0",
+      "category": "science",
+      "keywords": [
+        "expert-profile",
+        "waza-pattern",
+        "mathematics-and-statistics"
+      ]
+    },
+    {
+      "name": "computer-science-data-and-ai",
+      "source": "./plugins/computer-science-data-and-ai",
+      "description": "Computer Science, Data & AI — 30 expert profiles dispatched via the computer-science-data-and-ai-expert-council skill (waza pattern, physical isolation).",
+      "version": "1.0.0",
+      "category": "science",
+      "keywords": [
+        "expert-profile",
+        "waza-pattern",
+        "computer-science-data-and-ai"
+      ]
+    },
+    {
+      "name": "physics",
+      "source": "./plugins/physics",
+      "description": "Physics — 30 expert profiles dispatched via the physics-expert-council skill (waza pattern, physical isolation).",
+      "version": "1.0.0",
+      "category": "science",
+      "keywords": [
+        "expert-profile",
+        "waza-pattern",
+        "physics"
+      ]
+    },
+    {
+      "name": "astronomy-and-space-science",
+      "source": "./plugins/astronomy-and-space-science",
+      "description": "Astronomy & Space Science — 18 expert profiles dispatched via the astronomy-and-space-science-expert-council skill (waza pattern, physical isolation).",
+      "version": "1.0.0",
+      "category": "science",
+      "keywords": [
+        "expert-profile",
+        "waza-pattern",
+        "astronomy-and-space-science"
+      ]
+    },
+    {
+      "name": "chemistry",
+      "source": "./plugins/chemistry",
+      "description": "Chemistry — 37 expert profiles dispatched via the chemistry-expert-council skill (waza pattern, physical isolation).",
+      "version": "1.0.0",
+      "category": "science",
+      "keywords": [
+        "expert-profile",
+        "waza-pattern",
+        "chemistry"
+      ]
+    },
+    {
+      "name": "materials-nanoscience-and-energy",
+      "source": "./plugins/materials-nanoscience-and-energy",
+      "description": "Materials, Nanoscience & Energy — 22 expert profiles dispatched via the materials-nanoscience-and-energy-expert-council skill (waza pattern, physical isolation).",
+      "version": "1.0.0",
+      "category": "science",
+      "keywords": [
+        "expert-profile",
+        "waza-pattern",
+        "materials-nanoscience-and-energy"
+      ]
+    },
+    {
+      "name": "earth-environmental-and-atmospheric-science",
+      "source": "./plugins/earth-environmental-and-atmospheric-science",
+      "description": "Earth, Environmental & Atmospheric Science — 58 expert profiles dispatched via the earth-environmental-and-atmospheric-science-expert-council skill (waza pattern, physical isolation).",
+      "version": "1.0.0",
+      "category": "science",
+      "keywords": [
+        "expert-profile",
+        "waza-pattern",
+        "earth-environmental-and-atmospheric-science"
+      ]
+    },
+    {
+      "name": "biology-and-life-sciences",
+      "source": "./plugins/biology-and-life-sciences",
+      "description": "Biology & Life Sciences — 108 expert profiles dispatched via the biology-and-life-sciences-expert-council skill (waza pattern, physical isolation).",
+      "version": "1.0.0",
+      "category": "science",
+      "keywords": [
+        "expert-profile",
+        "waza-pattern",
+        "biology-and-life-sciences"
+      ]
+    },
+    {
+      "name": "medicine-and-clinical-science",
+      "source": "./plugins/medicine-and-clinical-science",
+      "description": "Medicine & Clinical Science — 58 expert profiles dispatched via the medicine-and-clinical-science-expert-council skill (waza pattern, physical isolation).",
+      "version": "1.0.0",
+      "category": "science",
+      "keywords": [
+        "expert-profile",
+        "waza-pattern",
+        "medicine-and-clinical-science"
+      ]
+    },
+    {
+      "name": "agriculture-food-and-veterinary-science",
+      "source": "./plugins/agriculture-food-and-veterinary-science",
+      "description": "Agriculture, Food & Veterinary Science — 27 expert profiles dispatched via the agriculture-food-and-veterinary-science-expert-council skill (waza pattern, physical isolation).",
+      "version": "1.0.0",
+      "category": "science",
+      "keywords": [
+        "expert-profile",
+        "waza-pattern",
+        "agriculture-food-and-veterinary-science"
+      ]
+    },
+    {
+      "name": "engineering",
+      "source": "./plugins/engineering",
+      "description": "Engineering — 90 expert profiles dispatched via the engineering-expert-council skill (waza pattern, physical isolation).",
+      "version": "1.0.0",
+      "category": "science",
+      "keywords": [
+        "expert-profile",
+        "waza-pattern",
+        "engineering"
+      ]
+    }
+  ]
+}

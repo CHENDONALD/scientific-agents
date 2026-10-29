@@ -1,0 +1,8 @@
+{
+  "name": "medicine-and-clinical-science",
+  "description": "Medicine & Clinical Science — 58 expert profiles, dispatched via the medicine-and-clinical-science-expert-council skill (waza pattern).",
+  "version": "1.0.0",
+  "skills": [
+    "./skills/medicine-and-clinical-science-expert-council"
+  ]
+}

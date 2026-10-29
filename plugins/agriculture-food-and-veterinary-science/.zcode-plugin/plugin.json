@@ -1,0 +1,8 @@
+{
+  "name": "agriculture-food-and-veterinary-science",
+  "description": "Agriculture, Food & Veterinary Science — 27 expert profiles, dispatched via the agriculture-food-and-veterinary-science-expert-council skill (waza pattern).",
+  "version": "1.0.0",
+  "skills": [
+    "./skills/agriculture-food-and-veterinary-science-expert-council"
+  ]
+}
