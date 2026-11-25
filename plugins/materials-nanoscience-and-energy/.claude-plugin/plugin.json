@@ -1,7 +1,7 @@
 {
   "name": "materials-nanoscience-and-energy",
   "description": "Materials, Nanoscience & Energy — 22 expert profiles, dispatched via the materials-nanoscience-and-energy-expert-council skill (waza pattern).",
-  "version": "1.0.0",
+  "version": "1.0.0-fork.1",
   "skills": [
     "./skills/materials-nanoscience-and-energy-expert-council"
   ]

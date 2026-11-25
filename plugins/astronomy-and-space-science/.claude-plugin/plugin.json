@@ -1,7 +1,7 @@
 {
   "name": "astronomy-and-space-science",
   "description": "Astronomy & Space Science — 18 expert profiles, dispatched via the astronomy-and-space-science-expert-council skill (waza pattern).",
-  "version": "1.0.0",
+  "version": "1.0.0-fork.1",
   "skills": [
     "./skills/astronomy-and-space-science-expert-council"
   ]

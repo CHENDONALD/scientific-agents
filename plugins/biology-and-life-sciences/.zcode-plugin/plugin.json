@@ -1,7 +1,7 @@
 {
   "name": "biology-and-life-sciences",
   "description": "Biology & Life Sciences — 108 expert profiles, dispatched via the biology-and-life-sciences-expert-council skill (waza pattern).",
-  "version": "1.0.1",
+  "version": "1.0.1-fork.1",
   "skills": [
     "./skills/biology-and-life-sciences-expert-council"
   ]
