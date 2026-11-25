@@ -1,7 +1,7 @@
 {
   "name": "physics",
   "description": "Physics — 30 expert profiles, dispatched via the physics-expert-council skill (waza pattern).",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "skills": [
     "./skills/physics-expert-council"
   ]
