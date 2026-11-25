@@ -1,8 +1,13 @@
 {
   "name": "chemistry",
-  "description": "Chemistry — 37 expert profiles, dispatched via the chemistry-expert-council skill (waza pattern).",
-  "version": "1.0.1-fork.1",
+  "description": "Chemistry \u2014 37 expert profiles, dispatched via the chemistry-expert-council skill (waza pattern).",
+  "version": "1.0.2",
   "skills": [
     "./skills/chemistry-expert-council"
-  ]
+  ],
+  "upstream": {
+    "repo": "K-Dense-AI/scientific-agents",
+    "version": "1.0.0",
+    "mergedAt": "2026-11-25"
+  }
 }

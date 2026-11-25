@@ -1,8 +1,13 @@
 {
   "name": "astronomy-and-space-science",
-  "description": "Astronomy & Space Science — 18 expert profiles, dispatched via the astronomy-and-space-science-expert-council skill (waza pattern).",
-  "version": "1.0.1-fork.1",
+  "description": "Astronomy & Space Science \u2014 18 expert profiles, dispatched via the astronomy-and-space-science-expert-council skill (waza pattern).",
+  "version": "1.0.2",
   "skills": [
     "./skills/astronomy-and-space-science-expert-council"
-  ]
+  ],
+  "upstream": {
+    "repo": "K-Dense-AI/scientific-agents",
+    "version": "1.0.0",
+    "mergedAt": "2026-11-25"
+  }
 }

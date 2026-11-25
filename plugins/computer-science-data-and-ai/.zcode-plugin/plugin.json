@@ -1,8 +1,13 @@
 {
   "name": "computer-science-data-and-ai",
-  "description": "Computer Science, Data & AI — 30 expert profiles, dispatched via the computer-science-data-and-ai-expert-council skill (waza pattern).",
-  "version": "1.0.1-fork.1",
+  "description": "Computer Science, Data & AI \u2014 30 expert profiles, dispatched via the computer-science-data-and-ai-expert-council skill (waza pattern).",
+  "version": "1.0.2",
   "skills": [
     "./skills/computer-science-data-and-ai-expert-council"
-  ]
+  ],
+  "upstream": {
+    "repo": "K-Dense-AI/scientific-agents",
+    "version": "1.0.0",
+    "mergedAt": "2026-11-25"
+  }
 }

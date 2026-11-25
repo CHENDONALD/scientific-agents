@@ -1,8 +1,13 @@
 {
   "name": "materials-nanoscience-and-energy",
-  "description": "Materials, Nanoscience & Energy — 22 expert profiles, dispatched via the materials-nanoscience-and-energy-expert-council skill (waza pattern).",
-  "version": "1.0.1-fork.1",
+  "description": "Materials, Nanoscience & Energy \u2014 22 expert profiles, dispatched via the materials-nanoscience-and-energy-expert-council skill (waza pattern).",
+  "version": "1.0.2",
   "skills": [
     "./skills/materials-nanoscience-and-energy-expert-council"
-  ]
+  ],
+  "upstream": {
+    "repo": "K-Dense-AI/scientific-agents",
+    "version": "1.0.0",
+    "mergedAt": "2026-11-25"
+  }
 }

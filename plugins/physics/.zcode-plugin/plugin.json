@@ -1,8 +1,13 @@
 {
   "name": "physics",
-  "description": "Physics — 30 expert profiles, dispatched via the physics-expert-council skill (waza pattern).",
-  "version": "1.0.1-fork.1",
+  "description": "Physics \u2014 30 expert profiles, dispatched via the physics-expert-council skill (waza pattern).",
+  "version": "1.0.2",
   "skills": [
     "./skills/physics-expert-council"
-  ]
+  ],
+  "upstream": {
+    "repo": "K-Dense-AI/scientific-agents",
+    "version": "1.0.0",
+    "mergedAt": "2026-11-25"
+  }
 }

@@ -1,8 +1,13 @@
 {
   "name": "earth-environmental-and-atmospheric-science",
-  "description": "Earth, Environmental & Atmospheric Science — 58 expert profiles, dispatched via the earth-environmental-and-atmospheric-science-expert-council skill (waza pattern).",
-  "version": "1.0.1-fork.1",
+  "description": "Earth, Environmental & Atmospheric Science \u2014 58 expert profiles, dispatched via the earth-environmental-and-atmospheric-science-expert-council skill (waza pattern).",
+  "version": "1.0.2",
   "skills": [
     "./skills/earth-environmental-and-atmospheric-science-expert-council"
-  ]
+  ],
+  "upstream": {
+    "repo": "K-Dense-AI/scientific-agents",
+    "version": "1.0.0",
+    "mergedAt": "2026-11-25"
+  }
 }

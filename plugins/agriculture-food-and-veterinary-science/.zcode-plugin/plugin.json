@@ -1,8 +1,13 @@
 {
   "name": "agriculture-food-and-veterinary-science",
-  "description": "Agriculture, Food & Veterinary Science — 27 expert profiles, dispatched via the agriculture-food-and-veterinary-science-expert-council skill (waza pattern).",
-  "version": "1.0.1-fork.1",
+  "description": "Agriculture, Food & Veterinary Science \u2014 27 expert profiles, dispatched via the agriculture-food-and-veterinary-science-expert-council skill (waza pattern).",
+  "version": "1.0.2",
   "skills": [
     "./skills/agriculture-food-and-veterinary-science-expert-council"
-  ]
+  ],
+  "upstream": {
+    "repo": "K-Dense-AI/scientific-agents",
+    "version": "1.0.0",
+    "mergedAt": "2026-11-25"
+  }
 }

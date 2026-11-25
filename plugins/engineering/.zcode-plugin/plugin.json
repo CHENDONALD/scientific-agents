@@ -1,8 +1,13 @@
 {
   "name": "engineering",
-  "description": "Engineering — 90 expert profiles, dispatched via the engineering-expert-council skill (waza pattern).",
-  "version": "1.0.1-fork.1",
+  "description": "Engineering \u2014 90 expert profiles, dispatched via the engineering-expert-council skill (waza pattern).",
+  "version": "1.0.2",
   "skills": [
     "./skills/engineering-expert-council"
-  ]
+  ],
+  "upstream": {
+    "repo": "K-Dense-AI/scientific-agents",
+    "version": "1.0.0",
+    "mergedAt": "2026-11-25"
+  }
 }
